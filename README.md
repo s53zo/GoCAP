@@ -97,6 +97,26 @@ separately supplied previous-day Ap. History mode requires `--hours 1`; future
 or inconsistent history boundaries are rejected. See the validation and exact
 feature construction in [`ml40/v3_features.py`](ml40/v3_features.py).
 
+## Experimental shared model with five path points
+
+The [shared-model experiment](SHARED_MODEL_RESULTS.md) pools WSPR, FT8, FT4 and
+CW training data into one regressor and adds explicit features at 0%, 25%, 50%,
+75% and 100% along the great-circle path. Its query applies all theoretical mode
+thresholds to one reference SNR, using the WSPR observation context at supplied
+power. PHONE remains threshold-only; physical mode independence is unverified.
+
+```sh
+.venv/bin/python -m ml40.shared_query JN76 FN31 2026-11-17T00:00Z \
+  --sfi 150 --kp 3 --ap 10 --power-watts 5 --hours 24 --format json
+```
+
+On **500 new paths / 4,820 observed hours**, case-average MAE is **5.267 dB** for
+the shared candidate, **5.270 dB** for current GoCAP and **13.94 dB** for VOACAP.
+The shared/current difference is within bootstrap uncertainty. The candidate
+[`gocap-40m-shared-points.joblib`](artifacts/gocap-40m-shared-points.joblib) remains
+**experimental**; the default hourly model above is retained. See the report for
+the explicit-point ablation, mixed other-mode audit and reproducible evidence.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |
@@ -207,7 +227,7 @@ or restored from a separate checksum-preserving archive backup.
 .venv/bin/python -m unittest discover -v
 ```
 
-The local full-data snapshot passes **38 tests**. A clean clone runs the synthetic
+The local full-data snapshot passes **42 tests**. A clean clone runs the synthetic
 and inference-geometry checks and explicitly skips archive-backed checks whose
 local data is absent. Restore the relevant archives to run those checks.
 For the three GFZ-dependent checks only, a small index download is sufficient:

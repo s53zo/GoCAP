@@ -1,0 +1,97 @@
+{
+  "phase": "evaluated",
+  "evaluated_utc": "2026-11-17T17:04:32.072785+00:00",
+  "case_count": 500,
+  "observed_hours": 4820,
+  "full_prediction_hours": 12000,
+  "positive_reports": 14894,
+  "primary_voacap_scenario": "dipole10m_n150_s1.0",
+  "baseline": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 5.2697480408270225,
+    "hour_mae_db": 5.455626880439207,
+    "hour_rmse_db": 6.941028932948072,
+    "bias_db": 0.09559603748437677
+  },
+  "shared": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 5.2673586280985605,
+    "hour_mae_db": 5.465684792131185,
+    "hour_rmse_db": 6.947093421245643,
+    "bias_db": 0.12165773500558268
+  },
+  "pooled_aggregate_ablation": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 5.26977192957307,
+    "hour_mae_db": 5.4706167153607215,
+    "hour_rmse_db": 6.946686955441452,
+    "bias_db": 0.1825585938649561
+  },
+  "voacap": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 13.937930494129818,
+    "hour_mae_db": 13.97507584025914,
+    "hour_rmse_db": 19.936467955308505,
+    "bias_db": 3.0693551000016166
+  },
+  "shared_all_observed": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 5.2673586280985605,
+    "hour_mae_db": 5.465684792131185,
+    "hour_rmse_db": 6.947093421245643,
+    "bias_db": 0.12165773500558268
+  },
+  "voacap_left": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 14.033319823860136,
+    "hour_mae_db": 14.082337251047525,
+    "hour_rmse_db": 20.536186131922225,
+    "bias_db": 3.04134680124643
+  },
+  "voacap_right": {
+    "cases": 500,
+    "observed_hours": 4820,
+    "numeric_hours": 4820,
+    "case_mae_db": 14.002703045982944,
+    "hour_mae_db": 14.06172712599046,
+    "hour_rmse_db": 19.717893903897636,
+    "bias_db": 3.097363398756803
+  },
+  "shared_minus_baseline_case_mae_db": -0.002389412728461436,
+  "shared_minus_baseline_95pct_date_bootstrap_db": [
+    -0.03338809792107866,
+    0.036314450306027486
+  ],
+  "shared_minus_voacap_case_mae_db": -8.670571866031256,
+  "shared_minus_voacap_95pct_date_bootstrap_db": [
+    -9.773776654599505,
+    -7.799875629212537
+  ],
+  "shared_minus_aggregate_case_mae_db": -0.0024133014745088667,
+  "shared_minus_aggregate_95pct_date_bootstrap_db": [
+    -0.02911075539592123,
+    0.02297437637428712
+  ],
+  "shared_wins_baseline": 255,
+  "shared_wins_voacap": 416,
+  "shared_interval80_coverage": 0.8518672199170124,
+  "shared_interval80_mean_width_db": 19.955768959833023,
+  "candidate_model_sha256": "0eff4b696b20f02829f94b2783916553e6f3ce599ec9f48a36d709acf7db41ad",
+  "baseline_model_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "no_refitting_after_new_test": true,
+  "mode_audit_scope": "Previously published2025 FT8/FT4/CW held-out archive; known-benchmark audit only, no VOACAP comparison with invented unknown power.",
+  "mode_audit_input_sha256": "2872ebc92523a3605b44ff7179085f2c7846497ee46c4a9d84e68bfc3236b97d",
+  "case_freeze_sha256": "2e86707c9f4dea6375a40a2ab296fe91427188f873fd7693f8f3821084580e63"
+}

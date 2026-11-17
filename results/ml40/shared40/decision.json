@@ -1,0 +1,7 @@
+{
+  "promoted": false,
+  "decision": "Retain current hourly model; shared explicit-point candidate remains experimental.",
+  "reason": "No clear500-case improvement versus current model or matched aggregate ablation; mixed known other-mode audit.",
+  "baseline_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "candidate_sha256": "0eff4b696b20f02829f94b2783916553e6f3ce599ec9f48a36d709acf7db41ad"
+}

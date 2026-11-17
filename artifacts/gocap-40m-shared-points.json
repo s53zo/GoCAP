@@ -1,0 +1,17 @@
+{
+  "sha256": "0eff4b696b20f02829f94b2783916553e6f3ce599ec9f48a36d709acf7db41ad",
+  "bytes": 1007751,
+  "objective": "Equal-mode validation hourly SNR MAE, not ranking",
+  "profile_selection": {
+    "WSPR": "shared",
+    "FT8": "shared",
+    "FT4": "shared",
+    "CW": "shared"
+  },
+  "selected_candidate": "pooled_points_observation",
+  "validation_guards_pass": true,
+  "experimental": true,
+  "physical_calibration_verified": false,
+  "promoted": false,
+  "evaluation_summary": "No demonstrated improvement over current GoCAP; see SHARED_MODEL_RESULTS.md"
+}

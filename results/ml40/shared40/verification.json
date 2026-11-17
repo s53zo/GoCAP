@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "cases": 500,
+  "actual_hourly_medians_rebuilt": 4820,
+  "positive_raw_reports": 14894,
+  "missing_actual_hours_preserved": 7180,
+  "native_runs_independently_parsed": 6000,
+  "path_point_coordinates_independently_verified": 2500,
+  "one_pooled_model_all_four_training_modes": true,
+  "baseline_unchanged": true,
+  "frozen_hashes_match": true,
+  "independent_metrics_and_bootstrap_match": true,
+  "direct_observed_predictions_match_all_hour_frames": true,
+  "all_mode_margins_use_one_reference_snr": true
+}

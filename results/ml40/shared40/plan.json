@@ -1,0 +1,164 @@
+{
+  "version": "shared-five-points-1",
+  "seed": "gocap-shared-points-500-v1",
+  "frozen_before_fitting": true,
+  "objective": "One pooled multi-mode hourly native SNR regressor; explicit0/25/50/75/100-percent shortest-great-circle features. No strongest-hour objective.",
+  "target": "Hourly median positive received SNR in2500Hz; no reception absence labels, no fabricated unknown transmit powers.",
+  "training": "Original pre2025 fitting split only; all WSPR/FT8/FT4/CW. Existing2024day08 validation and day22 interval calibration are kept separate.",
+  "mode_context": "One shared regressor retains source/mode/decoder context to represent detection selection and unknown hardware/power. Not a physically identified mode-independent channel-gain model.",
+  "candidates": [
+    {
+      "id": "pooled_aggregate_observation",
+      "points": false,
+      "weighting": "observation"
+    },
+    {
+      "id": "pooled_aggregate_mode_hour",
+      "points": false,
+      "weighting": "mode_hour"
+    },
+    {
+      "id": "pooled_points_observation",
+      "points": true,
+      "weighting": "observation"
+    },
+    {
+      "id": "pooled_points_mode_hour",
+      "points": true,
+      "weighting": "mode_hour"
+    }
+  ],
+  "tree": {
+    "iterations": 240,
+    "learning_rate": 0.05,
+    "leaves": 31,
+    "min_leaf": 100,
+    "l2": 10,
+    "loss": "absolute_error",
+    "seed": 40
+  },
+  "selection": "Lowest equal-mode mean validation hour/date MAE among point-feature candidates passing WSPR<=baseline*1.05 and each other mode<=baseline*1.10. If none passes, lowest point-candidate macro error is exported experimental with failed guards; no baseline replacement. Aggregate candidates are feature ablations only.",
+  "inference": "Default shared query uses the WSPR reference observation context at supplied power and applies existing theoretical thresholds to one SNR for WSPR/FT8/FT4/CW/PHONE. Hardware/PHONE physical calibration unverified. Other contexts are diagnostic only.",
+  "test_dates": [
+    "2025-01-07",
+    "2025-02-07",
+    "2025-03-07",
+    "2025-04-07",
+    "2025-05-07",
+    "2025-06-07",
+    "2025-07-07",
+    "2025-08-07",
+    "2025-09-07",
+    "2025-10-07",
+    "2025-11-07",
+    "2025-12-07"
+  ],
+  "primary_cases": 500,
+  "distance_quotas": {
+    "100to1000": 125,
+    "1000to3000": 125,
+    "3000to6000": 125,
+    "6000to15000": 125
+  },
+  "case_selection": "New day07 dates, fixed WSPR station pair/day/known reported power, >=6observed hours,20..50dBm,100..15000km. Identifier hash/date round-robin; exclude all directed square pairs in previous100/1000suites. No SNR/prediction/error selection.",
+  "sampling": "Hash128 pair/day at shorter paths OR source distance>=2700km and hash16.250001cap; fail if capped rather than truncate.",
+  "benchmark_scope": "WSPR primary because reported power is known for fair VOACAP input. Additional all-mode2025 hourly held-out archive audit uses previously published test dates; it is a known-benchmark audit, not a new blind multi-mode validation. No unknown-power VOACAP score.",
+  "primary_scoring": "Case-average hourly absolute SNR error; also pooled MAE/RMSE/bias, per-distance/hour, date-cluster bootstrap and nominal80% interval coverage. All24 requested hours predicted; missing measurements stay unknown.",
+  "voacap_scenarios": [
+    {
+      "id": "dipole10m_n145_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 145,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n145_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 145,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "dipole10m_n150_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 150,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n150_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 150,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "dipole10m_n155_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 155,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n155_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 155,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n145_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 145,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n145_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 145,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n150_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 150,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n150_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 150,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n155_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 155,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n155_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 155,
+      "ssn_scale": 0.6
+    }
+  ],
+  "voacap_primary": "dipole10m_n150_s1.0",
+  "voacap_assumptions": {
+    "method": 30,
+    "coefficients": "CCIR",
+    "path": "short",
+    "min_takeoff_degrees": 3,
+    "required_reliability_percent": 50,
+    "required_snr_db_hz": 2.979400086720375,
+    "sporadic_E_factor": 0,
+    "multipath_tolerance_db": 3,
+    "delay_tolerance_ms": 0.1,
+    "time_alignment": "Native TIME card uses whole UT hours. For an observed [H,H+1) aggregate, average the H and H+1 SNR dB values to approximate H+0.5. Preserve left/right edge sensitivities. UT24 wraps to0.",
+    "solar": "WDC-SILSO final 13-month smoothed monthly total SSN Version2. Primary scale1; legacy-convention scale0.6 sensitivity, not a fitted conversion. VOACAP has no daily Kp/Ap input.",
+    "target": "monthly hourly median SNR50 in dB-Hz; convert to2500Hz by subtracting 10log10(2500); never compare REL percentages with SNR."
+  },
+  "baseline_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "fit_sha256": "94e296c389dd640b7b344aeec2650b05eae703cca4ba8ae5729614ff67080d4b",
+  "engine_sha256": "33cb8ea1b0d2e2960e029381100cea543907665fcb53a5381ca1ffd6431e81bc",
+  "excluded_case_sha256": {
+    "100": "bd25363e318956265b5138b21d72ab3844713734919e9155c46436a945667ba6",
+    "1000": "cb4907fe5964b4afa1c710fc68f2686ed504e8dad29d37898b44b6be4628280e"
+  },
+  "solar_sha256": "c735c79921abfc68095dba842f306bb5eebf705617747615a34d44c003e80aa5"
+}
