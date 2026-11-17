@@ -173,6 +173,11 @@ The [March tuning experiment](MARCH_TUNING_RESULTS.md) reduced error on that
 hour/date MAE was 6.385 dB, compared with 6.380 dB for the original March model
 and 6.372 dB for the current default. The tuned artifact is experimental.
 
+The [five-idea experiment](FIVE_IDEA_RESULTS.md) evaluates complete path-day
+sampling, adjacent-hour changes, short-path F2 physics, neighboring receptions
+and VOACAP's daily shape. The test covers 11,710 hourly WSPR medians across ten
+2026 dates. The report includes all candidates and a separate experimental query.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |
@@ -283,7 +288,7 @@ or restored from a separate checksum-preserving archive backup.
 .venv/bin/python -m unittest discover -v
 ```
 
-The local full-data snapshot passes **50 tests**. A clean clone runs the synthetic
+The local full-data snapshot passes **53 tests**. A clean clone runs the synthetic
 and inference-geometry checks and explicitly skips archive-backed checks whose
 local data is absent. Restore the relevant archives to run those checks.
 For the three GFZ-dependent checks only, a small index download is sufficient:

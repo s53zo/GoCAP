@@ -1,0 +1,232 @@
+{
+  "2025-01-09": {
+    "split": "train",
+    "sha256": "b7144ebba338f7b11871092ec39ffdc6230ac67798ce95b067810007d5010765",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-01-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-01-17": {
+    "split": "train",
+    "sha256": "0e0d0d12a8f97d1dc149fbceb629a83712aaa93e231a4623cde5a348caa8936b",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-01-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-02-09": {
+    "split": "train",
+    "sha256": "ccdf97e69839fefb8468da044fee67fd1d0f45b236acfc204cbab98c7c2853a2",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-02-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-02-17": {
+    "split": "train",
+    "sha256": "68fadc14e316e76f712a321f6c9faf9dec42f9fbdd6450e4eb59a3753cd8e0cd",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-02-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-03-09": {
+    "split": "train",
+    "sha256": "1fa068f2f1ec8c6d00bf07034b53832afd0f3cfe05c322ff6b013fa830e99b5d",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-03-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-03-17": {
+    "split": "train",
+    "sha256": "f67ff24e6fda9bcab2db6bf95496581b43e37adac64f9997617264db95ba1b5e",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-03-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-04-09": {
+    "split": "train",
+    "sha256": "11f63d9b022f2c6dfae0dfa3b4b473e8a20c4f248a2183738d4d65bde2926112",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-04-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-04-17": {
+    "split": "train",
+    "sha256": "0729b0767a8987458a42ae4fd00b9ff6495c72124a40a4208c62e42fca5a775c",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-04-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-05-09": {
+    "split": "train",
+    "sha256": "0028e3204ca5f38fcf6affb29e5ecdf31d5d956bab33206ea66ebfc64c54102f",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-05-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-05-17": {
+    "split": "train",
+    "sha256": "a1f2a3b391f1507f3341b2cb1380da9818534d139d77f996171d0b3cfe47f42e",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-05-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-06-09": {
+    "split": "train",
+    "sha256": "fc33b679d67dc32f30baf138c567a40628f13c068ccf7ed5a4ce9ca0129f453c",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-06-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-06-17": {
+    "split": "train",
+    "sha256": "b0e9bc8c0017bac00a58402fb50a7e0a3c6e3370515949641645447d565337b1",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-06-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-07-09": {
+    "split": "train",
+    "sha256": "b530f3400bdbebc810dd3d69e3fdf4087216f8e830adcea406cea12b44e8e908",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-07-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-07-17": {
+    "split": "train",
+    "sha256": "8fd1d12f5b5f093e9fa85a6cdb45b3c7f2257eddfc0183b22b9dc472c23accaf",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-07-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-08-09": {
+    "split": "train",
+    "sha256": "53799edbb50a188fe0db88b7f4f042d1926f4fc77834af775afd9599ece4cfc6",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-08-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-08-17": {
+    "split": "train",
+    "sha256": "91907f19a554a707e53ddfa1ea6864dbb0188f0aea08658c22f4ece9627e1c5f",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-08-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-09-09": {
+    "split": "train",
+    "sha256": "9b3c0df4cc6d74658872b51915dacd60fe446ecb2260c5e24c6f0074678b357f",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-09-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-09-17": {
+    "split": "train",
+    "sha256": "a672aa5fd16d87fa82612d8ff52e40f7fd8983140a9ba49339276e585b42a8d0",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-09-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-10-09": {
+    "split": "train",
+    "sha256": "aef9ae409cf6556e2912932a0d1137270321b44794f8a558449991f5086fbab2",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-10-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-10-17": {
+    "split": "train",
+    "sha256": "57a46818da2548ac6972639e5e05860f2f4bb8d503d562844c7cdf8fa10616ac",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-10-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-11-09": {
+    "split": "train",
+    "sha256": "b3c9fd9d7d6ca17e9d3c11c3c98130614ff572546cedd9e4b86395eda35e2fd1",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-11-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-11-17": {
+    "split": "train",
+    "sha256": "e903319343574bfb4538afdca34826cd2596770971fdf007a1587e0c90e9a125",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-11-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-12-09": {
+    "split": "train",
+    "sha256": "ee705155a354eaa4faa98bcc1fc0fb5543a1bd66f47a5cb60737deee29f641b8",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-12-09')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-12-17": {
+    "split": "train",
+    "sha256": "052730ddebfad0ca3a5ad2a24952e2835fedce982f8b08cfb1eed2212ad64968",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-12-17')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-01-23": {
+    "split": "validation",
+    "sha256": "2b9eb39a8fbf429f37e4ca2f05442c7ff5d895013f74edbcf9e834d5b2fa72b8",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-01-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-02-23": {
+    "split": "validation",
+    "sha256": "90da69f9f2fbafe5780d71e21ce2e3fb6dcb2e9007b4f627738aa5cf0908f24d",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-02-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-03-23": {
+    "split": "validation",
+    "sha256": "1f9b817624ff18a4bf7236b652d2415af3d3444750d279b338eff24ef0c76df8",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-03-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-04-23": {
+    "split": "validation",
+    "sha256": "d4e6b578864938dbb3935d79f97b4d478b5a8a83586973be45cab13e389ad2ff",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-04-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-05-23": {
+    "split": "validation",
+    "sha256": "c2523847451ae4fb15a5b2de2006b0e77dcfbd2a0ae0a1c4148fe6e3add1d047",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-05-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-06-23": {
+    "split": "validation",
+    "sha256": "fa772ca482a61f9bf3e087f828e7a268f1377b68a0674eb1876677c541ea4d2d",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-06-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-07-23": {
+    "split": "validation",
+    "sha256": "92d698ddf05063a5c8919a0ed3692b2cff400331ef98ee17558f1e0d23432223",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-07-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-08-23": {
+    "split": "validation",
+    "sha256": "84fddb863f3e5de23e44cbc20e7ad69c7c725c6a5abc90b461ff9c31237d2a24",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-08-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-09-23": {
+    "split": "validation",
+    "sha256": "1666e37a2274cc8f913bbe66db0000162c2a8bb17f81adc177cf3d0e6810e480",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-09-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-10-23": {
+    "split": "validation",
+    "sha256": "3e8d90a2a1c993ab5eade7a555653f37e5226e92a1567b87bf1550954e5e5135",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-10-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-11-23": {
+    "split": "validation",
+    "sha256": "aabbfb1f344b1562de9ff41028f1a15aa3e9f5bd95c0d19309ad022cd4cc5056",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-11-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2025-12-23": {
+    "split": "validation",
+    "sha256": "fc0fe004c9df5a8ce2943668674cf35aeacf29f066dc27dfca9613f740375c72",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2025-12-23')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-01-19": {
+    "split": "test",
+    "sha256": "1348e98fe6ff7186bcfeecb8d8bd6bfdcaf2739f0d7a6924881823645ace9f99",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-01-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-02-19": {
+    "split": "test",
+    "sha256": "6e18a3637f4894382b210ffb9a7dea0ce71d866963027045e865ce7f0b24715f",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-02-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-03-19": {
+    "split": "test",
+    "sha256": "bee06da745d3dbadb72be9b026d36ed585a2e06af676b9c7ffdd15b78a4e6ace",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-03-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-04-19": {
+    "split": "test",
+    "sha256": "67657c51b764fd1098496106fc14bf1d7c95117ddfff36dbf9f4499d00ff27de",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-04-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-05-19": {
+    "split": "test",
+    "sha256": "15c31f287ed04756911c9f2af1cc3a1754b7399fb56b1133971a9cf9cbfdad86",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-05-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-06-19": {
+    "split": "test",
+    "sha256": "ff536f802bdb2b6f7b0b076ed7821da171da1a136b07b023550409fb3323867c",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-06-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-07-19": {
+    "split": "test",
+    "sha256": "a32b85fb0512fc6d46069b0eba253a0062d0a222e980cab84f8a6ccf058ef3ef",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-07-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-08-19": {
+    "split": "test",
+    "sha256": "db4fb7a6d8dcb9d15b5955a55b00b4071d3f7fe3e451cd219aba25cd9c918517",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-08-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-09-19": {
+    "split": "test",
+    "sha256": "6be3db8da2b65418c9da84b266b3be1ca6d65cf0d391e767aa14e5a674299007",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-09-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  },
+  "2026-10-19": {
+    "split": "test",
+    "sha256": "88b722a162714c0f6026c37a79823c33c2301f7a3b072422fcda0166c737a67d",
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code\nFROM wspr.rx WHERE band=7 AND toDate(time,'UTC')=toDate('2026-10-19')\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%64=0\nORDER BY time,id LIMIT 200001 FORMAT JSONEachRow"
+  }
+}
