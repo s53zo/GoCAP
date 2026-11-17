@@ -1,0 +1,194 @@
+{
+  "version": "years15-april-holdout-1",
+  "seed": "gocap15year-300-v1",
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "dates": [
+    "2010-04-06",
+    "2010-04-13",
+    "2010-04-20",
+    "2010-04-27",
+    "2011-04-06",
+    "2011-04-13",
+    "2011-04-20",
+    "2011-04-27",
+    "2012-04-06",
+    "2012-04-13",
+    "2012-04-20",
+    "2012-04-27",
+    "2013-04-06",
+    "2013-04-13",
+    "2013-04-20",
+    "2013-04-27",
+    "2014-04-06",
+    "2014-04-13",
+    "2014-04-20",
+    "2014-04-27",
+    "2015-04-06",
+    "2015-04-13",
+    "2015-04-20",
+    "2015-04-27",
+    "2016-04-06",
+    "2016-04-13",
+    "2016-04-20",
+    "2016-04-27",
+    "2017-04-06",
+    "2017-04-13",
+    "2017-04-20",
+    "2017-04-27",
+    "2018-04-06",
+    "2018-04-13",
+    "2018-04-20",
+    "2018-04-27",
+    "2019-04-06",
+    "2019-04-13",
+    "2019-04-20",
+    "2019-04-27",
+    "2020-04-06",
+    "2020-04-13",
+    "2020-04-20",
+    "2020-04-27",
+    "2021-04-06",
+    "2021-04-13",
+    "2021-04-20",
+    "2021-04-27",
+    "2022-04-06",
+    "2022-04-13",
+    "2022-04-20",
+    "2022-04-27",
+    "2023-04-06",
+    "2023-04-13",
+    "2023-04-20",
+    "2023-04-27",
+    "2024-04-06",
+    "2024-04-13",
+    "2024-04-20",
+    "2024-04-27"
+  ],
+  "month": 4,
+  "cases_per_year": 20,
+  "cases": 300,
+  "why_april": "March2010..2024 is in expanded fitting data. FourApril dates per year are absent from all point-fitting data. This is retrospective within-period held-out-day evaluation, not forward-year forecasting.",
+  "source_sampling": "Coherent station-pair/day hash8 for2010..2015, hash128 for2016..2024. Time/band bounded sequential requests;50001row cap causes failure, never first-row truncation.",
+  "eligibility": "Positive WSPR archive reports, fixed stations/four-char squares/power/context per day;>=6observed hours;20..50dBm;100..15000km. No SNR/error selection.",
+  "legacy_policy": "code0 before2020-05-01 retained as legacy_code0 with uncertain decoder metadata. code1 before2023-01-16 is pre2023_code1; modern code1 ordinary. No hard common decoding threshold inferred for legacy contexts.",
+  "selection": "Identifier hash, round-robin four dates within each year.20 unique directed square pairs per year; repeats across years allowed. No distance quota because early network coverage is sparse.",
+  "scoring": "Mean per-case hourly absolute SNR error;20cases per year means years equally weighted. Also pooled MAE/RMSE/bias, per-year/distance/UTC, numeric coverage, and year-cluster bootstrap. Missing reports unknown.",
+  "voacap_primary": "dipole10m_n150_s1.0",
+  "voacap_scenarios": [
+    {
+      "id": "dipole10m_n145_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 145,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n145_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 145,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "dipole10m_n150_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 150,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n150_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 150,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "dipole10m_n155_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 155,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n155_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 155,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n145_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 145,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n145_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 145,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n150_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 150,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n150_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 150,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n155_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 155,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n155_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 155,
+      "ssn_scale": 0.6
+    }
+  ],
+  "voacap_assumptions": {
+    "method": 30,
+    "coefficients": "CCIR",
+    "path": "short",
+    "min_takeoff_degrees": 3,
+    "required_reliability_percent": 50,
+    "required_snr_db_hz": 2.979400086720375,
+    "sporadic_E_factor": 0,
+    "multipath_tolerance_db": 3,
+    "delay_tolerance_ms": 0.1,
+    "time_alignment": "Native TIME card uses whole UT hours. For an observed [H,H+1) aggregate, average the H and H+1 SNR dB values to approximate H+0.5. Preserve left/right edge sensitivities. UT24 wraps to0.",
+    "solar": "WDC-SILSO final 13-month smoothed monthly total SSN Version2. Primary scale1; legacy-convention scale0.6 sensitivity, not a fitted conversion. VOACAP has no daily Kp/Ap input.",
+    "target": "monthly hourly median SNR50 in dB-Hz; convert to2500Hz by subtracting 10log10(2500); never compare REL percentages with SNR."
+  },
+  "models_sha256": {
+    "march": "069e77ed680720cb546e4c5ff8a996569375d02bb691b064577dcdcefb0d734c",
+    "shared_parent": "0eff4b696b20f02829f94b2783916553e6f3ce599ec9f48a36d709acf7db41ad",
+    "current": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219"
+  },
+  "engine_sha256": "33cb8ea1b0d2e2960e029381100cea543907665fcb53a5381ca1ffd6431e81bc",
+  "solar_sha256": "c735c79921abfc68095dba842f306bb5eebf705617747615a34d44c003e80aa5",
+  "gfz_sha256": "0faff093d514184cc3129e83df0a5f1b8073ad7ef875cf5cdb99dfd821322f1b",
+  "fitting_inputs_sha256": {
+    "march": "5ce80cac92dc37905d1902cbc7037b8e6eb44c24147725a88c77996261c12cff",
+    "original": "93b10f860ca60207f3610be801075a2c6c622b78ef56dfbc65bf1393c3dba4e3"
+  },
+  "limits": "Final historical solar inputs. Unknown antennas/noise and detection selection. April-only across15years; path/station distributions differ by year, so year differences are not causal solar effects. Models trained on later years can predict earlier held-out days; this is not an operational vintage test."
+}

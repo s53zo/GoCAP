@@ -144,6 +144,19 @@ needs RAM for the learner workspace. Its measured peak process RSS was about
 4.74 GiB on the 16 GB test machine. See the report for per-year coverage, the
 March 2020 legacy-mode amendment, raw-data verification and reproduction stages.
 
+## VOACAP comparison across 15 years
+
+The [15-year VOACAP comparison](VOACAP_15YEAR_COMPARISON.md) uses **300 held-out
+April path-days, 20 per year from 2010–2024**, with **3,081 real hourly medians**.
+Those dates are absent from both original and March-expanded fitting data.
+Case-average error is **6.07 dB for the March model versus 17.04 dB for primary
+VOACAP**, with GoCAP lower in every annual average and 262/300 cases. VOACAP's
+13.31 dB positive bias and 11.01–19.02 dB sensitivity range make the unknown
+antenna/noise assumptions consequential. This is an April retrospective
+held-out-day comparison, not forward-year forecasting or physical calibration.
+The March/current GoCAP difference remains within uncertainty; the default is
+unchanged. See the report for the per-year table and frozen case evidence.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |
@@ -254,7 +267,7 @@ or restored from a separate checksum-preserving archive backup.
 .venv/bin/python -m unittest discover -v
 ```
 
-The local full-data snapshot passes **45 tests**. A clean clone runs the synthetic
+The local full-data snapshot passes **48 tests**. A clean clone runs the synthetic
 and inference-geometry checks and explicitly skips archive-backed checks whose
 local data is absent. Restore the relevant archives to run those checks.
 For the three GFZ-dependent checks only, a small index download is sufficient:

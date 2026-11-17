@@ -1,0 +1,118 @@
+{
+  "evaluated_utc": "2026-11-17T21:25:38.872944+00:00",
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "cases": 300,
+  "observed_hours": 3081,
+  "positive_reports": 11050,
+  "full_prediction_hours": 7200,
+  "primary_voacap": "dipole10m_n150_s1.0",
+  "models": {
+    "march": {
+      "cases": 300,
+      "observed_hours": 3081,
+      "numeric_hours": 3081,
+      "case_mae_db": 6.0742425132405105,
+      "hour_mae_db": 6.103019007196084,
+      "hour_rmse_db": 7.643164049779392,
+      "bias_db": 0.1671920774737763
+    },
+    "shared_parent": {
+      "cases": 300,
+      "observed_hours": 3081,
+      "numeric_hours": 3081,
+      "case_mae_db": 6.113098682897239,
+      "hour_mae_db": 6.152050861865108,
+      "hour_rmse_db": 7.668779956784183,
+      "bias_db": 0.016637417510003555
+    },
+    "current": {
+      "cases": 300,
+      "observed_hours": 3081,
+      "numeric_hours": 3081,
+      "case_mae_db": 6.0994285522184635,
+      "hour_mae_db": 6.12763133557762,
+      "hour_rmse_db": 7.66122645934982,
+      "bias_db": -0.02149561921923271
+    },
+    "voacap": {
+      "cases": 300,
+      "observed_hours": 3081,
+      "numeric_hours": 3081,
+      "case_mae_db": 17.041418198409843,
+      "hour_mae_db": 16.86188861720041,
+      "hour_rmse_db": 20.155787800760205,
+      "bias_db": 13.312712863620424
+    }
+  },
+  "march_all_observed": {
+    "cases": 300,
+    "observed_hours": 3081,
+    "numeric_hours": 3081,
+    "case_mae_db": 6.0742425132405105,
+    "hour_mae_db": 6.103019007196084,
+    "hour_rmse_db": 7.643164049779392,
+    "bias_db": 0.1671920774737763
+  },
+  "paired_differences": {
+    "voacap": {
+      "difference_db": -10.967175685169336,
+      "year_cluster95_db": [
+        -12.180005160439014,
+        -9.747176107341708
+      ]
+    },
+    "current": {
+      "difference_db": -0.02518603897795242,
+      "year_cluster95_db": [
+        -0.10500194418246132,
+        0.05760849211343912
+      ]
+    },
+    "shared_parent": {
+      "difference_db": -0.03885616965672852,
+      "year_cluster95_db": [
+        -0.1055017960032575,
+        0.0318044401387241
+      ]
+    }
+  },
+  "march_wins_voacap": 262,
+  "march_wins_current": 155,
+  "voacap_left": {
+    "cases": 300,
+    "observed_hours": 3081,
+    "numeric_hours": 3081,
+    "case_mae_db": 17.212187354478726,
+    "hour_mae_db": 17.047351777948737,
+    "hour_rmse_db": 20.356798987257296,
+    "bias_db": 13.407811857453595
+  },
+  "voacap_right": {
+    "cases": 300,
+    "observed_hours": 3081,
+    "numeric_hours": 3081,
+    "case_mae_db": 17.0859638108058,
+    "hour_mae_db": 16.913752947244944,
+    "hour_rmse_db": 20.2278564692799,
+    "bias_db": 13.217613869787252
+  },
+  "no_test_based_fitting": true,
+  "held_out_dates_disjoint_from_training": true,
+  "frozen_case_sha256": "b56958e7a08cbd3bcad00329130a0172ae9cda79d3fea50126104a5dab47c39f"
+}
