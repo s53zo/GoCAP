@@ -1,0 +1,3299 @@
+{
+  "2010-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 208,
+    "prepared_sha256": "04d7e90993ea93a6898f57ffd4ab786ae1d03563ccd147e050259dc05b1a691f",
+    "eligible_reports": 208,
+    "hourly_aggregates": 204
+  },
+  "2010-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 259,
+    "prepared_sha256": "a7c142b07ef2382802fcbed54f3653867c0c4d985b5cf10a6431dcce40437ec9",
+    "eligible_reports": 259,
+    "hourly_aggregates": 251
+  },
+  "2010-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 261,
+    "prepared_sha256": "ba1019620267a4079489a450cdc55c09e8bd6d156f86333d077cd8e6af2bd723",
+    "eligible_reports": 261,
+    "hourly_aggregates": 255
+  },
+  "2010-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 171,
+    "prepared_sha256": "cdac7b81eb0ee16154bb5458468588f3cb8154bbfed3665c446909e951f33b13",
+    "eligible_reports": 171,
+    "hourly_aggregates": 169
+  },
+  "2010-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 193,
+    "prepared_sha256": "328dc6ea4148ea48bce03fc6211b993ed15c632423dc1265db62790db5208003",
+    "eligible_reports": 193,
+    "hourly_aggregates": 190
+  },
+  "2010-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 142,
+    "prepared_sha256": "69b4a61767cab48ddb0d9d0b389ce26c9e6b4fea71d60e0420906253a0755097",
+    "eligible_reports": 142,
+    "hourly_aggregates": 142
+  },
+  "2010-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 127,
+    "prepared_sha256": "dac68e8f0fff403f1a6c6fc4f7c18e28f970ec6afe2cfd488fa1f46565b12207",
+    "eligible_reports": 127,
+    "hourly_aggregates": 126
+  },
+  "2010-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 175,
+    "prepared_sha256": "2663eb315943f207b65c8333fe7bad7002e110358d1fdf35eab760c2da412fee",
+    "eligible_reports": 175,
+    "hourly_aggregates": 172
+  },
+  "2010-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 209,
+    "prepared_sha256": "c66813f3e0297a4158d73dfae7795b277e0f14436387549c5e510ed3d14fd7e8",
+    "eligible_reports": 209,
+    "hourly_aggregates": 205
+  },
+  "2010-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 151,
+    "prepared_sha256": "dbce9e4764fee55b90d804e7bf2135df510533ceaa5166cbbc6557e5b360662d",
+    "eligible_reports": 151,
+    "hourly_aggregates": 149
+  },
+  "2010-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 94,
+    "prepared_sha256": "7a44d93ee1862b848872c37b44d59b8d00061c7f60529c8145147c30d00b2675",
+    "eligible_reports": 94,
+    "hourly_aggregates": 92
+  },
+  "2010-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 127,
+    "prepared_sha256": "1d621c92be200e6dad56a66edd5e1c5d58eec3b7a4469ca7911426f2200fce83",
+    "eligible_reports": 127,
+    "hourly_aggregates": 125
+  },
+  "2010-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 103,
+    "prepared_sha256": "4bd286db29e2ddccacf1c10ba71794df8223078279dc31957fb32f80d0a2ce33",
+    "eligible_reports": 103,
+    "hourly_aggregates": 101
+  },
+  "2010-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 108,
+    "prepared_sha256": "bead1dd02aabca3945a21e2b508e84dea4e4e9913c76479c6d5ad2290eee3698",
+    "eligible_reports": 108,
+    "hourly_aggregates": 106
+  },
+  "2010-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 90,
+    "prepared_sha256": "bc05bc1a6219ed4316e6ccd350cf7baae303b1d6fad17e9ea6c6a3e667518261",
+    "eligible_reports": 90,
+    "hourly_aggregates": 90
+  },
+  "2010-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 83,
+    "prepared_sha256": "846822589d3d7af2aecfe5d1477bc2beb7b272013fe2ec2a9151897823c10d63",
+    "eligible_reports": 83,
+    "hourly_aggregates": 81
+  },
+  "2010-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 88,
+    "prepared_sha256": "fff4dd4db7e9c0a3bae7403a4d8fb411364577be24babc1ef643edfb7e580b34",
+    "eligible_reports": 88,
+    "hourly_aggregates": 87
+  },
+  "2010-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 90,
+    "prepared_sha256": "56ddcdb4e823237348fab9014a8eb5da49c0653e9bd088cabe7f7b95e05dcf11",
+    "eligible_reports": 90,
+    "hourly_aggregates": 88
+  },
+  "2010-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 100,
+    "prepared_sha256": "59a1ff37df003d45fd50d33f34bb34b37a9206b92741b5d30737d4d29950e2c7",
+    "eligible_reports": 100,
+    "hourly_aggregates": 100
+  },
+  "2010-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 37,
+    "prepared_sha256": "842fce22ff07427c6636a492d4f3894879b7e25f47bc77b8be203913152804da",
+    "eligible_reports": 37,
+    "hourly_aggregates": 36
+  },
+  "2010-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 38,
+    "prepared_sha256": "3bb90b48ded17f911341ba557a23e57f016b3eb6377c5940ac335852fc16ddf1",
+    "eligible_reports": 38,
+    "hourly_aggregates": 38
+  },
+  "2010-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 77,
+    "prepared_sha256": "f0f99b2c97317d772e3211a9a0eb62bed0f0602be17ebee3ec9cd925777994d9",
+    "eligible_reports": 77,
+    "hourly_aggregates": 74
+  },
+  "2010-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 66,
+    "prepared_sha256": "84e722c0a7bf44d6989878b7b513fbf9b20d4c77d25b80b453601554ac0683e7",
+    "eligible_reports": 66,
+    "hourly_aggregates": 64
+  },
+  "2010-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 60,
+    "prepared_sha256": "6016bd06b71e36b27c064f77179f43eea8a341979c078aec6d5307118d6ec8d1",
+    "eligible_reports": 60,
+    "hourly_aggregates": 59
+  },
+  "2010-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 35,
+    "prepared_sha256": "548a7f19c95eb57aa8c0a0da0c47861e80f00e7c32e5a989d20217df1c6935fc",
+    "eligible_reports": 35,
+    "hourly_aggregates": 34
+  },
+  "2010-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 65,
+    "prepared_sha256": "35afe1bcabdeb0070c3e50edb37ca2ae40bec153f5c6b151baa26e989fdaaf01",
+    "eligible_reports": 65,
+    "hourly_aggregates": 64
+  },
+  "2010-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 63,
+    "prepared_sha256": "5b8e001c0716a345985b5cef314e82a94055d7bde9b87283867c4753bba27987",
+    "eligible_reports": 63,
+    "hourly_aggregates": 61
+  },
+  "2010-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 45,
+    "prepared_sha256": "b8b19bed35efa266ccace11a0111aa26d0581b580532be27cc20b19f0d2cfa6b",
+    "eligible_reports": 45,
+    "hourly_aggregates": 45
+  },
+  "2010-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 64,
+    "prepared_sha256": "4e5d77a79a1861d471a2aa61da7fafabe767ad94a61dd2e5ad0828ff6fa70410",
+    "eligible_reports": 64,
+    "hourly_aggregates": 63
+  },
+  "2010-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 87,
+    "prepared_sha256": "d5f79703772d9c0851c9601dff59265fc18b86bd6a026a947b8b937256cda16b",
+    "eligible_reports": 87,
+    "hourly_aggregates": 85
+  },
+  "2010-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 174,
+    "prepared_sha256": "2c262322551c301b31fb99e0401fc0139ef0de65dba4896013485e3d8d1435e3",
+    "eligible_reports": 174,
+    "hourly_aggregates": 171
+  },
+  "2011-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 287,
+    "prepared_sha256": "d2a4b4afd2d3e0963294787c784b4bf489704f0ccbadf1a22cac88411dbd679f",
+    "eligible_reports": 287,
+    "hourly_aggregates": 285
+  },
+  "2011-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 315,
+    "prepared_sha256": "f914a7e1ab7b0fc73ac315c82d42361b53926547c30c00a1e291976753ac934a",
+    "eligible_reports": 315,
+    "hourly_aggregates": 311
+  },
+  "2011-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 361,
+    "prepared_sha256": "b53a6819de34ab4a2299ba9476d36ee91ffd613f8394777d1b89151eb9a94521",
+    "eligible_reports": 361,
+    "hourly_aggregates": 355
+  },
+  "2011-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 315,
+    "prepared_sha256": "b6309351b8c8290f1eb1e73715fad1b7c6675a7d36bcdbebc01bb7ac37e3eabb",
+    "eligible_reports": 315,
+    "hourly_aggregates": 312
+  },
+  "2011-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 375,
+    "prepared_sha256": "065a50085f7f6a66c1e5475c09fce2ab4e62512b223ddbea860a55101ea958d1",
+    "eligible_reports": 375,
+    "hourly_aggregates": 370
+  },
+  "2011-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 269,
+    "prepared_sha256": "ea914fcd367097e461e817822472c408d99943ab546907690be1198ccc3d01f2",
+    "eligible_reports": 269,
+    "hourly_aggregates": 267
+  },
+  "2011-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 326,
+    "prepared_sha256": "5b493480bff759acc7f16467973bb4c4b1c79cd0655feac4adcd07c1e5f4fe2b",
+    "eligible_reports": 326,
+    "hourly_aggregates": 325
+  },
+  "2011-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 331,
+    "prepared_sha256": "54245e6d1723c721612781c7d56eda811f9ed9f6df30ae656f528ed65efed019",
+    "eligible_reports": 331,
+    "hourly_aggregates": 326
+  },
+  "2011-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 332,
+    "prepared_sha256": "1cb9f486fa9544999da339da500317fd0c05ad9fd8dd20c4e8e1d18ab4dbb683",
+    "eligible_reports": 332,
+    "hourly_aggregates": 326
+  },
+  "2011-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 262,
+    "prepared_sha256": "3e292a2fc74cdec846222cf64925d2b332f224bbc6f728393a239f84c8cea49b",
+    "eligible_reports": 262,
+    "hourly_aggregates": 256
+  },
+  "2011-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 227,
+    "prepared_sha256": "dbdbb84d1e5e4dbbab8211f11e2e02b69d406f933f1526e2e35242621c747ca3",
+    "eligible_reports": 227,
+    "hourly_aggregates": 223
+  },
+  "2011-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 227,
+    "prepared_sha256": "ca3a4a557290b9b61530edccf0fd4eb0891feccd3a38af4b0171c2846dabfa12",
+    "eligible_reports": 227,
+    "hourly_aggregates": 225
+  },
+  "2011-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 319,
+    "prepared_sha256": "f5c4fed469021de6b7229877f000ae190a10f4474a0bec8065106885fbaebf1d",
+    "eligible_reports": 319,
+    "hourly_aggregates": 317
+  },
+  "2011-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 299,
+    "prepared_sha256": "4e18d27eefd622f6fe63cf2d7fa02926953fcca7ef1fa15f3c295eb063dad8f0",
+    "eligible_reports": 299,
+    "hourly_aggregates": 295
+  },
+  "2011-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 386,
+    "prepared_sha256": "6f34eb1589778ee6dcf2d412b3a1405ea13fd4ffdc07a209d875c8e80ae721e9",
+    "eligible_reports": 386,
+    "hourly_aggregates": 384
+  },
+  "2011-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 325,
+    "prepared_sha256": "69728bd51256306e60b08df5f7d28237d62c78c147504c950129757f4f399893",
+    "eligible_reports": 325,
+    "hourly_aggregates": 321
+  },
+  "2011-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 362,
+    "prepared_sha256": "c5444320c98752205a2a54db2c8e449023d9e054be271732a02a3cdd22e89f28",
+    "eligible_reports": 362,
+    "hourly_aggregates": 358
+  },
+  "2011-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 367,
+    "prepared_sha256": "b0ed1ca89ccefe40b9a175c636d2be1a6f99ab484f3b9032b0647e35671620b4",
+    "eligible_reports": 367,
+    "hourly_aggregates": 361
+  },
+  "2011-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 317,
+    "prepared_sha256": "b525d7a51c4d9974b07ca5402886b0e1f9e35adcb2836da65cae7cdfc34eb5bc",
+    "eligible_reports": 317,
+    "hourly_aggregates": 314
+  },
+  "2011-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 314,
+    "prepared_sha256": "07d9b479b70d53f6aa8886578fe12347d150eb35e3c598f7f1e02fb601968834",
+    "eligible_reports": 314,
+    "hourly_aggregates": 308
+  },
+  "2011-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 229,
+    "prepared_sha256": "6b0ff76baed9372bc1e1b223c36ac161f2b4ca911ad8f167a68e9d340a27474d",
+    "eligible_reports": 229,
+    "hourly_aggregates": 228
+  },
+  "2011-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 244,
+    "prepared_sha256": "c78fa28a0736edcf42b57201e9dd61b3bf4e7bcbd067efc7c2a5aee255ea4432",
+    "eligible_reports": 244,
+    "hourly_aggregates": 243
+  },
+  "2011-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 265,
+    "prepared_sha256": "bfa5bd740ee33b844c2cf414aa52d9dbfd18f3e65366455bff9701094c4c84e6",
+    "eligible_reports": 265,
+    "hourly_aggregates": 261
+  },
+  "2011-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 272,
+    "prepared_sha256": "50d1f30347c00c27f5b0dc5335cd27d42bb77323463f4765f903a96e1314f236",
+    "eligible_reports": 272,
+    "hourly_aggregates": 268
+  },
+  "2011-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 379,
+    "prepared_sha256": "15060ec49d3e36824a6e1e338f745dfbe2205d9d00fd0bd926e7fbba2726c801",
+    "eligible_reports": 379,
+    "hourly_aggregates": 374
+  },
+  "2011-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 332,
+    "prepared_sha256": "da7346b9947783a3a996cd142859a65fd697f9bad98991c36f20870633f7007b",
+    "eligible_reports": 332,
+    "hourly_aggregates": 329
+  },
+  "2011-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 338,
+    "prepared_sha256": "386f344c2330fb40a977a7f864fe5c20df1eac0f57fcd5a74deffbce5417e805",
+    "eligible_reports": 338,
+    "hourly_aggregates": 330
+  },
+  "2011-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 368,
+    "prepared_sha256": "97b339de7b188115ba2b3b8771cadd9dc32d68b09e389d0118537e5d5c5691b1",
+    "eligible_reports": 368,
+    "hourly_aggregates": 362
+  },
+  "2011-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 309,
+    "prepared_sha256": "c029896f3ef958e24937c3297762e6254398b49842ea22f3eadca6244fdd35ed",
+    "eligible_reports": 309,
+    "hourly_aggregates": 299
+  },
+  "2011-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 273,
+    "prepared_sha256": "bb513e374cdbc6709dfbb66bb380c2589590000899dc560c72c8490b29164b3f",
+    "eligible_reports": 273,
+    "hourly_aggregates": 271
+  },
+  "2011-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 316,
+    "prepared_sha256": "cc0b0266578c3a8a765fc7eaa4c2e27d3d80898bd7161c65f744784199363eb5",
+    "eligible_reports": 316,
+    "hourly_aggregates": 313
+  },
+  "2012-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 102,
+    "prepared_sha256": "ed43d99f23008d8b08c4cede89f8ea4891332280b3827cbf55fc36d6229fd597",
+    "eligible_reports": 102,
+    "hourly_aggregates": 101
+  },
+  "2012-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 119,
+    "prepared_sha256": "122acd663b140740be5c1c5f5889fdbb3cb045cba2325571523ca0bcaba7e8a2",
+    "eligible_reports": 119,
+    "hourly_aggregates": 116
+  },
+  "2012-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 128,
+    "prepared_sha256": "268a5088ec16a3ee5a57aaa7d71a8c760b3f5be756bb4c797cd8a2156db03d8f",
+    "eligible_reports": 128,
+    "hourly_aggregates": 127
+  },
+  "2012-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 79,
+    "prepared_sha256": "f7b95eb6a9d80eb538b82d00eec5e57aa7e619f70c8aa6c3b6fc64a79bd33b7f",
+    "eligible_reports": 79,
+    "hourly_aggregates": 78
+  },
+  "2012-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 94,
+    "prepared_sha256": "e838edfcf34a8e2b94626fee4a1adc1010f9cf3fa7078708c425aa5b670c1358",
+    "eligible_reports": 94,
+    "hourly_aggregates": 92
+  },
+  "2012-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 98,
+    "prepared_sha256": "d84c9d70c666594f4745c458221d2590f3ff6c88498cb33b8dc2b97d2bff237d",
+    "eligible_reports": 98,
+    "hourly_aggregates": 98
+  },
+  "2012-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 95,
+    "prepared_sha256": "1aa9a12768f2c08e63e5106670eacfb4ab2e464163ad41e54475f0f10f090ebb",
+    "eligible_reports": 95,
+    "hourly_aggregates": 92
+  },
+  "2012-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 91,
+    "prepared_sha256": "cceeaac47ab9c33943829e9dae524a26c1a74dc0d9b88515a33bc30edf86b20c",
+    "eligible_reports": 91,
+    "hourly_aggregates": 90
+  },
+  "2012-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 61,
+    "prepared_sha256": "2c119d521060115da0bb2c9c240d29b7fa9a64790a0e387524196b2fe759c0b1",
+    "eligible_reports": 61,
+    "hourly_aggregates": 61
+  },
+  "2012-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 81,
+    "prepared_sha256": "9089c23ea9b5c8ee2bc5b53b0150b685ab14fd1ec20b636a514bab2314fcbbb1",
+    "eligible_reports": 81,
+    "hourly_aggregates": 79
+  },
+  "2012-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 94,
+    "prepared_sha256": "6d9b82812feee4794cb0b6c28792ba5a3ae0cfa5034228e91b501a67c8b5e489",
+    "eligible_reports": 94,
+    "hourly_aggregates": 93
+  },
+  "2012-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 109,
+    "prepared_sha256": "79788f25c607e89fd4f9b1dd24f5f2036a67a28589f84124e8ae8e927ece20be",
+    "eligible_reports": 109,
+    "hourly_aggregates": 109
+  },
+  "2012-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 111,
+    "prepared_sha256": "6d46022fd78ef9e949d27d6a919859e9012c8a551b447f781335a6334a4414be",
+    "eligible_reports": 111,
+    "hourly_aggregates": 110
+  },
+  "2012-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 102,
+    "prepared_sha256": "9e2e7794beb8743bfb07b2b97b8aff3d7953e0501b38c4c8eef3c3b05fe7d96d",
+    "eligible_reports": 102,
+    "hourly_aggregates": 102
+  },
+  "2012-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 100,
+    "prepared_sha256": "df60eaaf6da00585bc2b9df72e05eb24aa3f8e8de93893f42c9fab9a4992727b",
+    "eligible_reports": 100,
+    "hourly_aggregates": 100
+  },
+  "2012-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 44,
+    "prepared_sha256": "bfa5e24482b42f2855bb008053f1d2a27aa2bf6515d9fabc67588c9fc0c6ac33",
+    "eligible_reports": 44,
+    "hourly_aggregates": 43
+  },
+  "2012-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 88,
+    "prepared_sha256": "baa5d148951ae13da1dbb313a6be54963b789ba54d537acb3c63153f25061745",
+    "eligible_reports": 88,
+    "hourly_aggregates": 88
+  },
+  "2012-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 66,
+    "prepared_sha256": "49479d8f7422d0ecb8bc4f9d81b502269794cfdbd406ebf3d0352fd4c06c6cf6",
+    "eligible_reports": 66,
+    "hourly_aggregates": 66
+  },
+  "2012-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 98,
+    "prepared_sha256": "748e954a42af090a29ae601b38092e0458411a20e6467b64bcea063f05d20e59",
+    "eligible_reports": 98,
+    "hourly_aggregates": 96
+  },
+  "2012-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 84,
+    "prepared_sha256": "92132689a68a74cc732ce003c613a900cdda7f806ef6b4a0e277ddff7ea85614",
+    "eligible_reports": 84,
+    "hourly_aggregates": 82
+  },
+  "2012-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 112,
+    "prepared_sha256": "5649e8c98525d83e3e585393d9b128d8d2ed1ba4e05e80bc48628e8de8ab815d",
+    "eligible_reports": 112,
+    "hourly_aggregates": 109
+  },
+  "2012-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 97,
+    "prepared_sha256": "4496ff667d6d6f6208c48294a4aef2de823e2b2d736f84ca4d68319413db075d",
+    "eligible_reports": 97,
+    "hourly_aggregates": 97
+  },
+  "2012-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 101,
+    "prepared_sha256": "c18ac70ab2877f5b13ff37b0e57f2d90644e65002ed1cf69959e74b70f815aa2",
+    "eligible_reports": 101,
+    "hourly_aggregates": 101
+  },
+  "2012-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 108,
+    "prepared_sha256": "16d6d8f05170c2901f2150ec08268e19d530e616192fdad575040db0b2558d8c",
+    "eligible_reports": 108,
+    "hourly_aggregates": 105
+  },
+  "2012-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 103,
+    "prepared_sha256": "a3551e5ed5d51bf3b9b26564a77f619d67b916911e00484da7da6de254005692",
+    "eligible_reports": 103,
+    "hourly_aggregates": 101
+  },
+  "2012-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 136,
+    "prepared_sha256": "e9c2e123bb627f45a36369a1529a7c2eed2453c64654c917bbb2fd5332c0338a",
+    "eligible_reports": 136,
+    "hourly_aggregates": 136
+  },
+  "2012-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 114,
+    "prepared_sha256": "be5012efe2f051c12e611937385586c5494d525afba86ebfe4c47144eeb1b764",
+    "eligible_reports": 114,
+    "hourly_aggregates": 113
+  },
+  "2012-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 122,
+    "prepared_sha256": "b8d83133b9cba64ba8de31f6f0ee97f4ec3126281b85523c975fc73589392d19",
+    "eligible_reports": 122,
+    "hourly_aggregates": 122
+  },
+  "2012-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 123,
+    "prepared_sha256": "c6d2f14ebd4bbb423c7c7d1b86ca3dc28745dada1a3889f3d1a220db7ef056f8",
+    "eligible_reports": 123,
+    "hourly_aggregates": 123
+  },
+  "2012-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 144,
+    "prepared_sha256": "ae1c5336ffbc34b0f44671f8f0c6383cffdb922b97c72e5a2a2549338321f257",
+    "eligible_reports": 144,
+    "hourly_aggregates": 141
+  },
+  "2012-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 113,
+    "prepared_sha256": "b475df35c609c7000293f7a041bfa7d9d75b90b88b15c739b929c2f9b492913d",
+    "eligible_reports": 113,
+    "hourly_aggregates": 111
+  },
+  "2013-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 205,
+    "prepared_sha256": "d78c4cd5fb8eccfc6210814ec30239dc63640719c630a87c8796d21e4748d07f",
+    "eligible_reports": 205,
+    "hourly_aggregates": 200
+  },
+  "2013-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 234,
+    "prepared_sha256": "b2be4bd10306f73aad6401177e0d5b431808925c462625e754a394772f890d7f",
+    "eligible_reports": 234,
+    "hourly_aggregates": 231
+  },
+  "2013-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 247,
+    "prepared_sha256": "a8b2975e794a2e7817129dbfe7fbd13006f64af09a050d84e06a2f38cab876d5",
+    "eligible_reports": 247,
+    "hourly_aggregates": 244
+  },
+  "2013-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 199,
+    "prepared_sha256": "ed711d1ac025ceefc1781099d9d7b36a14cbea2119da745c8283988fffa22a51",
+    "eligible_reports": 199,
+    "hourly_aggregates": 194
+  },
+  "2013-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 230,
+    "prepared_sha256": "b2532b31ba1c129317d76a2c0aa667181dd7742b492b785d4481f24b6805e3e3",
+    "eligible_reports": 230,
+    "hourly_aggregates": 228
+  },
+  "2013-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 189,
+    "prepared_sha256": "01ae096b1501a3c7de1988fb2560d36c9f1aa05766ccccb8be776b76a5405c2b",
+    "eligible_reports": 189,
+    "hourly_aggregates": 186
+  },
+  "2013-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 300,
+    "prepared_sha256": "dc4352f5b64592d7a6ba3da3582d200fe97ebdf5ddd67bbf7e6b108ae2cb42c0",
+    "eligible_reports": 300,
+    "hourly_aggregates": 297
+  },
+  "2013-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 236,
+    "prepared_sha256": "40efaccf31dd5cac79baaaa6366aaafc071d8436816a375e86ba6eeecbd2dff2",
+    "eligible_reports": 236,
+    "hourly_aggregates": 231
+  },
+  "2013-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 207,
+    "prepared_sha256": "0f8573b21d1506a895289f569b4bdb713e68e8533f46f45b4e5feb31260cf550",
+    "eligible_reports": 207,
+    "hourly_aggregates": 203
+  },
+  "2013-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 175,
+    "prepared_sha256": "905d4ae26e27b6260a9c19bc7b2134627e1227b59eb90483b75e63b354d1d945",
+    "eligible_reports": 175,
+    "hourly_aggregates": 175
+  },
+  "2013-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 196,
+    "prepared_sha256": "dcf432d5cfe3f2ed6590e8562386151c3de635b0272c61d1b4eb2c6f9b8dff8e",
+    "eligible_reports": 196,
+    "hourly_aggregates": 192
+  },
+  "2013-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 186,
+    "prepared_sha256": "d9cac279920571f1492f8d89ba853737d0cd2a266ea5ebe07ef254db74bed686",
+    "eligible_reports": 186,
+    "hourly_aggregates": 182
+  },
+  "2013-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 224,
+    "prepared_sha256": "e5248c24c85cac35dad4d607f407aec66fca34684fc87887026e4d31f983aa87",
+    "eligible_reports": 224,
+    "hourly_aggregates": 223
+  },
+  "2013-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 176,
+    "prepared_sha256": "0ce07a63ef11432e1e871c16d05b143728cd133fc19371686063ddcf6258af2d",
+    "eligible_reports": 176,
+    "hourly_aggregates": 171
+  },
+  "2013-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 190,
+    "prepared_sha256": "2fa6782fb6451d369f0ec8bc141d9cbae2532bc86a92ec427a0d211f98a41d43",
+    "eligible_reports": 190,
+    "hourly_aggregates": 188
+  },
+  "2013-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 179,
+    "prepared_sha256": "88c3b902bbf17e0f1fa4741138ab3a408671bf8686a7ef26c3a6cf7e0c2ac6f7",
+    "eligible_reports": 179,
+    "hourly_aggregates": 175
+  },
+  "2013-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 140,
+    "prepared_sha256": "6356684bc786e4dd4021b2c5151e0d31a7e18231c7e76bad3d2b64c655554913",
+    "eligible_reports": 140,
+    "hourly_aggregates": 140
+  },
+  "2013-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 129,
+    "prepared_sha256": "ee026c16e2e98209a4c98d224b2bfc0198ddb80120d930c26d9d42ec339df20a",
+    "eligible_reports": 129,
+    "hourly_aggregates": 126
+  },
+  "2013-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 89,
+    "prepared_sha256": "113af66536c9cb1b62f0fa5010d8f9165b16c4d0c59fa77a6fc1e44df5cfbf43",
+    "eligible_reports": 89,
+    "hourly_aggregates": 88
+  },
+  "2013-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 121,
+    "prepared_sha256": "d103024309d575fbd376847dba2f6dbfa47d80553a3e69c2b8f4e68793683732",
+    "eligible_reports": 121,
+    "hourly_aggregates": 119
+  },
+  "2013-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 115,
+    "prepared_sha256": "d314dddb7a900f590e6d380c0f7a8a0cabfb8af239de6b8f3b179ee856a4df59",
+    "eligible_reports": 115,
+    "hourly_aggregates": 114
+  },
+  "2013-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 139,
+    "prepared_sha256": "35e25331b2c1695947f3d76d5d826cb834fbd52e164468fc95e70661eaa4fadb",
+    "eligible_reports": 139,
+    "hourly_aggregates": 138
+  },
+  "2013-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 154,
+    "prepared_sha256": "88106f7dfc3ca01d42831a3d0c5b8465c662991e6129842caa10b0a9db4f47e2",
+    "eligible_reports": 154,
+    "hourly_aggregates": 152
+  },
+  "2013-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 140,
+    "prepared_sha256": "403777fece87cf33807b08d643ef6cd13ab613994f93cbe44f6bc2976afeb8be",
+    "eligible_reports": 140,
+    "hourly_aggregates": 136
+  },
+  "2013-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 282,
+    "prepared_sha256": "9075d295ad6513f4a1ca7574948a5a418504cab42accf5cfd85110691ac4f2e7",
+    "eligible_reports": 282,
+    "hourly_aggregates": 280
+  },
+  "2013-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 218,
+    "prepared_sha256": "cfddea3a300e3ef0278e2ad6d030c1883056ef36732ceb1251a9719845d085ac",
+    "eligible_reports": 218,
+    "hourly_aggregates": 215
+  },
+  "2013-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 174,
+    "prepared_sha256": "5006437ac9495e9bb6d6788fb119addee39e4fda6ea632ac2e25616112878bd5",
+    "eligible_reports": 174,
+    "hourly_aggregates": 173
+  },
+  "2013-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 197,
+    "prepared_sha256": "c43ee0ea552c1a35de58742651a712e6eb626bde05eeae1f65cf82e6843f4590",
+    "eligible_reports": 197,
+    "hourly_aggregates": 194
+  },
+  "2013-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 200,
+    "prepared_sha256": "4b4b3e5a05d51dd10393f7c7e86a85225ac0b79f615e3bd8cbbb6c7905a63010",
+    "eligible_reports": 200,
+    "hourly_aggregates": 200
+  },
+  "2013-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 149,
+    "prepared_sha256": "a99a7cc1d9a0e9e0d08e39f870415db9655036a9a7ed9e3ad631ab76675038ca",
+    "eligible_reports": 149,
+    "hourly_aggregates": 149
+  },
+  "2013-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 216,
+    "prepared_sha256": "2bd27090e303524f44fc0f50681d3d634f4dfcdfdf8676276598bd3f55591395",
+    "eligible_reports": 216,
+    "hourly_aggregates": 214
+  },
+  "2014-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 165,
+    "prepared_sha256": "32df0293cedebbc0f7bca19cb8a6fe071b1fc3b9b8ed4be82f3ca6790790b34c",
+    "eligible_reports": 165,
+    "hourly_aggregates": 165
+  },
+  "2014-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 165,
+    "prepared_sha256": "44e0575ee9c110a89b24356b41f3c0bb9715c7f503e3f8163e334c4d06488b1f",
+    "eligible_reports": 165,
+    "hourly_aggregates": 163
+  },
+  "2014-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 169,
+    "prepared_sha256": "b5287e3c8d6b1b4572b8bed2c959c1469fcabf86b421941fee30478bc7bc3af6",
+    "eligible_reports": 169,
+    "hourly_aggregates": 168
+  },
+  "2014-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 216,
+    "prepared_sha256": "ea2007dd27d71b745911543139af6a66244bfdfbf6acae41f90e37b1c5a61cde",
+    "eligible_reports": 216,
+    "hourly_aggregates": 214
+  },
+  "2014-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 209,
+    "prepared_sha256": "2c8bffa1adc5f470b18bbb966ed6f2b7eeb2d731f797d7764f8632871146cdb9",
+    "eligible_reports": 209,
+    "hourly_aggregates": 208
+  },
+  "2014-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 251,
+    "prepared_sha256": "31569c74a68ac407cec153a429ed95eec8b3a40dbceeffaebeb09c2c12e44d00",
+    "eligible_reports": 251,
+    "hourly_aggregates": 247
+  },
+  "2014-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 158,
+    "prepared_sha256": "ead7347f8c2696be2f8f2fb916ed72fce0377b88b7ef2af1f043c4bfb861d9af",
+    "eligible_reports": 158,
+    "hourly_aggregates": 155
+  },
+  "2014-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 148,
+    "prepared_sha256": "64fc98a6094e7d2d59938924f6183e91b73fb9cb9d1b760b55bc4ef122ba279d",
+    "eligible_reports": 148,
+    "hourly_aggregates": 146
+  },
+  "2014-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 114,
+    "prepared_sha256": "ee3fc71d707917ee54f50c8c20c6cc7f4518297ad8b318043a3fda6f43c89055",
+    "eligible_reports": 114,
+    "hourly_aggregates": 112
+  },
+  "2014-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 197,
+    "prepared_sha256": "ca2f7fc793d51a09ac6e83c0b004870772729cc3df60ad13dd79d13c988ae602",
+    "eligible_reports": 197,
+    "hourly_aggregates": 197
+  },
+  "2014-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 223,
+    "prepared_sha256": "f8436d77f4ae6ad5a576cfc119f3301600a9d7e49958006fc071720844683bdd",
+    "eligible_reports": 223,
+    "hourly_aggregates": 222
+  },
+  "2014-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 222,
+    "prepared_sha256": "80930993f294f51e7f29e65e308d19c8eb400fe0e951eac3f8dd4f806ec5cee3",
+    "eligible_reports": 222,
+    "hourly_aggregates": 221
+  },
+  "2014-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 180,
+    "prepared_sha256": "4cc41c2d573f1736525b5ffcfa0680b28a27474118b7c811e55ba2473931a89c",
+    "eligible_reports": 180,
+    "hourly_aggregates": 177
+  },
+  "2014-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 306,
+    "prepared_sha256": "ca9982fee7844c8518a2aaf35d70a84cacb9054413f3411d0a7a20951d7c5c38",
+    "eligible_reports": 306,
+    "hourly_aggregates": 304
+  },
+  "2014-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 220,
+    "prepared_sha256": "3547c95c3542a6890bac73568b51908cfb38624472aaf60907a2c3bd422db8e4",
+    "eligible_reports": 220,
+    "hourly_aggregates": 215
+  },
+  "2014-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 155,
+    "prepared_sha256": "777cc28b6252b9afd69ab3f90e4d38fc672874ac38cc093b915b96b564693a48",
+    "eligible_reports": 155,
+    "hourly_aggregates": 153
+  },
+  "2014-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 119,
+    "prepared_sha256": "e8d3f361194a2ad6ba2859957a2dbec3b80a10bcd2e39ce24676a9a924a05a70",
+    "eligible_reports": 119,
+    "hourly_aggregates": 117
+  },
+  "2014-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 173,
+    "prepared_sha256": "647a20c181d9c89bba34d45c632cedf04cce7fd428046a8da961db3304f8d99a",
+    "eligible_reports": 173,
+    "hourly_aggregates": 173
+  },
+  "2014-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 250,
+    "prepared_sha256": "35f667859441681353ae36d819dd40106ed0ba835b4d976ea5d8c5fbc5398034",
+    "eligible_reports": 250,
+    "hourly_aggregates": 248
+  },
+  "2014-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 253,
+    "prepared_sha256": "fe6ff9fe6dfe786400fd46fa59745946eabfda8fe3736a6f1822cfe27916763b",
+    "eligible_reports": 253,
+    "hourly_aggregates": 250
+  },
+  "2014-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 270,
+    "prepared_sha256": "1f723c3d9b49db5c2b62a32826eedbcf270a3680a6b3bba2a800124d0327c7e1",
+    "eligible_reports": 270,
+    "hourly_aggregates": 266
+  },
+  "2014-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 288,
+    "prepared_sha256": "5d696f6fc76d364a0ae16cfddab93b4d9ce282bac407556d9bfc4f75521f0ff3",
+    "eligible_reports": 288,
+    "hourly_aggregates": 285
+  },
+  "2014-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 186,
+    "prepared_sha256": "9f0fb5be5847cc7d351e21c5eafb3ac0eed704fe5a59dcb0543e75df2092f1ce",
+    "eligible_reports": 186,
+    "hourly_aggregates": 186
+  },
+  "2014-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 239,
+    "prepared_sha256": "225e33d26881dc8bdabffffa4a6eeaf738b6f124381f97cdd22ed969e340e53a",
+    "eligible_reports": 239,
+    "hourly_aggregates": 232
+  },
+  "2014-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 295,
+    "prepared_sha256": "1369d92827621edec150bffab278e7ae36b78871fd6c211f1c3bb6f90fb99e7f",
+    "eligible_reports": 295,
+    "hourly_aggregates": 286
+  },
+  "2014-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 248,
+    "prepared_sha256": "5cc2eef1fa5cf1c8b2f606f41b4e9726b1d3e3eec41303e9c7855e45f70c6c83",
+    "eligible_reports": 248,
+    "hourly_aggregates": 242
+  },
+  "2014-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 172,
+    "prepared_sha256": "b54eb5dd4b854d7c4e720c9e1045396c6e9a19dc0affa62d7b09d7d44394ab5e",
+    "eligible_reports": 172,
+    "hourly_aggregates": 167
+  },
+  "2014-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 190,
+    "prepared_sha256": "95d58f5bc4f61f257b13de4db7e21e5bb1d28984c1ae675e72fb4e6cf09d6319",
+    "eligible_reports": 190,
+    "hourly_aggregates": 186
+  },
+  "2014-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 177,
+    "prepared_sha256": "972196a669d048723c825c716ef342aeb8307b3685ddd2cb7d70fd4f7393fdb2",
+    "eligible_reports": 177,
+    "hourly_aggregates": 172
+  },
+  "2014-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 183,
+    "prepared_sha256": "85163033169b2d3dd2c4d8b1e828676e281d3e248b2ea483a7b35b4bd9130c2d",
+    "eligible_reports": 183,
+    "hourly_aggregates": 181
+  },
+  "2014-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 196,
+    "prepared_sha256": "04fcb37d70731b1375db5cd5a52b587bf1bb32434c52c83c7dfa5fb6f64af0ed",
+    "eligible_reports": 196,
+    "hourly_aggregates": 195
+  },
+  "2015-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 301,
+    "prepared_sha256": "84c4ac7e9dcebddef39e040ad60deb8855e34b18dee3b6bf0a1261d6f11046dc",
+    "eligible_reports": 301,
+    "hourly_aggregates": 298
+  },
+  "2015-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 260,
+    "prepared_sha256": "8bf85c52ff06495c357d6f5ca9925a04e4c9a370f05657267171088546b4c0e7",
+    "eligible_reports": 260,
+    "hourly_aggregates": 256
+  },
+  "2015-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 316,
+    "prepared_sha256": "8fdc1d8b9d33cee1aeb9a032a9746eeb7677685e005fed6ab6a0b9acb3b8d833",
+    "eligible_reports": 316,
+    "hourly_aggregates": 309
+  },
+  "2015-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 413,
+    "prepared_sha256": "a70ada7e2fff0d38406a33ad754ff5223fbfe8dcad85854bb27bb2723ddc610d",
+    "eligible_reports": 413,
+    "hourly_aggregates": 404
+  },
+  "2015-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 428,
+    "prepared_sha256": "f1d43f6b9666b25d54464dd7435321e46957fdc6822f0be6158c47a3ed133ef3",
+    "eligible_reports": 428,
+    "hourly_aggregates": 421
+  },
+  "2015-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 406,
+    "prepared_sha256": "dd1ac0d9581a8a8adb3261201b1728e028241fbd62d6ac2999985703297aeb68",
+    "eligible_reports": 406,
+    "hourly_aggregates": 399
+  },
+  "2015-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 407,
+    "prepared_sha256": "458d204d3971a3f5ad6e61bf4cd31508cd04781d6ecd30eb45c36560361db03d",
+    "eligible_reports": 407,
+    "hourly_aggregates": 397
+  },
+  "2015-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 391,
+    "prepared_sha256": "8f45c5d9382bf40533da579b094d10e9394bd53412a4987b6f005bd8273706df",
+    "eligible_reports": 391,
+    "hourly_aggregates": 387
+  },
+  "2015-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 344,
+    "prepared_sha256": "4292931aaf28abf47b3e238dbb39661162423a65b72771970a68539e97a3d055",
+    "eligible_reports": 344,
+    "hourly_aggregates": 341
+  },
+  "2015-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 303,
+    "prepared_sha256": "f5b683c354b211a54dbfc5def84121289149ea0e590cfe7bf0fa2c20ce9c8332",
+    "eligible_reports": 303,
+    "hourly_aggregates": 297
+  },
+  "2015-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 238,
+    "prepared_sha256": "9f4627fdfc571fabdbe3159664f026bd18b0ae15535fb548d73d3679eb8a48f6",
+    "eligible_reports": 238,
+    "hourly_aggregates": 233
+  },
+  "2015-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 268,
+    "prepared_sha256": "daeb2cf6ba794f0cd52408028d93fdc96a6f96526906bf491867c34185400b2e",
+    "eligible_reports": 268,
+    "hourly_aggregates": 264
+  },
+  "2015-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 350,
+    "prepared_sha256": "d870f84342adf417a561905e24167714da474ada54adc0efaff05546ec0f0c18",
+    "eligible_reports": 350,
+    "hourly_aggregates": 348
+  },
+  "2015-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 328,
+    "prepared_sha256": "e6e460ceb0535c23bf4dcbd9d339401fa988c5c57876ec02baa07e648ee5e91a",
+    "eligible_reports": 328,
+    "hourly_aggregates": 324
+  },
+  "2015-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 375,
+    "prepared_sha256": "f7443ccce58012fa9c2764277907bce909a111d08e0186de012d87a0b2340c5d",
+    "eligible_reports": 375,
+    "hourly_aggregates": 371
+  },
+  "2015-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 437,
+    "prepared_sha256": "1ccaee4b67122e8d06b3ab340979517a546b90537c9ffa9288291f60361b865e",
+    "eligible_reports": 437,
+    "hourly_aggregates": 428
+  },
+  "2015-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 337,
+    "prepared_sha256": "f081d687b053bcf74f7133307c78b4b9c37111c7ef7c4b84dbb1f9ac2fea7bcc",
+    "eligible_reports": 337,
+    "hourly_aggregates": 330
+  },
+  "2015-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 261,
+    "prepared_sha256": "ffafd96f6cd380514bc51ce9f7cc8268125c8ada7cc9b8a5ea90405b3b2bea0c",
+    "eligible_reports": 261,
+    "hourly_aggregates": 258
+  },
+  "2015-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 262,
+    "prepared_sha256": "53dfb2cfc4180c3bd5edb80dd471aceb967cf5b3f3cc432bac53da28044c15b5",
+    "eligible_reports": 262,
+    "hourly_aggregates": 259
+  },
+  "2015-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 322,
+    "prepared_sha256": "ab02753acc4df77dae71cba017018d4ee556444a7172095b00058c6df6ed8160",
+    "eligible_reports": 322,
+    "hourly_aggregates": 317
+  },
+  "2015-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 265,
+    "prepared_sha256": "3d363d89d972b5472a5867212f345b4f65ed0ab0177d317e5561c9a031008794",
+    "eligible_reports": 265,
+    "hourly_aggregates": 261
+  },
+  "2015-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 235,
+    "prepared_sha256": "d8690c3f52513dd2c0c44718a7023c2beaddd8d350e3cd270af3a2f18a071a1c",
+    "eligible_reports": 235,
+    "hourly_aggregates": 233
+  },
+  "2015-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 263,
+    "prepared_sha256": "ec3d9bc7cb87163a116cb5e0e7055c6d5ef62ea7938c5b48a238d06306e966a7",
+    "eligible_reports": 263,
+    "hourly_aggregates": 257
+  },
+  "2015-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 283,
+    "prepared_sha256": "54ec9ebb19f1f762b2a597d809c7db8e25a6d9e5c1b846302f015e44a5de1637",
+    "eligible_reports": 283,
+    "hourly_aggregates": 276
+  },
+  "2015-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 340,
+    "prepared_sha256": "9caf7c4f09d5a012a9731c5e46681bda1af10cbf01bf11fe9ca86e2f6729b08a",
+    "eligible_reports": 340,
+    "hourly_aggregates": 335
+  },
+  "2015-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 270,
+    "prepared_sha256": "b60b0e2ef05b217b874986d6e0133c807282ecbfd83218b52bd676303b29efd3",
+    "eligible_reports": 270,
+    "hourly_aggregates": 269
+  },
+  "2015-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 322,
+    "prepared_sha256": "762968570e49434d020bd889329ac1c4b8253680e0ad3422e79285acc66162d9",
+    "eligible_reports": 322,
+    "hourly_aggregates": 317
+  },
+  "2015-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 395,
+    "prepared_sha256": "1c521931657b826c59e6d065bf8cd0fe965d2c7cc75451b1229dc18aeb02e294",
+    "eligible_reports": 395,
+    "hourly_aggregates": 381
+  },
+  "2015-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 376,
+    "prepared_sha256": "aca25f3eb09e19c2669ece7a0f57c2fd65356acbd494c286a4079802fd6bed71",
+    "eligible_reports": 376,
+    "hourly_aggregates": 366
+  },
+  "2015-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 276,
+    "prepared_sha256": "4c09737e576c7b6fa4bef54a3255e49dbb28998d63eb8a8b663ea623def33269",
+    "eligible_reports": 276,
+    "hourly_aggregates": 268
+  },
+  "2015-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 284,
+    "prepared_sha256": "858537d571d23b8da938c3edb7f88992e030592605324ce359b5b8e56efd87c4",
+    "eligible_reports": 284,
+    "hourly_aggregates": 279
+  },
+  "2016-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1133,
+    "prepared_sha256": "0f156f1f6c146ae3dfe493673c81999440554771f434c35dda6a31d2283f7f55",
+    "eligible_reports": 1133,
+    "hourly_aggregates": 1117
+  },
+  "2016-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 986,
+    "prepared_sha256": "fb29c2904227a02e9d15eb698f6244df9bdd7dfbf7e2afcb8773268fe9612fb7",
+    "eligible_reports": 986,
+    "hourly_aggregates": 975
+  },
+  "2016-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 948,
+    "prepared_sha256": "a38b0c2e73f6efeb698019fcbc997144e481a6e0208229124e1b2ec1f0a73e52",
+    "eligible_reports": 948,
+    "hourly_aggregates": 938
+  },
+  "2016-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1047,
+    "prepared_sha256": "6924cc4cc2ee9021e223224e1b8c5301d180bef3a7966d4deca04fb36f062644",
+    "eligible_reports": 1047,
+    "hourly_aggregates": 1033
+  },
+  "2016-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1285,
+    "prepared_sha256": "8dffb39fbc6be7d9b86d13d6aca813ca5a748967b6fffcf2dd213e95919dcec7",
+    "eligible_reports": 1285,
+    "hourly_aggregates": 1271
+  },
+  "2016-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1252,
+    "prepared_sha256": "af95aaaa95c9188dec904843f76d0a2987e746eac9ae9b6c6dee646f9807d3aa",
+    "eligible_reports": 1252,
+    "hourly_aggregates": 1238
+  },
+  "2016-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 938,
+    "prepared_sha256": "7283853483c1f9faf66050b4f69cd2431e1436b7a2c0b454c819f2f603e5add2",
+    "eligible_reports": 938,
+    "hourly_aggregates": 912
+  },
+  "2016-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 821,
+    "prepared_sha256": "59d17b5f3d5296d58eb3badda0959e1acbdedf58199d34530695b4515865bf20",
+    "eligible_reports": 821,
+    "hourly_aggregates": 812
+  },
+  "2016-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 693,
+    "prepared_sha256": "c77d2b8cc1d88ae4c49ef6c80f169a99f9d5c9a9242e2201256461448024632e",
+    "eligible_reports": 693,
+    "hourly_aggregates": 686
+  },
+  "2016-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 970,
+    "prepared_sha256": "c199f409593a550dcbfc5f085e33611c12c4a59a531e6f4d974eb68fd8c9c7f9",
+    "eligible_reports": 970,
+    "hourly_aggregates": 955
+  },
+  "2016-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 872,
+    "prepared_sha256": "48497253441912e0643cbb66323e183ebc4dd6ea75c8b42b24681b0424ed12d0",
+    "eligible_reports": 872,
+    "hourly_aggregates": 862
+  },
+  "2016-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 919,
+    "prepared_sha256": "39c5f80b1b8ce02bf71b75e491d357ea362e79a2836fd830dbf4f0a05bd760d4",
+    "eligible_reports": 919,
+    "hourly_aggregates": 903
+  },
+  "2016-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 805,
+    "prepared_sha256": "59516d55d3e10cbb1fad344bd4d374cd4c81cecba7f4209190dd1171cd5c990d",
+    "eligible_reports": 805,
+    "hourly_aggregates": 797
+  },
+  "2016-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 844,
+    "prepared_sha256": "c57410807c61cf0fe827881ddee6c77c4f1c2eb2566721c746e69426e9c46bb7",
+    "eligible_reports": 844,
+    "hourly_aggregates": 831
+  },
+  "2016-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 703,
+    "prepared_sha256": "936fcce151e73808fd558bd0d4b33738b68bc6ba96e28530a678d31833b237e0",
+    "eligible_reports": 703,
+    "hourly_aggregates": 698
+  },
+  "2016-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 600,
+    "prepared_sha256": "7e1316ad7c3f48674315e1f4da8cdb980cd027a562a172562420fbec0fc37229",
+    "eligible_reports": 600,
+    "hourly_aggregates": 592
+  },
+  "2016-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 494,
+    "prepared_sha256": "a851d011541853615e1a65be7b987d9109c9e58b6785da067c7d52b568be3d7c",
+    "eligible_reports": 494,
+    "hourly_aggregates": 489
+  },
+  "2016-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 693,
+    "prepared_sha256": "2a26e2032f78f6b37cbb01a0b5f041a24bef76c6e4d0be6e0e8c506a6d2c616b",
+    "eligible_reports": 693,
+    "hourly_aggregates": 688
+  },
+  "2016-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 730,
+    "prepared_sha256": "49b8b3011f4ee0a675b44e3c50600c65a674728050f8a73eeaed730aabf43dc0",
+    "eligible_reports": 730,
+    "hourly_aggregates": 719
+  },
+  "2016-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 931,
+    "prepared_sha256": "ad0ca969f9cbbb656d05e816ade882ca43169be3fb80a832e1fc456892d07aed",
+    "eligible_reports": 931,
+    "hourly_aggregates": 916
+  },
+  "2016-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 891,
+    "prepared_sha256": "29786cfaca484cdeacc76439ec866cc22e08beffbcabf04122a13596f8297862",
+    "eligible_reports": 891,
+    "hourly_aggregates": 877
+  },
+  "2016-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 995,
+    "prepared_sha256": "70752d9230c7d2e54286103642431d565616ae635170a34b9ea9a6db3255b464",
+    "eligible_reports": 995,
+    "hourly_aggregates": 983
+  },
+  "2016-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 988,
+    "prepared_sha256": "cc840bffaa2e70e3a214ed2c7076d5c0d4108e7ef7ba4412e2836759450523ff",
+    "eligible_reports": 988,
+    "hourly_aggregates": 977
+  },
+  "2016-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 914,
+    "prepared_sha256": "e3baf1919255fa036aaedeb37440953a3e28ee3c130a3d84e318371297173750",
+    "eligible_reports": 914,
+    "hourly_aggregates": 901
+  },
+  "2016-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1166,
+    "prepared_sha256": "ea0f975be67e08d453c6805f2a6e441350d201f88caaced77524ae3a540ae67b",
+    "eligible_reports": 1166,
+    "hourly_aggregates": 1145
+  },
+  "2016-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1199,
+    "prepared_sha256": "af7b5d173852b511d2b5c8dd48cac61fba9a3f3b3302436baf22e9d615130b1f",
+    "eligible_reports": 1199,
+    "hourly_aggregates": 1177
+  },
+  "2016-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1264,
+    "prepared_sha256": "c638434240cd625c8b69c5cf453254bcf8415f1edfaf22025cfcadaf86a084f0",
+    "eligible_reports": 1264,
+    "hourly_aggregates": 1243
+  },
+  "2016-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1144,
+    "prepared_sha256": "e7168a0c6a40407fc4a8d19f9de632377bd636efc55cee59c235feb5504eec30",
+    "eligible_reports": 1144,
+    "hourly_aggregates": 1127
+  },
+  "2016-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 934,
+    "prepared_sha256": "095adbbe4659d109ea6ab350de87503f9d2aaff8b59504849eafa5d7cde8561e",
+    "eligible_reports": 934,
+    "hourly_aggregates": 916
+  },
+  "2016-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 917,
+    "prepared_sha256": "5a48de1ea6775948dcba3ef2f337f8b19845eccd792a80f2d04e06c7047e749d",
+    "eligible_reports": 917,
+    "hourly_aggregates": 903
+  },
+  "2016-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 945,
+    "prepared_sha256": "476eb7720aede62cf6f5bb660b79224b45107f5bb1017a7657716700b878a257",
+    "eligible_reports": 945,
+    "hourly_aggregates": 931
+  },
+  "2017-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2908,
+    "prepared_sha256": "430f00acea04b55e7073548fdc87b324f942e63c8fec832d9f2cf76f3f6f677b",
+    "eligible_reports": 2908,
+    "hourly_aggregates": 2856
+  },
+  "2017-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 1882,
+    "prepared_sha256": "257c1ef991c988f253d89baff1c1290359a03ea117ad25b3609bddc5ae88e241",
+    "eligible_reports": 1882,
+    "hourly_aggregates": 1857
+  },
+  "2017-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2091,
+    "prepared_sha256": "3967b756f3b559613773764617e522308950122b4782a9a3372e77dda8be23fc",
+    "eligible_reports": 2091,
+    "hourly_aggregates": 2062
+  },
+  "2017-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2234,
+    "prepared_sha256": "dea987eb1b4f6fc7f8b311d40ec8a0f61e588ff2436b666f4275038382f7d29a",
+    "eligible_reports": 2234,
+    "hourly_aggregates": 2199
+  },
+  "2017-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2539,
+    "prepared_sha256": "485a0608c9ac482e2fcc84c0f7d69bd306d08992f0fb00030a53b89302dee522",
+    "eligible_reports": 2539,
+    "hourly_aggregates": 2477
+  },
+  "2017-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2607,
+    "prepared_sha256": "74361f3c5689ce4e38387c4310c66138892b3ccc7c8b633403aac957e2ce96fe",
+    "eligible_reports": 2607,
+    "hourly_aggregates": 2558
+  },
+  "2017-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2318,
+    "prepared_sha256": "497082531b3da2e34de68dc2fccda8cc041613930fd019acabba7f4557a0630b",
+    "eligible_reports": 2318,
+    "hourly_aggregates": 2266
+  },
+  "2017-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2564,
+    "prepared_sha256": "d76de572a1d4666c4d29d88928fcb91e8d35347266a6db4581d9feecdd22d704",
+    "eligible_reports": 2564,
+    "hourly_aggregates": 2505
+  },
+  "2017-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2785,
+    "prepared_sha256": "773133cfb368951f5569a778c1316447daae7582a55170ec74eb3827d03978bc",
+    "eligible_reports": 2785,
+    "hourly_aggregates": 2698
+  },
+  "2017-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2605,
+    "prepared_sha256": "b66f2b4f46419d5400222e865b8ccb4210f68a676083a1bd8a6947c6048afa8c",
+    "eligible_reports": 2605,
+    "hourly_aggregates": 2561
+  },
+  "2017-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2566,
+    "prepared_sha256": "239af318ae73ef7d1a5d8fbc1edad11d5db65e5a3ce17521ab98c6a72d52cca4",
+    "eligible_reports": 2566,
+    "hourly_aggregates": 2521
+  },
+  "2017-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2351,
+    "prepared_sha256": "a9ba265bb162a0159c8e2eb773882b677ab5dafdbea992e8957aa56b75a76bde",
+    "eligible_reports": 2351,
+    "hourly_aggregates": 2318
+  },
+  "2017-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2560,
+    "prepared_sha256": "826bd517255d75ee298e08b95831f07463cc388034c11785e76a2cb6c4a26ccc",
+    "eligible_reports": 2560,
+    "hourly_aggregates": 2519
+  },
+  "2017-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2488,
+    "prepared_sha256": "17f91b98b4c99cba98af9bd58930fd5a966d146075279f54230bdbecf69941aa",
+    "eligible_reports": 2488,
+    "hourly_aggregates": 2440
+  },
+  "2017-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2898,
+    "prepared_sha256": "f6f2cdf664f3b2972e0ca00e8c86d80ddb599e1240001c056bf08dd01bb39b7c",
+    "eligible_reports": 2898,
+    "hourly_aggregates": 2856
+  },
+  "2017-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2814,
+    "prepared_sha256": "cdc8f713afc77440a51ec28a2589c08369a66f3bcb3d730bd86c08020cd34942",
+    "eligible_reports": 2814,
+    "hourly_aggregates": 2754
+  },
+  "2017-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3235,
+    "prepared_sha256": "dcde2d5d8643c27376e9815f7e52602e147c9d82e28703c201886237f15f94df",
+    "eligible_reports": 3235,
+    "hourly_aggregates": 3185
+  },
+  "2017-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2905,
+    "prepared_sha256": "76cfeea789e8e374fa358e45d5feeb43402e75f4e928151efacd8739cc6f7f08",
+    "eligible_reports": 2905,
+    "hourly_aggregates": 2847
+  },
+  "2017-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3267,
+    "prepared_sha256": "8d8b7bc2c7e1cf380cbfed60b3712902e24f1ce2a41e681a00534e3756d97574",
+    "eligible_reports": 3267,
+    "hourly_aggregates": 3224
+  },
+  "2017-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2903,
+    "prepared_sha256": "540e03bd15759426c638b083f1b85feaa307e11f16f2f261cff3ad97c49b3626",
+    "eligible_reports": 2903,
+    "hourly_aggregates": 2846
+  },
+  "2017-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2715,
+    "prepared_sha256": "93b673129cfaa29f11c537252f23382c9c38dbb9e28a88b2c78b4c446b501c10",
+    "eligible_reports": 2715,
+    "hourly_aggregates": 2669
+  },
+  "2017-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2132,
+    "prepared_sha256": "4b5bad216fdbb979389e9f786ff11aa574b272e68aeb483491179ad9aa754a8b",
+    "eligible_reports": 2132,
+    "hourly_aggregates": 2088
+  },
+  "2017-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2304,
+    "prepared_sha256": "e493f540103a3f52ef263315f6fea746f0d28160744246759bb40244ab0e5a90",
+    "eligible_reports": 2304,
+    "hourly_aggregates": 2265
+  },
+  "2017-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2386,
+    "prepared_sha256": "746e2983f8ca480a164c403a3107eeef0866b5b5be613da92477486440bb7bd7",
+    "eligible_reports": 2386,
+    "hourly_aggregates": 2336
+  },
+  "2017-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2397,
+    "prepared_sha256": "82cd27e4a8907003005c535cb59c8707aa3899d2f526e01d06adb43aab014580",
+    "eligible_reports": 2397,
+    "hourly_aggregates": 2348
+  },
+  "2017-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2433,
+    "prepared_sha256": "aa12f164b6ddedcd2219903fd950bfce8ed5091d65bacc565f5ec496fc9d16cf",
+    "eligible_reports": 2433,
+    "hourly_aggregates": 2395
+  },
+  "2017-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2469,
+    "prepared_sha256": "c4c91a86d9f4a6c98374d0f54686ef2229785bcd01a77af2de76a40bc5cd4d35",
+    "eligible_reports": 2469,
+    "hourly_aggregates": 2421
+  },
+  "2017-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2914,
+    "prepared_sha256": "92e42a7657bd0e06f9911bb2d16fb070e7718c666f83f1725bad49d07a8c472e",
+    "eligible_reports": 2914,
+    "hourly_aggregates": 2863
+  },
+  "2017-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2977,
+    "prepared_sha256": "eff01718a81b0742d329d4f3370991aa095f403ab96cbe17b4fc9d5f5f2b6c61",
+    "eligible_reports": 2977,
+    "hourly_aggregates": 2936
+  },
+  "2017-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2335,
+    "prepared_sha256": "4901b75ceb13eb0c3fefb35f481dce12f8526b92e5a21d087f6e0fc39b2b813c",
+    "eligible_reports": 2335,
+    "hourly_aggregates": 2305
+  },
+  "2017-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2432,
+    "prepared_sha256": "9fc3350403d9ca57f3a6d59c0e4666bdc042935bb7a25a57688ae168bae61761",
+    "eligible_reports": 2432,
+    "hourly_aggregates": 2399
+  },
+  "2018-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3513,
+    "prepared_sha256": "463f43e1409e20e21965b857ab0400b74516251129322a4f50867b1079a378c2",
+    "eligible_reports": 3513,
+    "hourly_aggregates": 3473
+  },
+  "2018-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3563,
+    "prepared_sha256": "0ea131b8b530cfbfbc800bafec4efaa13d18de674ef62eae11ac0a08226332b7",
+    "eligible_reports": 3563,
+    "hourly_aggregates": 3509
+  },
+  "2018-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3136,
+    "prepared_sha256": "3f621e2cbaa1be6c15076104264ad5527b439aa1ba9372b6fcc68a623fafd1f4",
+    "eligible_reports": 3136,
+    "hourly_aggregates": 3099
+  },
+  "2018-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3545,
+    "prepared_sha256": "a712637bf994973c35a069f4f0a8354c1ce10d40d423345901c0b0aa2c85ff5d",
+    "eligible_reports": 3545,
+    "hourly_aggregates": 3497
+  },
+  "2018-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2971,
+    "prepared_sha256": "af052690fa63ac9dce9a90472ac588f30f7b60d193b3293c1717d2803848b759",
+    "eligible_reports": 2971,
+    "hourly_aggregates": 2926
+  },
+  "2018-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3511,
+    "prepared_sha256": "980eb403f4412a2b3384bfa302702dc3c6804d9d7996391d98320909c464c40b",
+    "eligible_reports": 3511,
+    "hourly_aggregates": 3454
+  },
+  "2018-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3612,
+    "prepared_sha256": "8994ae41f3b1e85d20cf0a4ea3c52003ca42851470e99db03bdd2bff3103fc46",
+    "eligible_reports": 3612,
+    "hourly_aggregates": 3554
+  },
+  "2018-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3284,
+    "prepared_sha256": "66da60c672ef373de257ef7eb9017faa9e17cc5ab1eec9fb5a79046ea5a1c66f",
+    "eligible_reports": 3284,
+    "hourly_aggregates": 3232
+  },
+  "2018-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3651,
+    "prepared_sha256": "1b6f729d72a546bddad3b646112759f9b92e86d57b1c5830ceda9a770b070cbb",
+    "eligible_reports": 3651,
+    "hourly_aggregates": 3597
+  },
+  "2018-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2696,
+    "prepared_sha256": "fedc97d87d01727751c61d6591ebb83b4da236663e72525f6702f22ba2d6871e",
+    "eligible_reports": 2696,
+    "hourly_aggregates": 2647
+  },
+  "2018-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3153,
+    "prepared_sha256": "cd3f30b76771a4af2dc05392b7349bd3dcb167ecbc0d01a8bad8fd3346128f4e",
+    "eligible_reports": 3153,
+    "hourly_aggregates": 3099
+  },
+  "2018-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3421,
+    "prepared_sha256": "bca992cb12a2094eac0809234f43a215eedc4a64e012c5337c84090e4dea6a5d",
+    "eligible_reports": 3421,
+    "hourly_aggregates": 3357
+  },
+  "2018-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3602,
+    "prepared_sha256": "dd1b3ddee930e87bb0fb604d07cce81aeb5f8137f052973d774f8bb4bea5d572",
+    "eligible_reports": 3602,
+    "hourly_aggregates": 3556
+  },
+  "2018-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3910,
+    "prepared_sha256": "b0ae815435865209b4ee4c6c2db13c41b70cabfccb41f36b7e2ff0bcfaa8bf10",
+    "eligible_reports": 3910,
+    "hourly_aggregates": 3865
+  },
+  "2018-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3699,
+    "prepared_sha256": "fe6b42a62977c844baf319248c3649ace0fec89ce5e4c823441a45cfd7963453",
+    "eligible_reports": 3699,
+    "hourly_aggregates": 3643
+  },
+  "2018-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2907,
+    "prepared_sha256": "df0c20774ac061fff386b6f292b13250e6c82606a3139cc72f7336d688e5c931",
+    "eligible_reports": 2907,
+    "hourly_aggregates": 2861
+  },
+  "2018-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2928,
+    "prepared_sha256": "84c2a3493abbce7f5c76e929eac673810afd53a50586505a8cff83300d1234a0",
+    "eligible_reports": 2928,
+    "hourly_aggregates": 2887
+  },
+  "2018-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3632,
+    "prepared_sha256": "7ea4f07492fd27333085cef6efce6334399d68306ea2f225c9db3afb5010689b",
+    "eligible_reports": 3632,
+    "hourly_aggregates": 3586
+  },
+  "2018-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2993,
+    "prepared_sha256": "360f15eade1826bdddf940bea0bc4f599edcbc82bf41c1941e5cbfa29e26380c",
+    "eligible_reports": 2993,
+    "hourly_aggregates": 2954
+  },
+  "2018-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2453,
+    "prepared_sha256": "6c2a45ae71fb727b0df5e151c608cf8f67298aff45471bbf43512478c5e03696",
+    "eligible_reports": 2453,
+    "hourly_aggregates": 2416
+  },
+  "2018-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2678,
+    "prepared_sha256": "e2d0992353708076873401adf2225a621a8d81369aa05f352cd3f8a4bc22d774",
+    "eligible_reports": 2678,
+    "hourly_aggregates": 2645
+  },
+  "2018-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3107,
+    "prepared_sha256": "35d7e14187c7b514cf6172ab925b862d654179452d44036bd4d6a9711938b950",
+    "eligible_reports": 3107,
+    "hourly_aggregates": 3056
+  },
+  "2018-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3506,
+    "prepared_sha256": "8376025e5423b4467a217506b3e736a53b2e8d735661b2a9880bc0a41c328136",
+    "eligible_reports": 3506,
+    "hourly_aggregates": 3448
+  },
+  "2018-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3429,
+    "prepared_sha256": "5b11a772ed74fd26f1aa526d8723068b51197d8f98c6456d20859a826f060a42",
+    "eligible_reports": 3429,
+    "hourly_aggregates": 3378
+  },
+  "2018-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3556,
+    "prepared_sha256": "fe12762ec076ca24a58c9869047e91ef9cb295cbb0495a65cef650c851bb14a7",
+    "eligible_reports": 3556,
+    "hourly_aggregates": 3512
+  },
+  "2018-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2882,
+    "prepared_sha256": "037a5af0fe0a024db2a7c071f5ab93c43b283e698cd34b612a0172c7df82e069",
+    "eligible_reports": 2882,
+    "hourly_aggregates": 2844
+  },
+  "2018-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2876,
+    "prepared_sha256": "da80179554c9efb0df16c31d689c6fc5413b34873c88b5d801f98f3791f6e6fa",
+    "eligible_reports": 2876,
+    "hourly_aggregates": 2838
+  },
+  "2018-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2926,
+    "prepared_sha256": "d0169a28eab8c47d3056c0d0cde8605abd6f748c9a8b2bde1af63fca6ed68988",
+    "eligible_reports": 2926,
+    "hourly_aggregates": 2886
+  },
+  "2018-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2942,
+    "prepared_sha256": "9e2282e214b5a1a04ad2a63850278a272c4618268a5b5d34f6f24acddc2a2483",
+    "eligible_reports": 2942,
+    "hourly_aggregates": 2904
+  },
+  "2018-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3658,
+    "prepared_sha256": "35155dd04509121752663ec6ee9044cb490ab9c355a077923a1b80242eea92cd",
+    "eligible_reports": 3658,
+    "hourly_aggregates": 3604
+  },
+  "2018-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3542,
+    "prepared_sha256": "08fe0c5aedd649b1beeb00e58b5f29d224d493e4bf7aea85c9077bbf20d84123",
+    "eligible_reports": 3542,
+    "hourly_aggregates": 3483
+  },
+  "2019-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4375,
+    "prepared_sha256": "d81064e947c2766c699d697cd960265e065a3ccb6cbcbf87a626dec9750777a2",
+    "eligible_reports": 4375,
+    "hourly_aggregates": 4299
+  },
+  "2019-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4594,
+    "prepared_sha256": "c82671ac10ddfa2c16c49676393d131354c0f081a8932118f8866f998a71d805",
+    "eligible_reports": 4594,
+    "hourly_aggregates": 4515
+  },
+  "2019-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4049,
+    "prepared_sha256": "4aee04d526ac3f1570c603c3f640bedf22f023814a43991c42521719f8f3d5f2",
+    "eligible_reports": 4049,
+    "hourly_aggregates": 3979
+  },
+  "2019-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4429,
+    "prepared_sha256": "bbb00af012b39e65f5b86277afe5eadf6184369f516f9fca7804dd34a57edabb",
+    "eligible_reports": 4429,
+    "hourly_aggregates": 4353
+  },
+  "2019-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4576,
+    "prepared_sha256": "b001585b9466d52f76b9f0ca584d631b8f907bef96fc994d246dd61c55bd1a3e",
+    "eligible_reports": 4576,
+    "hourly_aggregates": 4485
+  },
+  "2019-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4276,
+    "prepared_sha256": "db391c66d984c3929fabe895206d48a667324ffbe2b79dae0406fa4175f2181c",
+    "eligible_reports": 4276,
+    "hourly_aggregates": 4208
+  },
+  "2019-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4850,
+    "prepared_sha256": "6ba229ad693c26073d0746119a8544f8c35a6de29caf8abff7b48d73f808b584",
+    "eligible_reports": 4850,
+    "hourly_aggregates": 4781
+  },
+  "2019-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4710,
+    "prepared_sha256": "2867ca890da3773b5369f6433de23a2e84933af71d391232558f41bb0e22078f",
+    "eligible_reports": 4710,
+    "hourly_aggregates": 4629
+  },
+  "2019-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4274,
+    "prepared_sha256": "8167ba7bbc035b0a4225fa19e09f76ae72f6444fce48313101e95326de48242d",
+    "eligible_reports": 4274,
+    "hourly_aggregates": 4198
+  },
+  "2019-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5187,
+    "prepared_sha256": "59c03412698f588d3a774b3509805a1302a8d1d394a495d9363020c1edc3bed7",
+    "eligible_reports": 5187,
+    "hourly_aggregates": 5094
+  },
+  "2019-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4707,
+    "prepared_sha256": "4069f448fdb97513480f70ef128046ef67d750ac2825867b209b0a560b7bf76a",
+    "eligible_reports": 4707,
+    "hourly_aggregates": 4627
+  },
+  "2019-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4386,
+    "prepared_sha256": "52a669560ce50ea98d35b39544882f3f1f4222f6f68b4e04808f3a4ea06666f3",
+    "eligible_reports": 4386,
+    "hourly_aggregates": 4313
+  },
+  "2019-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4745,
+    "prepared_sha256": "ae206016216726c136121724e1e9d70396224e42522f8a1a14daeab9d5edc2df",
+    "eligible_reports": 4745,
+    "hourly_aggregates": 4665
+  },
+  "2019-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4883,
+    "prepared_sha256": "1278ab38d809db627d91ab7ea1bd9160831747c6e62b4002abdd9a7308d131ee",
+    "eligible_reports": 4883,
+    "hourly_aggregates": 4801
+  },
+  "2019-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4308,
+    "prepared_sha256": "4d1f256c891507603b131627b583064dbeca2e7f8bd2edae38d43eb7163d642a",
+    "eligible_reports": 4308,
+    "hourly_aggregates": 4248
+  },
+  "2019-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4060,
+    "prepared_sha256": "237a831674dbc3a8a9e44d1fb5be2ff66744830ce454f1fd8b3010ec9d7e87ed",
+    "eligible_reports": 4060,
+    "hourly_aggregates": 3999
+  },
+  "2019-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3850,
+    "prepared_sha256": "29c3eb0ad0d8b70503a1f5909b963a647b63866a5ef3d0448aaec8c0d1618188",
+    "eligible_reports": 3850,
+    "hourly_aggregates": 3796
+  },
+  "2019-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3314,
+    "prepared_sha256": "7e13b1a720fe8719c2e6f6b1bad5ed9043386d48eaef7ac621044833f201318f",
+    "eligible_reports": 3314,
+    "hourly_aggregates": 3261
+  },
+  "2019-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 3524,
+    "prepared_sha256": "30fc0f348eb791a03193e25a5731d611cfc6b08bc9ae02acf4bdb85e4344873d",
+    "eligible_reports": 3524,
+    "hourly_aggregates": 3469
+  },
+  "2019-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4179,
+    "prepared_sha256": "af65859cf8d07eeb61437c2382aee73ad79db63e4a43a463e196c00dff1160d4",
+    "eligible_reports": 4179,
+    "hourly_aggregates": 4118
+  },
+  "2019-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4348,
+    "prepared_sha256": "46bb4171d2724c71222ea8d188f143fc1aa6ea837a573bc5065b563467a549a6",
+    "eligible_reports": 4348,
+    "hourly_aggregates": 4282
+  },
+  "2019-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4490,
+    "prepared_sha256": "ad64a92e1f552bcddfc5d895206e2d8888221d53de929a0e3bd14e6cf54915ad",
+    "eligible_reports": 4490,
+    "hourly_aggregates": 4409
+  },
+  "2019-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5502,
+    "prepared_sha256": "83af3ecd1d38ee47a77b2fa4c89402b8298a3607faf46ab389b70128adc4ec68",
+    "eligible_reports": 5502,
+    "hourly_aggregates": 5382
+  },
+  "2019-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5525,
+    "prepared_sha256": "732e00aca758a396ff370fa6755ba33e82f5581a6a3b6fccba9bd4c0f79f8c2b",
+    "eligible_reports": 5525,
+    "hourly_aggregates": 5423
+  },
+  "2019-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5173,
+    "prepared_sha256": "94f856a14cce07bf31ff5b31d04b5ddfc1881cd822060019f7bd634c5187177a",
+    "eligible_reports": 5173,
+    "hourly_aggregates": 5076
+  },
+  "2019-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5448,
+    "prepared_sha256": "3429126456f4ef71314a54af648cacc349e7071573b5c3540c247e34514eb981",
+    "eligible_reports": 5448,
+    "hourly_aggregates": 5355
+  },
+  "2019-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 4737,
+    "prepared_sha256": "4178b857ae866f90879537adde5e0ea03976e2bd0684d16f8f16b05b71a7a358",
+    "eligible_reports": 4737,
+    "hourly_aggregates": 4657
+  },
+  "2019-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5154,
+    "prepared_sha256": "e4cd3d47a21677c77ec5cbb37c3e06bf8cb9cc7449037dfc9a9b7332bf4d527d",
+    "eligible_reports": 5154,
+    "hourly_aggregates": 5061
+  },
+  "2019-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5658,
+    "prepared_sha256": "6c50bd47306191450d138d345af0afc385c096d47dc70213231093dc89d22f76",
+    "eligible_reports": 5658,
+    "hourly_aggregates": 5535
+  },
+  "2019-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5054,
+    "prepared_sha256": "e7c29ba22df72ecbb1098d4234be31b84127b00b4da2ce9ff0192fd57e48c7a9",
+    "eligible_reports": 5054,
+    "hourly_aggregates": 4974
+  },
+  "2019-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5324,
+    "prepared_sha256": "31f7f171e875d59bbcaa55cc09ba54fa1c8341041be451471b825e6345b7db3d",
+    "eligible_reports": 5324,
+    "hourly_aggregates": 5228
+  },
+  "2020-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7678,
+    "prepared_sha256": "85aa7d90039779261d26af16efc5e71a59b1105f50c92e48c9250669368e8978",
+    "eligible_reports": 7678,
+    "hourly_aggregates": 7541
+  },
+  "2020-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6909,
+    "prepared_sha256": "0e6bb4af3e2fb2ecca2e20e255d674ff39d0783dbdea078639abfd3f754d2247",
+    "eligible_reports": 6909,
+    "hourly_aggregates": 6790
+  },
+  "2020-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6801,
+    "prepared_sha256": "89253c8646a5ce7ff6536e886c699d07299b53f765459c29b39377357a0e14ad",
+    "eligible_reports": 6801,
+    "hourly_aggregates": 6670
+  },
+  "2020-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6674,
+    "prepared_sha256": "f4503c8b8d717188bda8ae7420eb2793a51c16989dbf1ff4e115038234580762",
+    "eligible_reports": 6674,
+    "hourly_aggregates": 6570
+  },
+  "2020-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6676,
+    "prepared_sha256": "b8ae3ff6ae52ff20df607e32835f3998a477b9fe6d9987e56bdd2d8af3e05915",
+    "eligible_reports": 6676,
+    "hourly_aggregates": 6551
+  },
+  "2020-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6977,
+    "prepared_sha256": "6a006db09075504143b2c96bcd28573e3633c64d80e7b897c2fccae663d93a8f",
+    "eligible_reports": 6977,
+    "hourly_aggregates": 6850
+  },
+  "2020-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7868,
+    "prepared_sha256": "33630c3dadaa22c41dd999720eac4ec65f767422f014be1c7488a4b055c5fcf3",
+    "eligible_reports": 7868,
+    "hourly_aggregates": 7748
+  },
+  "2020-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8063,
+    "prepared_sha256": "4c332959f7ffaef0497490ebea49ad527e1d8d663d4befbac642791efe515325",
+    "eligible_reports": 8063,
+    "hourly_aggregates": 7910
+  },
+  "2020-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7730,
+    "prepared_sha256": "3e1cf0fc05ed8a32e1a6f98862d5171c0b17344124ef84c1c35409d22658053c",
+    "eligible_reports": 7730,
+    "hourly_aggregates": 7587
+  },
+  "2020-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7858,
+    "prepared_sha256": "e6b341d5fcda28ba0900e132d65fafadb7b5f9b31fa3399f7efa201967367e72",
+    "eligible_reports": 7858,
+    "hourly_aggregates": 7733
+  },
+  "2020-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6739,
+    "prepared_sha256": "30590daf3b23c5d00f9b8fed0be21e415269e6a95cd0a27645778fd7f0d53104",
+    "eligible_reports": 6739,
+    "hourly_aggregates": 6624
+  },
+  "2020-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7080,
+    "prepared_sha256": "1bc1f968f9e42b0843892ad0bdb64318c9c1a0fb71d0860aa2ce8731a060116d",
+    "eligible_reports": 7080,
+    "hourly_aggregates": 6949
+  },
+  "2020-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6766,
+    "prepared_sha256": "489b38bd75a3a76db12e1e311765682ae6b76b38ed3671c40fcb3c43e2212f2c",
+    "eligible_reports": 6766,
+    "hourly_aggregates": 6651
+  },
+  "2020-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7047,
+    "prepared_sha256": "79e663b8e611b2c9c8e65ba38e567390aa407dc0b615f3e534e655b6f9013fbb",
+    "eligible_reports": 7047,
+    "hourly_aggregates": 6938
+  },
+  "2020-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7044,
+    "prepared_sha256": "cfe7c87832b1cf56d0e9ea45fe83d6ee90ee8fb72e3af4f4ea504cc4a14c58c4",
+    "eligible_reports": 7044,
+    "hourly_aggregates": 6926
+  },
+  "2020-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7187,
+    "prepared_sha256": "c79bf1a6d900e8ce82dfca28316b70654a9e0b94eddc54607b239bbe5982992e",
+    "eligible_reports": 7187,
+    "hourly_aggregates": 7081
+  },
+  "2020-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7234,
+    "prepared_sha256": "111b7015b92e4d33e33368f5ab829baab1bb73545d7a97c5f1f2ab02e40088ea",
+    "eligible_reports": 7234,
+    "hourly_aggregates": 7066
+  },
+  "2020-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7277,
+    "prepared_sha256": "a4822e70ed733f08ca5a21308a40db2cc0d329b01f18e3c578382fdc16712dca",
+    "eligible_reports": 7277,
+    "hourly_aggregates": 7153
+  },
+  "2020-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7081,
+    "prepared_sha256": "75b74db830a64b2b24aeca7ee3e6a7cb14d6b61edd681c8cc24f12423ac55fca",
+    "eligible_reports": 7081,
+    "hourly_aggregates": 6953
+  },
+  "2020-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7403,
+    "prepared_sha256": "bd81186a6cb0134b9c4c706bd803dba5ca92d3fd6b22dbcc3b7e62de842205ae",
+    "eligible_reports": 7403,
+    "hourly_aggregates": 7266
+  },
+  "2020-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6738,
+    "prepared_sha256": "c26769565266bff8867182f7a20660279ae61a328d2d9d6b87605b4345cd9c24",
+    "eligible_reports": 6738,
+    "hourly_aggregates": 6636
+  },
+  "2020-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7700,
+    "prepared_sha256": "0d9f8b19493aba246cb8634a5d58728af2782956b8c507abddecfaea1c346099",
+    "eligible_reports": 7700,
+    "hourly_aggregates": 7552
+  },
+  "2020-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7224,
+    "prepared_sha256": "3265a9488549a78954d06cc91b5764f1d949272565485a6e27db04ba5385f5a8",
+    "eligible_reports": 7224,
+    "hourly_aggregates": 7099
+  },
+  "2020-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7230,
+    "prepared_sha256": "aa85502b93e41b5afa6209116487e6ee00553bda7d9763dbeeabe83ddf71e88a",
+    "eligible_reports": 7230,
+    "hourly_aggregates": 7103
+  },
+  "2020-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7536,
+    "prepared_sha256": "31cbd5c03efcdd635b1ac8a4722fe9ba5d919bb3f255ed20d1345cfec3b6b3f4",
+    "eligible_reports": 7536,
+    "hourly_aggregates": 7424
+  },
+  "2020-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7061,
+    "prepared_sha256": "a16596673590c72009a258e7c1555fa60e2f567f9f41d69790ab4ac30c354541",
+    "eligible_reports": 7061,
+    "hourly_aggregates": 6938
+  },
+  "2020-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7245,
+    "prepared_sha256": "9b20ccff418b7cdd46cacdb4be6f6718654cf7450b9ccd879756c8794d24f127",
+    "eligible_reports": 7245,
+    "hourly_aggregates": 7111
+  },
+  "2020-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6571,
+    "prepared_sha256": "aacaa6e5fc07c036bfe2d728c5756690a47291f2a4f5af9876de17083b9d6b74",
+    "eligible_reports": 6571,
+    "hourly_aggregates": 6456
+  },
+  "2020-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7029,
+    "prepared_sha256": "d7a2a6e176c22dc4fc1618fab277091095b8356257fddcf8bf8d9dcc3af659b5",
+    "eligible_reports": 7029,
+    "hourly_aggregates": 6923
+  },
+  "2020-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7880,
+    "prepared_sha256": "99bee789440eeddfd5313e0c4f10d3a9d51d58f5f6d533c150d55ba2ee3fdaf4",
+    "eligible_reports": 7880,
+    "hourly_aggregates": 7746
+  },
+  "2020-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7476,
+    "prepared_sha256": "1c5deb93b499d86e8bb6f853161302909a3272337676d0f5f4cd363d28d78616",
+    "eligible_reports": 7476,
+    "hourly_aggregates": 7364
+  },
+  "2021-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6877,
+    "prepared_sha256": "8230602cae8bd7562a97bf0193cd1852b60fd9908dad97e19d58e920a189f9f3",
+    "eligible_reports": 6875,
+    "hourly_aggregates": 6780
+  },
+  "2021-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7364,
+    "prepared_sha256": "34cd53411ad75d260a966609aabdb0699c4266743a692c29dd17fcf766451d90",
+    "eligible_reports": 7364,
+    "hourly_aggregates": 7270
+  },
+  "2021-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 5975,
+    "prepared_sha256": "b8865ad238e815e29b41ae1b774c3753bac50541e8083f58893d116393899dbf",
+    "eligible_reports": 5975,
+    "hourly_aggregates": 5889
+  },
+  "2021-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6800,
+    "prepared_sha256": "7e4e957bdb282bdbcd7df3a274d6b57dc522c0f75d7812b80889ec64e734bd87",
+    "eligible_reports": 6800,
+    "hourly_aggregates": 6693
+  },
+  "2021-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7493,
+    "prepared_sha256": "ed1aa2bad0cba0b1a6d846f6305ed3d5d37452f6c38584713151fd9194209d62",
+    "eligible_reports": 7493,
+    "hourly_aggregates": 7374
+  },
+  "2021-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7369,
+    "prepared_sha256": "442f248347b8e5851c4557485abe046f77e5edeeca4b7ef67c7e5a5832d00049",
+    "eligible_reports": 7369,
+    "hourly_aggregates": 7265
+  },
+  "2021-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7876,
+    "prepared_sha256": "db868ece592ec41d6599796b203b11480b4ada4ad2bbe37643b2c73ccebf1a6e",
+    "eligible_reports": 7876,
+    "hourly_aggregates": 7758
+  },
+  "2021-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8555,
+    "prepared_sha256": "9316c2f781df556b09f3606ec1763f9f8606e15a9b112636f92d1e18b1a3f52b",
+    "eligible_reports": 8555,
+    "hourly_aggregates": 8394
+  },
+  "2021-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9212,
+    "prepared_sha256": "b5399aa6b1897acb3da335487fbdee73c1e02849881458c5133b58a34f0db75d",
+    "eligible_reports": 9211,
+    "hourly_aggregates": 9064
+  },
+  "2021-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9845,
+    "prepared_sha256": "82b4ce4f46523f5054c6691b778d9f1ce888d740c9d2de2f319dde1051bd0107",
+    "eligible_reports": 9845,
+    "hourly_aggregates": 9670
+  },
+  "2021-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9302,
+    "prepared_sha256": "03c2fc5679f649a3ce0d4841fbfdb522cde54e2ebc5ac1d8dd404d66c4ee998a",
+    "eligible_reports": 9302,
+    "hourly_aggregates": 9149
+  },
+  "2021-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9664,
+    "prepared_sha256": "605a7a82a488fbbcc1a564a950e300723108f410c1c1387cb4de64bd0aba3642",
+    "eligible_reports": 9664,
+    "hourly_aggregates": 9504
+  },
+  "2021-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9122,
+    "prepared_sha256": "fda9204019bd1f1ef7a69b7c61b4d9c8bfc00d887ea18ee7be2a710333cb6dde",
+    "eligible_reports": 9121,
+    "hourly_aggregates": 8963
+  },
+  "2021-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7247,
+    "prepared_sha256": "1c7b1ebd142d5429006200d472cb4c8303b8c7fa2535f350e8a886b460cd6282",
+    "eligible_reports": 7247,
+    "hourly_aggregates": 7133
+  },
+  "2021-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7560,
+    "prepared_sha256": "6d98813693bcc45aa41a1fcdef1244e9f6ea41cf14e98d81bfdf5ad004e1e4f3",
+    "eligible_reports": 7560,
+    "hourly_aggregates": 7427
+  },
+  "2021-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7884,
+    "prepared_sha256": "78cb6a00f971b45a8a27488fd4ef8c107a663839fdb552f86c115b88cee0fddf",
+    "eligible_reports": 7884,
+    "hourly_aggregates": 7762
+  },
+  "2021-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8339,
+    "prepared_sha256": "1b5bae70bb63731ef03ce42a769670724a858efd81290bc818e1930e8ecd4173",
+    "eligible_reports": 8339,
+    "hourly_aggregates": 8195
+  },
+  "2021-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8680,
+    "prepared_sha256": "6d8b41a2c5ea877d99dca82bf572874ef428b6db6c700b5f4c8810a83e01c6be",
+    "eligible_reports": 8680,
+    "hourly_aggregates": 8544
+  },
+  "2021-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9044,
+    "prepared_sha256": "4e09617992c74b646bfce5ce01e93ed21867169e51693d9cded9ce88d1b8bee1",
+    "eligible_reports": 9044,
+    "hourly_aggregates": 8893
+  },
+  "2021-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7760,
+    "prepared_sha256": "b268242fb34a52d2b7d0ee67bf59693ec0c8a1f4a23510ee22528437f5204c33",
+    "eligible_reports": 7759,
+    "hourly_aggregates": 7640
+  },
+  "2021-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8435,
+    "prepared_sha256": "41836423ff442bc3ae800c1566f36906ef301bfc37ad2c137a1ae3382d39c968",
+    "eligible_reports": 8435,
+    "hourly_aggregates": 8306
+  },
+  "2021-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7372,
+    "prepared_sha256": "cf8dcad5ef33285e1c46014a4c94a2daccabea7d66b916217113d20725ef09fc",
+    "eligible_reports": 7372,
+    "hourly_aggregates": 7245
+  },
+  "2021-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8346,
+    "prepared_sha256": "5ca17c4c3016721fa7357da663acbb9f1c242f8900541da90e7973a8fe7c8fe0",
+    "eligible_reports": 8346,
+    "hourly_aggregates": 8187
+  },
+  "2021-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8553,
+    "prepared_sha256": "6edf6a054f5a89f9bc32b0adcdac5c1dc98cedbbcb5e29619ae41c3a336d5458",
+    "eligible_reports": 8552,
+    "hourly_aggregates": 8395
+  },
+  "2021-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7626,
+    "prepared_sha256": "fb90a5a316e26055fed0e1b6aeaa743b88f5adb3a55403403b1baed05f093179",
+    "eligible_reports": 7626,
+    "hourly_aggregates": 7510
+  },
+  "2021-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7311,
+    "prepared_sha256": "db0d9a3b891e4a6ae038ad6fe9a8f51e12300f9d7fbeef11495cd6c8af7f558f",
+    "eligible_reports": 7311,
+    "hourly_aggregates": 7192
+  },
+  "2021-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 7528,
+    "prepared_sha256": "56939fb40d0034d2357cea90dc3d5aa27e19bb014b2f264da54c1eb071d55730",
+    "eligible_reports": 7528,
+    "hourly_aggregates": 7406
+  },
+  "2021-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8400,
+    "prepared_sha256": "81a4955d2b65d5173693f4d9e4586c3bba0305c61451a12866375d24859d6980",
+    "eligible_reports": 8400,
+    "hourly_aggregates": 8254
+  },
+  "2021-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9047,
+    "prepared_sha256": "be0e48668a225b45e9541113c44bc4b81d9c9cb684dba48787529ded194dbfd7",
+    "eligible_reports": 9047,
+    "hourly_aggregates": 8863
+  },
+  "2021-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8954,
+    "prepared_sha256": "a901123d2c79c071fe2b101b97764e7e7f6829305c30b5be7143c24ea958cf53",
+    "eligible_reports": 8954,
+    "hourly_aggregates": 8814
+  },
+  "2021-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9008,
+    "prepared_sha256": "1f8e5bc6327a696a3b8aa46807fafa82eea6df1d98f1039b607ca205bd57359e",
+    "eligible_reports": 9008,
+    "hourly_aggregates": 8804
+  },
+  "2022-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12368,
+    "prepared_sha256": "bc5012c54d7789c12e7c565b713f08d6b3293f18195cce5fec2f4985bfa8db5e",
+    "eligible_reports": 12368,
+    "hourly_aggregates": 12164
+  },
+  "2022-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12866,
+    "prepared_sha256": "2fba70b58f77a0a90c2e0f07e83fb5ade2a2619e0646ec4b81faa094a08f8023",
+    "eligible_reports": 12866,
+    "hourly_aggregates": 12654
+  },
+  "2022-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13169,
+    "prepared_sha256": "aeb75e7d108d98cb0f05b9b48321b07590d3eea33aecfd2796755bfe39d2fb65",
+    "eligible_reports": 13169,
+    "hourly_aggregates": 12960
+  },
+  "2022-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13764,
+    "prepared_sha256": "9e474811b43f86afb6dc2af50258a80a0ce6cca08cb2bcf702fe6bc6a6f9204e",
+    "eligible_reports": 13763,
+    "hourly_aggregates": 13557
+  },
+  "2022-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11811,
+    "prepared_sha256": "92f9d4169919d55219f053d66f24fec6505df1ef1ee481b1522860c80e863178",
+    "eligible_reports": 11810,
+    "hourly_aggregates": 11650
+  },
+  "2022-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10574,
+    "prepared_sha256": "b75dc071281062329b31f8407127da6b587ee4b5e1dd1f173224061eb5fea348",
+    "eligible_reports": 10574,
+    "hourly_aggregates": 10402
+  },
+  "2022-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11062,
+    "prepared_sha256": "717043c3d642d5b2bc242d7a37aa0128b8402c4b0c477c6096b619f668cfd4be",
+    "eligible_reports": 11062,
+    "hourly_aggregates": 10883
+  },
+  "2022-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11651,
+    "prepared_sha256": "1d3e86394861c33e88fa40c4a48678734ca509c8ebd76d9e748503443cca7fb6",
+    "eligible_reports": 11650,
+    "hourly_aggregates": 11468
+  },
+  "2022-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11931,
+    "prepared_sha256": "bce4f89f266f6ea6e9836ffee5a5cc35824d1d149f1399bf77bf84d3d73740ca",
+    "eligible_reports": 11931,
+    "hourly_aggregates": 11754
+  },
+  "2022-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13076,
+    "prepared_sha256": "d245361535eb8dc90471418c6d432de794abb49ad0f23f8696e9a5019f6a7dc2",
+    "eligible_reports": 13076,
+    "hourly_aggregates": 12850
+  },
+  "2022-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10416,
+    "prepared_sha256": "be1e11bc764c4c3512066cca01757f830a361c08118d9babe5176517baefcd2f",
+    "eligible_reports": 10415,
+    "hourly_aggregates": 10250
+  },
+  "2022-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10412,
+    "prepared_sha256": "64c174189b7c9747dc19955c94dc04b7cb1c3042b8a4ad6e004f01e55c26f58a",
+    "eligible_reports": 10411,
+    "hourly_aggregates": 10256
+  },
+  "2022-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10120,
+    "prepared_sha256": "65f51852944d4a5545cae1490b035fa67a526f6dcf49f6f9be12adce3dd354cf",
+    "eligible_reports": 10119,
+    "hourly_aggregates": 9964
+  },
+  "2022-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6238,
+    "prepared_sha256": "832e4f6373324d8dd2159b33392cc0321d5e7bd27d0972fdb1523dc4eda641f1",
+    "eligible_reports": 6237,
+    "hourly_aggregates": 6152
+  },
+  "2022-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10715,
+    "prepared_sha256": "e1a5aad95875b4a266423d38f25ea22b878a390b55280bdf21753dfbe0a915c8",
+    "eligible_reports": 10715,
+    "hourly_aggregates": 10544
+  },
+  "2022-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11166,
+    "prepared_sha256": "20abbe97a007f4ea78a98d872c62d7b1bc92471a4b6b73dae0dd30ad3763cc10",
+    "eligible_reports": 11166,
+    "hourly_aggregates": 10990
+  },
+  "2022-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11192,
+    "prepared_sha256": "f895d19e4f67a2f4f2dd273677dabff5a74fca2672e3716e6c8ab184ad743fdc",
+    "eligible_reports": 11191,
+    "hourly_aggregates": 11007
+  },
+  "2022-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11263,
+    "prepared_sha256": "dc65859b95240c019d0690419e34310a3f7c271f400cc2a0da5482c90981ee55",
+    "eligible_reports": 11263,
+    "hourly_aggregates": 11081
+  },
+  "2022-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11271,
+    "prepared_sha256": "123e7772ffd5973f4f332a7fe1aab49e2d9fa141983986f903ea834d45600976",
+    "eligible_reports": 11271,
+    "hourly_aggregates": 11082
+  },
+  "2022-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11658,
+    "prepared_sha256": "18c755d8db8638a235863938ff7dce6990ad2ecab73e87a644767f5aed76ee4f",
+    "eligible_reports": 11658,
+    "hourly_aggregates": 11461
+  },
+  "2022-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11841,
+    "prepared_sha256": "ccdd70e3994f041a94d5c332a3625f5cf14107d76b3e94df59303791ea14d3f3",
+    "eligible_reports": 11839,
+    "hourly_aggregates": 11629
+  },
+  "2022-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11478,
+    "prepared_sha256": "363600d30f1337e09a6ede12f5e245e0364acac17bf316de23cbea8f2c529d27",
+    "eligible_reports": 11478,
+    "hourly_aggregates": 11309
+  },
+  "2022-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11424,
+    "prepared_sha256": "22c1d15cccc40b815ab73950d990ff3ec75e42d65b55fc9f9bd5cf3bec11dff1",
+    "eligible_reports": 11424,
+    "hourly_aggregates": 11234
+  },
+  "2022-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11885,
+    "prepared_sha256": "8e2313b864a39febd862fbfac861ac33e55b269422e6472ca018892783b0e660",
+    "eligible_reports": 11885,
+    "hourly_aggregates": 11672
+  },
+  "2022-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13052,
+    "prepared_sha256": "3ee91948018f5e9d47640780531544299faf62fea3a33c231bbfcf3d48930d21",
+    "eligible_reports": 13051,
+    "hourly_aggregates": 12824
+  },
+  "2022-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12467,
+    "prepared_sha256": "d4106d88d89370650abfde17e78a920a1974e2d7e2e6f512ced85714c055e188",
+    "eligible_reports": 12466,
+    "hourly_aggregates": 12259
+  },
+  "2022-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12057,
+    "prepared_sha256": "704171fdb7f4788478cdaadee0fe273b7e59949a4914819e7267be0b5df7af5d",
+    "eligible_reports": 12057,
+    "hourly_aggregates": 11860
+  },
+  "2022-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10165,
+    "prepared_sha256": "3220cc6d8490383b9618292cccbfd9d5fdbd0305c3d2ecf00b8bd40bf3d404cb",
+    "eligible_reports": 10164,
+    "hourly_aggregates": 9990
+  },
+  "2022-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12176,
+    "prepared_sha256": "5f750d43f28b153a5cfc3113b4d7cd524e2527ef96386636dabb8a005c3e462f",
+    "eligible_reports": 12176,
+    "hourly_aggregates": 11970
+  },
+  "2022-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11598,
+    "prepared_sha256": "7d0429e389fa89d661441eec747d2d7e7bd7daf0288708ec3e450d2a170d4b63",
+    "eligible_reports": 11598,
+    "hourly_aggregates": 11453
+  },
+  "2022-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10598,
+    "prepared_sha256": "28bfc365c54c6f58f90d9b18ef688dd4e7beb7a268a92ff41025af20d78170dd",
+    "eligible_reports": 10597,
+    "hourly_aggregates": 10453
+  },
+  "2023-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11084,
+    "prepared_sha256": "9bebc67832c443af1c672095e2e66de4d766ad16046c508c1d491627ac6faf51",
+    "eligible_reports": 11075,
+    "hourly_aggregates": 10902
+  },
+  "2023-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12141,
+    "prepared_sha256": "6e5d1558848eb7a97d99a38bdf2cf8a3c1504bd166d8615d1e0933082fb51f88",
+    "eligible_reports": 12134,
+    "hourly_aggregates": 11932
+  },
+  "2023-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11712,
+    "prepared_sha256": "07b1dc8d4535548476a41569c19dd25e3dca6b1f536a20a24dcb726e40b4e424",
+    "eligible_reports": 11702,
+    "hourly_aggregates": 11534
+  },
+  "2023-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11520,
+    "prepared_sha256": "07e22e1893b4a5c9f9297a51f29d3a1a517ce901155a050398a0e240b01c6f2a",
+    "eligible_reports": 11510,
+    "hourly_aggregates": 11342
+  },
+  "2023-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11984,
+    "prepared_sha256": "81e7277141c431f949821bd0deecca41c8ab88419940263a87d91c8454683a7f",
+    "eligible_reports": 11974,
+    "hourly_aggregates": 11778
+  },
+  "2023-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13074,
+    "prepared_sha256": "67adcf979a855940ed09946aa05a51372cf4c11b9442f6d4b155a4966a17eba2",
+    "eligible_reports": 13065,
+    "hourly_aggregates": 12851
+  },
+  "2023-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13392,
+    "prepared_sha256": "9f10a78af022deef165b4c6c5f41e1434dac733c8191994a6042b06f1a507bd7",
+    "eligible_reports": 13382,
+    "hourly_aggregates": 13132
+  },
+  "2023-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13692,
+    "prepared_sha256": "01d397a460c0cb61fd1af4e246a8f40385ce848560c5386f086beee633bee101",
+    "eligible_reports": 13682,
+    "hourly_aggregates": 13406
+  },
+  "2023-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12943,
+    "prepared_sha256": "71bb19d5717b531bb491d077286ffa4896874247e403e55641116ae8ea53be87",
+    "eligible_reports": 12932,
+    "hourly_aggregates": 12712
+  },
+  "2023-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13297,
+    "prepared_sha256": "c754d2a48d4551091e183a1e9340663eb1251ebfab2d7861a644a96501ccc1df",
+    "eligible_reports": 13294,
+    "hourly_aggregates": 13060
+  },
+  "2023-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13780,
+    "prepared_sha256": "2e86ae7651dda0ecbc419bdf66d9a4dee7d732c3da37cd9c6fafea436e252752",
+    "eligible_reports": 13770,
+    "hourly_aggregates": 13536
+  },
+  "2023-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13129,
+    "prepared_sha256": "d85a93d31218c5f0011a4905af1733e3c2f04253664fe375b8416d02151f3a85",
+    "eligible_reports": 13115,
+    "hourly_aggregates": 12857
+  },
+  "2023-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13572,
+    "prepared_sha256": "5c74e2e1ed81fdc882978e8f5f40c293ae68438aa43a6b0aa2e3dee5de1c051c",
+    "eligible_reports": 13562,
+    "hourly_aggregates": 13336
+  },
+  "2023-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12472,
+    "prepared_sha256": "8cd8776d40e792e354affdb6c54e244ef873f869357e9cc174086d4a7b43cc49",
+    "eligible_reports": 12460,
+    "hourly_aggregates": 12260
+  },
+  "2023-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11895,
+    "prepared_sha256": "d975fb02f646cc66e2a8428d3f38ff613f16bd009804c9e2dd6c7a0e8c3bbaa9",
+    "eligible_reports": 11886,
+    "hourly_aggregates": 11679
+  },
+  "2023-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 2967,
+    "prepared_sha256": "a3b73c54ea63942461c3129f1452f804375bf2cef84ceaf4e20e5debfce2f4d2",
+    "eligible_reports": 2964,
+    "hourly_aggregates": 2906
+  },
+  "2023-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12162,
+    "prepared_sha256": "856724e396c96ca69bcb6dc778de4e483604c0c57a38837921f9625005b95a74",
+    "eligible_reports": 12143,
+    "hourly_aggregates": 11924
+  },
+  "2023-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11984,
+    "prepared_sha256": "fd9789e3154bfccb8d022cc1dd052251fb54f975f60e468fa7ae430648d587d3",
+    "eligible_reports": 11974,
+    "hourly_aggregates": 11772
+  },
+  "2023-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12478,
+    "prepared_sha256": "cc4813d5d826b12883a77caee7013ea6707bac6ba6f0ed9d368fa54cc6e6bda0",
+    "eligible_reports": 12466,
+    "hourly_aggregates": 12231
+  },
+  "2023-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12310,
+    "prepared_sha256": "2bc4ac54a304b7b450d6313899d22e26a9308931667fbd88b7c2833d2cbef487",
+    "eligible_reports": 12302,
+    "hourly_aggregates": 12099
+  },
+  "2023-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12805,
+    "prepared_sha256": "8a0bac1223a22d58eaad0d1f2bfacc2f3bc4c96f2ea7e98bdfec3e44b764d249",
+    "eligible_reports": 12790,
+    "hourly_aggregates": 12616
+  },
+  "2023-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12779,
+    "prepared_sha256": "b7a3a2b5cfed2169fd17161b4596bd4b77680fad664297f124416806c768f9e9",
+    "eligible_reports": 12768,
+    "hourly_aggregates": 12561
+  },
+  "2023-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12147,
+    "prepared_sha256": "b705bc07997e33ea227887f45da36d1338246da3e4329e0c81639a25be22d52b",
+    "eligible_reports": 12138,
+    "hourly_aggregates": 11929
+  },
+  "2023-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 6057,
+    "prepared_sha256": "925b065b92447f261b713e5a6cb285554fa1ce113aafc25220b68d3f44ca2679",
+    "eligible_reports": 6052,
+    "hourly_aggregates": 5947
+  },
+  "2023-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 8404,
+    "prepared_sha256": "dee054a6c0b829aa2e6d9fd78790fd81823249dbe18c662d6289c44c8bc9fc1c",
+    "eligible_reports": 8389,
+    "hourly_aggregates": 8259
+  },
+  "2023-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11062,
+    "prepared_sha256": "faae9209acec7adac16fc03b011610530c53ffcac91e1f658216257b660b5190",
+    "eligible_reports": 11052,
+    "hourly_aggregates": 10844
+  },
+  "2023-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12211,
+    "prepared_sha256": "9fba01722250c89897c8816d132412c7536b234748a465b32bacdb899aeca4de",
+    "eligible_reports": 12205,
+    "hourly_aggregates": 11993
+  },
+  "2023-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12844,
+    "prepared_sha256": "ac7eb162ea20cdb3bc26466f3b33154e036343f862d220ee3174cf3a759dca67",
+    "eligible_reports": 12832,
+    "hourly_aggregates": 12624
+  },
+  "2023-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13662,
+    "prepared_sha256": "0f25c1643f3564cb03e5acc1b40c4ba22b7cbf4bb1e99e6a63b6f9442b6064f7",
+    "eligible_reports": 13653,
+    "hourly_aggregates": 13423
+  },
+  "2023-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12886,
+    "prepared_sha256": "9f49217df6bf0493e539d44e7ce445d0ead7d494d0b470b7a198a7b7f8c78bb9",
+    "eligible_reports": 12874,
+    "hourly_aggregates": 12666
+  },
+  "2023-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10669,
+    "prepared_sha256": "94f0f941dc845069ddf41755fd0854dd5707ef0502da96a846eb0379cf0d3075",
+    "eligible_reports": 10659,
+    "hourly_aggregates": 10492
+  },
+  "2024-03-01": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12204,
+    "prepared_sha256": "8f333531957f89d556ebc9906030d67d82a83717c3c04b2aef2e4da2ee7ac6e3",
+    "eligible_reports": 12093,
+    "hourly_aggregates": 11926
+  },
+  "2024-03-02": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12283,
+    "prepared_sha256": "68ab9903758ccf16e71d34281cc5edc8dbd38cd4afe91ac51fa0e34833e75fcc",
+    "eligible_reports": 12177,
+    "hourly_aggregates": 11999
+  },
+  "2024-03-03": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11770,
+    "prepared_sha256": "dc1b0c4a23c6c59df5a956744ddb859cb3c8bae0c3c6238c62a12262bc2df681",
+    "eligible_reports": 11679,
+    "hourly_aggregates": 11486
+  },
+  "2024-03-04": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11050,
+    "prepared_sha256": "8bd09a0bf105353523511d19ec1dda02b8d0681f1f40f4a4fdbdcdcc620fe71e",
+    "eligible_reports": 10951,
+    "hourly_aggregates": 10787
+  },
+  "2024-03-05": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11873,
+    "prepared_sha256": "96eb25c3bbfae9e517db609ade00bd023028cde872e4b58058536b2e59d33b23",
+    "eligible_reports": 11768,
+    "hourly_aggregates": 11550
+  },
+  "2024-03-06": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13063,
+    "prepared_sha256": "53d68d3a26720ae208297c8d8fef7c50cbf7284c1e9db3900f98e9968e53057d",
+    "eligible_reports": 12960,
+    "hourly_aggregates": 12766
+  },
+  "2024-03-07": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12214,
+    "prepared_sha256": "553beae6e44f4bf64fad9fb3d950e5a8a09ac1a389c712e7e36a776afe3af8b0",
+    "eligible_reports": 12117,
+    "hourly_aggregates": 11918
+  },
+  "2024-03-08": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13193,
+    "prepared_sha256": "eff27ef13c583fbef8032caa1643b5cd67556694d64c864f02cf740bc5c9f370",
+    "eligible_reports": 13119,
+    "hourly_aggregates": 12892
+  },
+  "2024-03-09": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12937,
+    "prepared_sha256": "6d1e51b9cdb2aaea6a97bfc768444043ba5e674ed07c9eb96d47e49ae7061906",
+    "eligible_reports": 12849,
+    "hourly_aggregates": 12669
+  },
+  "2024-03-10": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13211,
+    "prepared_sha256": "c334fb08d75796c8f9bba138642d5c0f607251a86f1e00ffd31152c3d10ecf0b",
+    "eligible_reports": 13097,
+    "hourly_aggregates": 12872
+  },
+  "2024-03-11": {
+    "scope": "march_training_candidate",
+    "raw_reports": 14340,
+    "prepared_sha256": "858bc1d365813fef1bc1953cb437acd95091ca5b6de60107190abfaeb39a27de",
+    "eligible_reports": 14212,
+    "hourly_aggregates": 13983
+  },
+  "2024-03-12": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13461,
+    "prepared_sha256": "3e6e584e57f543dfca8137957fdec5e3277b0350f23e5943041161040817678f",
+    "eligible_reports": 13361,
+    "hourly_aggregates": 13140
+  },
+  "2024-03-13": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12794,
+    "prepared_sha256": "7298793dfcff2b2546894a384e1662ff3c7a8c6f811f74ac4d76264c7d0e6769",
+    "eligible_reports": 12680,
+    "hourly_aggregates": 12440
+  },
+  "2024-03-14": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12498,
+    "prepared_sha256": "95318bf9c33600ffb3039b029d0242bc9f229782a11baed8094c9e6fb61c267a",
+    "eligible_reports": 12410,
+    "hourly_aggregates": 12199
+  },
+  "2024-03-15": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11042,
+    "prepared_sha256": "9fedecc8dba5ad19e3d4991d55a425d8155b16af87e8a859cc38ca78d7900eb6",
+    "eligible_reports": 10951,
+    "hourly_aggregates": 10767
+  },
+  "2024-03-16": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11694,
+    "prepared_sha256": "bc34c491df093e458317386c9614d690e387a5af18d1485bc63f5468fa347a26",
+    "eligible_reports": 11613,
+    "hourly_aggregates": 11411
+  },
+  "2024-03-17": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12590,
+    "prepared_sha256": "cfead7c196159eeba58eb9e9b67030cf955bb4edaf4478ddc8e95bbccfc3b73e",
+    "eligible_reports": 12482,
+    "hourly_aggregates": 12269
+  },
+  "2024-03-18": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12709,
+    "prepared_sha256": "0b5b69166aae2b1c1ea46b2034151dd331b37a3bc1757f18b4f80887e65877d3",
+    "eligible_reports": 12646,
+    "hourly_aggregates": 12392
+  },
+  "2024-03-19": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12963,
+    "prepared_sha256": "f690e4568e496a5a2a0b21dc545a7bd35768952bdc496db7cb2bbfe0ee06ee8e",
+    "eligible_reports": 12890,
+    "hourly_aggregates": 12683
+  },
+  "2024-03-20": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12874,
+    "prepared_sha256": "b766543fdb97619dc162b4ccce3cc41e2447bc7e1c18c3f4d5752a2459e388ad",
+    "eligible_reports": 12783,
+    "hourly_aggregates": 12577
+  },
+  "2024-03-21": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12233,
+    "prepared_sha256": "d76bd10af1dc799afe574990f81e39102bd24851f38741f621345e7c2d313ec8",
+    "eligible_reports": 12142,
+    "hourly_aggregates": 11952
+  },
+  "2024-03-22": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11126,
+    "prepared_sha256": "9609be7b9f2c104d4edfe9899549cd5fca0cf652a4a94bb49ebc3dea10859759",
+    "eligible_reports": 11030,
+    "hourly_aggregates": 10837
+  },
+  "2024-03-23": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10948,
+    "prepared_sha256": "3b6822463ae0962fa681114ae56a8b0306e1dfc8939a13c0a9f39c989f6b2e57",
+    "eligible_reports": 10879,
+    "hourly_aggregates": 10664
+  },
+  "2024-03-24": {
+    "scope": "march_training_candidate",
+    "raw_reports": 10262,
+    "prepared_sha256": "4b3895bfd5f44f833b967b30202e5ae0151bf602933a4373db04a0bccdb91978",
+    "eligible_reports": 10189,
+    "hourly_aggregates": 9996
+  },
+  "2024-03-25": {
+    "scope": "march_training_candidate",
+    "raw_reports": 9334,
+    "prepared_sha256": "a4bc988ef1689b9b3aab11159ecc8f53cc4d56ed73540feca4d67286f2a6dc27",
+    "eligible_reports": 9266,
+    "hourly_aggregates": 9078
+  },
+  "2024-03-26": {
+    "scope": "march_training_candidate",
+    "raw_reports": 11266,
+    "prepared_sha256": "5a0b467dede144037a8aa15e52aceb64b8baf4ac2f257eed0e194400b7e7d2e5",
+    "eligible_reports": 11164,
+    "hourly_aggregates": 10958
+  },
+  "2024-03-27": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12177,
+    "prepared_sha256": "7df877fc51f8ab92f3e7a3949dd7400ac2fe917c3c5b5e040d7a3f164e15c225",
+    "eligible_reports": 12079,
+    "hourly_aggregates": 11863
+  },
+  "2024-03-28": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12496,
+    "prepared_sha256": "acfb5fb66212d341c3aa786447babf838df6b3b57ec63dfe3fc15272a8ef732d",
+    "eligible_reports": 12398,
+    "hourly_aggregates": 12169
+  },
+  "2024-03-29": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13874,
+    "prepared_sha256": "981d34d76eb24103d5b22df561064c7e3a1c95b11c69214f22b6d9d1188d9a6b",
+    "eligible_reports": 13753,
+    "hourly_aggregates": 13470
+  },
+  "2024-03-30": {
+    "scope": "march_training_candidate",
+    "raw_reports": 13289,
+    "prepared_sha256": "547e8795a86a896542f86021d4a4cc2a282b0cf9818bdc54d82fad2146a12cb0",
+    "eligible_reports": 13179,
+    "hourly_aggregates": 12894
+  },
+  "2024-03-31": {
+    "scope": "march_training_candidate",
+    "raw_reports": 12383,
+    "prepared_sha256": "d54b2582edd21b84db13a026f9aba8f62f85208c1d6a38caabcfc95d93924782",
+    "eligible_reports": 12241,
+    "hourly_aggregates": 11967
+  },
+  "2025-03-09": {
+    "scope": "fresh_test",
+    "raw_reports": 15802,
+    "prepared_sha256": "87005e8e2ef747818c9569f90edb5b65f68966b2c59ca6b3f726a5362176bcc3",
+    "eligible_reports": 15526,
+    "hourly_aggregates": 15244
+  },
+  "2025-03-12": {
+    "scope": "fresh_test",
+    "raw_reports": 13780,
+    "prepared_sha256": "571c183a7674e687ec66d5ea74d0796381eeb4eed8c9f5385b31ad05f5a61e0e",
+    "eligible_reports": 13491,
+    "hourly_aggregates": 13274
+  },
+  "2025-03-17": {
+    "scope": "fresh_test",
+    "raw_reports": 15192,
+    "prepared_sha256": "a68b3a8648e6a1e94701ef8b7a79e4e7ac62748001a61162ada64418d1adf598",
+    "eligible_reports": 14870,
+    "hourly_aggregates": 14611
+  },
+  "2025-03-20": {
+    "scope": "fresh_test",
+    "raw_reports": 14413,
+    "prepared_sha256": "9717633aa78cf774a7346a93d3e32dcefdefe0a846857e5ef8514b4580d15f41",
+    "eligible_reports": 14101,
+    "hourly_aggregates": 13876
+  },
+  "2025-03-25": {
+    "scope": "fresh_test",
+    "raw_reports": 13914,
+    "prepared_sha256": "c92246d4879ce5fb4ddc994a8e38ea22a47d54a31576c699acb59d4e626ab2c5",
+    "eligible_reports": 13693,
+    "hourly_aggregates": 13475
+  },
+  "2025-03-28": {
+    "scope": "fresh_test",
+    "raw_reports": 13226,
+    "prepared_sha256": "b5781eb2bca083fa0411fbf69a71eaf18b9598b5d0b4e4906ec58f08b44cdf6c",
+    "eligible_reports": 12971,
+    "hourly_aggregates": 12783
+  }
+}

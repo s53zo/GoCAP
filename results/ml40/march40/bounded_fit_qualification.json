@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "training_only_test_rows": 2000,
+  "modes": 4,
+  "serialization_predictions_match": true
+}

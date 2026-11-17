@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "requested_march_days": 465,
+  "available_march_days": 465,
+  "expanded_training_rows": 2950381,
+  "all15_training_years_present": true,
+  "no2025_fitting_or_reserved_date_leak": true,
+  "original_rows_retained_once": true,
+  "raw_march_hourly_rows_independently_rebuilt": 1935447,
+  "raw_fresh_test_rows_independently_rebuilt": 83263,
+  "bounded_encoder_global_medians_match": true,
+  "bounded_encoder_sample_rows_match_original_transform": 130,
+  "independent_metrics_and_bootstrap_match": true,
+  "parent_and_default_models_unchanged": true
+}

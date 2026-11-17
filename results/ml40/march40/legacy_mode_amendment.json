@@ -1,0 +1,11 @@
+{
+  "scope": "Only March2020 code0 records in this new experiment; existing artifacts/data unchanged.",
+  "reason": "Original pre2020 legacy cutoff discarded all sampled March2020 reports, although archive records and reported WSPR receiver versions exist. Retain as legacy metadata, not verified modern code1.",
+  "policy": "March2020 code0 is included with decoder_context=legacy_code0, preserving measurement uncertainty. No universal decoding threshold inferred; no absence labels.",
+  "evidence": [
+    "https://wspr.live/ (code0 absent from current mode mapping; older archive example uses0)",
+    "https://wsjt.sourceforge.io/FST4_Quick_Start.pdf (FST4/FST4W introduced withWSJT-X2.3)",
+    "https://sourceforge.net/p/wsjt/mailman/message/37117193/ (2.3release candidate announcedSeptember2020, after this March)"
+  ],
+  "resolved_before_model_fitting": true
+}

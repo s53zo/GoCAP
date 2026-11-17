@@ -117,6 +117,33 @@ The shared/current difference is within bootstrap uncertainty. The candidate
 **experimental**; the default hourly model above is retained. See the report for
 the explicit-point ablation, mixed other-mode audit and reproducible evidence.
 
+## March data expansion, 2010–2024
+
+The separate [March expansion experiment](MARCH_MODEL_RESULTS.md) adds every
+available March day in **each year 2010–2024**, at the existing 1-in-128 report
+sampling rate. All **465 daily windows** contain usable data. Existing duplicate
+observations and reserved validation/calibration dates are excluded from the
+addition, leaving **1,821,048 new WSPR hourly records** and **2,950,381 total
+multi-mode training records across 699 days**. Existing FT8/FT4/CW data is retained;
+no full-month expansion of those sources is claimed. No 2025 receptions are fitted.
+
+The March-expanded model is experimental. On six new March 2025 dates, hourly
+MAE is **6.467 dB**, versus **6.494 dB** for its shared parent and **6.482 dB** for
+current GoCAP. The broader known 500-path score gets slightly worse, so the
+default model remains unchanged. Run the new model explicitly with:
+
+```sh
+.venv/bin/python -m ml40.hourly_query \
+  artifacts/gocap-40m-shared-march.joblib \
+  JN76 FN31 2026-11-17T00:00Z \
+  --sfi 150 --kp 3 --ap 10 --power-watts 5 --hours 24
+```
+
+The March fitting path batches encoding into disk-backed matrices; fitting still
+needs RAM for the learner workspace. Its measured peak process RSS was about
+4.74 GiB on the 16 GB test machine. See the report for per-year coverage, the
+March 2020 legacy-mode amendment, raw-data verification and reproduction stages.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |
@@ -227,7 +254,7 @@ or restored from a separate checksum-preserving archive backup.
 .venv/bin/python -m unittest discover -v
 ```
 
-The local full-data snapshot passes **42 tests**. A clean clone runs the synthetic
+The local full-data snapshot passes **45 tests**. A clean clone runs the synthetic
 and inference-geometry checks and explicitly skips archive-backed checks whose
 local data is absent. Restore the relevant archives to run those checks.
 For the three GFZ-dependent checks only, a small index download is sufficient:

@@ -1,0 +1,79 @@
+{
+  "evaluated_utc": "2026-11-17T21:09:31.286644+00:00",
+  "fresh_march_rows": 83263,
+  "fresh_march_dates": [
+    "2025-03-09",
+    "2025-03-12",
+    "2025-03-17",
+    "2025-03-20",
+    "2025-03-25",
+    "2025-03-28"
+  ],
+  "fresh_march_results": {
+    "march": {
+      "hour_date_mae_db": 6.46721714204812,
+      "mae_db": 6.446708952266612,
+      "rmse_db": 8.271443505091847,
+      "bias_db": -0.6441333493096745,
+      "rows": 83263,
+      "days": 6,
+      "observed_hour_date_cells": 144
+    },
+    "shared_parent": {
+      "hour_date_mae_db": 6.494228685048403,
+      "mae_db": 6.476155212094999,
+      "rmse_db": 8.30158271166962,
+      "bias_db": -1.0207636294121283,
+      "rows": 83263,
+      "days": 6,
+      "observed_hour_date_cells": 144
+    },
+    "current": {
+      "hour_date_mae_db": 6.4820166496081875,
+      "mae_db": 6.464001434746749,
+      "rmse_db": 8.299940673975662,
+      "bias_db": -1.0729831266181795,
+      "rows": 83263,
+      "days": 6,
+      "observed_hour_date_cells": 144
+    }
+  },
+  "march_minus_shared_parent": {
+    "difference_db": -0.027011543000282592,
+    "date_bootstrap95_db": [
+      -0.041041948192085266,
+      -0.012363703248826031
+    ],
+    "date_clusters": 6
+  },
+  "march_minus_current": {
+    "difference_db": -0.01479950756006742,
+    "date_bootstrap95_db": [
+      -0.03852627824360841,
+      0.006504548041534133
+    ],
+    "date_clusters": 6
+  },
+  "march_interval80_coverage": 0.7930052964702209,
+  "march_interval80_mean_width_db": 20.088762952683464,
+  "known500_case_mae_db": {
+    "march": 5.302994190567559,
+    "shared_parent": 5.2673586280985605,
+    "current": 5.2697480408270225,
+    "voacap": 13.937930494129818
+  },
+  "known500_scope": "Previously released benchmark; not a new blind test. VOACAP settings and observations unchanged.",
+  "new_model_sha256": "069e77ed680720cb546e4c5ff8a996569375d02bb691b064577dcdcefb0d734c",
+  "parent_sha256": "0eff4b696b20f02829f94b2783916553e6f3ce599ec9f48a36d709acf7db41ad",
+  "baseline_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "fresh_source_sha256": {
+    "2025-03-09": "87005e8e2ef747818c9569f90edb5b65f68966b2c59ca6b3f726a5362176bcc3",
+    "2025-03-12": "571c183a7674e687ec66d5ea74d0796381eeb4eed8c9f5385b31ad05f5a61e0e",
+    "2025-03-17": "a68b3a8648e6a1e94701ef8b7a79e4e7ac62748001a61162ada64418d1adf598",
+    "2025-03-20": "9717633aa78cf774a7346a93d3e32dcefdefe0a846857e5ef8514b4580d15f41",
+    "2025-03-25": "c92246d4879ce5fb4ddc994a8e38ea22a47d54a31576c699acb59d4e626ab2c5",
+    "2025-03-28": "b5781eb2bca083fa0411fbf69a71eaf18b9598b5d0b4e4906ec58f08b44cdf6c"
+  },
+  "no2025_training": true,
+  "no_test_based_retuning": true
+}
