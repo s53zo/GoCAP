@@ -178,6 +178,12 @@ sampling, adjacent-hour changes, short-path F2 physics, neighboring receptions
 and VOACAP's daily shape. The test covers 11,710 hourly WSPR medians across ten
 2026 dates. The report includes all candidates and a separate experimental query.
 
+The [receiver noise, geometry, power-step and flare study](FOUR_IDEA_RESULTS.md)
+found a small repeatable improvement in hourly WSPR SNR. On six final dates the
+corrected March model scored 5.880 dB versus 5.905 dB for its tuned March parent
+and 5.958 dB for default GoCAP. The report includes the four-character query and
+the single-hour option for archived NOAA absorption maps.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |
@@ -288,7 +294,7 @@ or restored from a separate checksum-preserving archive backup.
 .venv/bin/python -m unittest discover -v
 ```
 
-The local full-data snapshot passes **53 tests**. A clean clone runs the synthetic
+The local full-data snapshot passes **57 tests**. A clean clone runs the synthetic
 and inference-geometry checks and explicitly skips archive-backed checks whose
 local data is absent. Restore the relevant archives to run those checks.
 For the three GFZ-dependent checks only, a small index download is sufficient:

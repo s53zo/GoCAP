@@ -1,0 +1,142 @@
+{
+  "2023-01-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-01-20' AND time<'2023-01-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "7481c68e4ed4f608949dfd69647b94dd47f1a0a722c967dc7fad5097e6b0cca0"
+  },
+  "2023-02-10": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-02-10' AND time<'2023-02-11' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "318d1a982e83ae9cd2d59019be760d32525053c4d34f164015c41fcaee1b9112"
+  },
+  "2023-02-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-02-20' AND time<'2023-02-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "7d6ed08362ae528f6122fd6b9c474bbdeec9f659b01df2c65389964e42e15405"
+  },
+  "2023-03-10": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-03-10' AND time<'2023-03-11' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "30ff1b6f5d2c6ea8cdeddebb8cfaec42c02bd2e208af0b2ef4c9da13d3037a20"
+  },
+  "2023-03-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-03-20' AND time<'2023-03-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "9ab53e0fa0f178dabffcf78b26483b8cafa02cde06e604ae9fb9362ed75162cb"
+  },
+  "2023-04-10": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-04-10' AND time<'2023-04-11' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "50bf7f43d4f9af7fdfda31f0550fa571c0d5cc4b5ffe5e7b1d7da6dea5195222"
+  },
+  "2023-04-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-04-20' AND time<'2023-04-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e3a1004cd0c1a96752c4b39a6c3dcda1370668026a44757094887074d1810ec8"
+  },
+  "2023-05-10": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-05-10' AND time<'2023-05-11' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "742255f81d0faf13f066407914be579984c4dfa728ce5039cf79358bd01781d6"
+  },
+  "2023-05-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-05-20' AND time<'2023-05-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "8eef187af1269e182bdcc4df0dda76b244d95a52ac9deb8efe767cc2a5089d84"
+  },
+  "2023-06-10": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-06-10' AND time<'2023-06-11' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e64b1310ba954921936ebfe81ca7b3d040669c2a67e638c04e85ba859dc5a76e"
+  },
+  "2023-06-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-06-20' AND time<'2023-06-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "50eaddb0d10f6c062da3c1e1044b4bddd340f8b230b14d0ec48d62630a3f4b40"
+  },
+  "2023-07-10": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-07-10' AND time<'2023-07-11' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "972c8667735d9b57b405811e7e36f2d1e0193e3a705152a921df514eb481648a"
+  },
+  "2023-07-20": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-07-20' AND time<'2023-07-21' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "3015f9b0d10370dd81277b2bb4be565ed4fdb7c3e0e52d07e706588d9eade37b"
+  },
+  "2023-02-17": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-02-17' AND time<'2023-02-18' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "d7da8ea67a6622223d6e0a8f61a6bf030b3b2f5259cc1212a7c0214b5a81210e"
+  },
+  "2023-07-02": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-07-02' AND time<'2023-07-03' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "f1ae47994d85f80c71eb6ffbe085fe404f7ddec2e0e8d15932cd2ac28ae01fe6"
+  },
+  "2025-01-14": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-01-14' AND time<'2025-01-15' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "ae1985fa789a7ca2d01b485e5f1b5e517bdfbd4ab1368b1c23edf8df87ceabef"
+  },
+  "2025-04-18": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-04-18' AND time<'2025-04-19' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "ff99733b6a01396ab293056b083be70407ea237065353ac04c00e15f4ed512d1"
+  },
+  "2025-04-19": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-04-19' AND time<'2025-04-20' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "fcb94f9eaf79b2c68d431e4074d5a57a4d80101110f412e949a4ac78ec6c46a8"
+  },
+  "2025-04-21": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-04-21' AND time<'2025-04-22' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "5197752640f885e3fe9100f14f86b480977d00c1f220de1b20f8354a44d60eaf"
+  },
+  "2025-10-21": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-10-21' AND time<'2025-10-22' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "acbd21e398a9b84732f39131de1d742a0673169cb369a6be6e3dcd6c0dc08931"
+  },
+  "2025-11-08": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-08' AND time<'2025-11-09' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "5e52117c7990bed31af1459abfa65852f41cbf563691750e55948282a0295bd6"
+  },
+  "2025-11-09": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-09' AND time<'2025-11-10' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "50d06f59c5d50ebdd3a0eefb327781b3c02da4148ac7b9e98fef9d626492a516"
+  },
+  "2025-11-11": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-11' AND time<'2025-11-12' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "fb276f73f89b3673d27dd1bad7023a4a9ff9facea9504d8fe69c5c59df5f6db8"
+  },
+  "2025-11-12": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-12' AND time<'2025-11-13' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "77e0e85a15113f75a36becc604a232b4c00c9802cdaae7078d8e92c0965389cd"
+  },
+  "2025-11-18": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-18' AND time<'2025-11-19' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "4ac71b4e1080e6b335ba7952ad0563c227ef855463ae4592b8fefd3da1c36582"
+  },
+  "2025-11-25": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-25' AND time<'2025-11-26' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "2f8df2a3815eb744a3fea66330978eb99812f2f94ed2b533c45a8ce110d8846c"
+  },
+  "2025-12-05": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-12-05' AND time<'2025-12-06' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "cbfc6e3208916ea3cdebc1bc3323f28a7097a59be3c3e9cb25b621f3aacecbd1"
+  },
+  "2025-12-15": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-12-15' AND time<'2025-12-16' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "5ed6040c820034f4d5e9f40de6cb50855ab4b232b74a3d3b857126a37cba8002"
+  },
+  "2026-01-07": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-01-07' AND time<'2026-01-08' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "1889569c4674b0a1d3b3e83b30925aa9c0dc3cfa9ded5fa9c0328cd2313aa95f"
+  },
+  "2026-01-18": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-01-18' AND time<'2026-01-19' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "3f1438f38c34fd3376ca03c28bd26760055dba3f75ac7b6da9a7535d6b45c7ff"
+  },
+  "2026-01-23": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-01-23' AND time<'2026-01-24' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2026-02-01": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-01' AND time<'2026-02-02' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "a5d00a8cd51079d7efc24b7067a5bd933ee1b62b4ee92069426539b5f9562941"
+  },
+  "2026-02-02": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-02' AND time<'2026-02-03' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "65008d80108c9cbb554951afd32c295d861d017f46cd15bf2e0f12ea9db1684e"
+  },
+  "2026-02-09": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-09' AND time<'2026-02-10' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "2026-02-14": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-14' AND time<'2026-02-15' AND tx_sign IN ('F6KPL','BV2YD','GM4EIW','W9EEP','KE0CP','NE4ME','W3BBJ','OE5TMI')\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

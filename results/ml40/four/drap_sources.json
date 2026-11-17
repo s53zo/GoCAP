@@ -1,0 +1,212 @@
+[
+  {
+    "date": "2023-01-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/01/SWX_DRAP20_C_SWPC_20230120.tar.gz",
+    "sha256": "d0049d13270a5f673e7f63856761e1b6f72e8400234e404638e30f8ccfb2f67f",
+    "available": 23
+  },
+  {
+    "date": "2023-02-10",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/02/SWX_DRAP20_C_SWPC_20230210.tar.gz",
+    "sha256": "53d68a77e0bdb108be54a1b5af100d78b504b1db35e8cdbfa94767b56c4482c0",
+    "available": 23
+  },
+  {
+    "date": "2023-02-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/02/SWX_DRAP20_C_SWPC_20230220.tar.gz",
+    "sha256": "6b86196b1a43a7e1b69ae64178743405b3561ef1f4d0c36523dd327f256150e0",
+    "available": 23
+  },
+  {
+    "date": "2023-03-10",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/03/SWX_DRAP20_C_SWPC_20230310.tar.gz",
+    "sha256": "08c2510d2b37fded6182fe28b667bf2970507270b0df62509e940c08c7d36c5e",
+    "available": 22
+  },
+  {
+    "date": "2023-03-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/03/SWX_DRAP20_C_SWPC_20230320.tar.gz",
+    "sha256": "baddc7fa76861d67998eeb781e514f14f9317d242f5b2d8ee12aa59f177344ac",
+    "available": 22
+  },
+  {
+    "date": "2023-04-10",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/04/SWX_DRAP20_C_SWPC_20230410.tar.gz",
+    "sha256": "3111fa3a4d291391418281aecf44a5e6bc3139fc74dcb486ef6aa8a990adddc9",
+    "available": 23
+  },
+  {
+    "date": "2023-04-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/04/SWX_DRAP20_C_SWPC_20230420.tar.gz",
+    "sha256": "b2517bbb793d6b3ebe04e9ca4c33db922fc73cdbd960083d7a21a50da7a23735",
+    "available": 23
+  },
+  {
+    "date": "2023-05-10",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/05/SWX_DRAP20_C_SWPC_20230510.tar.gz",
+    "sha256": "bf1ce916c1f982527cb27b698c19cd8693e1d153db7b048b3f9d23488f201048",
+    "available": 23
+  },
+  {
+    "date": "2023-05-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/05/SWX_DRAP20_C_SWPC_20230520.tar.gz",
+    "sha256": "46fdd85280343d75a87d2f79e086c2663074460526e0b8989be24058aa26102e",
+    "available": 22
+  },
+  {
+    "date": "2023-06-10",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/06/SWX_DRAP20_C_SWPC_20230610.tar.gz",
+    "sha256": "ad73ec3a2e712279c004b3488defaac418ce05eeb2b9cf167c79e60a707c3dff",
+    "available": 23
+  },
+  {
+    "date": "2023-06-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/06/SWX_DRAP20_C_SWPC_20230620.tar.gz",
+    "sha256": "41b1987f2b173636f882b5aed5af13a66b4699c5cef7638e9f0cb8afa8331cff",
+    "available": 23
+  },
+  {
+    "date": "2023-07-10",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/07/SWX_DRAP20_C_SWPC_20230710.tar.gz",
+    "sha256": "776fb0a85f199b6daca0cf7259078d6779edbc41ec53cae1468f752c458a431f",
+    "available": 23
+  },
+  {
+    "date": "2023-07-20",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/07/SWX_DRAP20_C_SWPC_20230720.tar.gz",
+    "sha256": "45551a7275b5090c00680ad0a69881f359d96083a9f456b5b17d223f8d8cfcd4",
+    "available": 23
+  },
+  {
+    "date": "2023-02-17",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/02/SWX_DRAP20_C_SWPC_20230217.tar.gz",
+    "sha256": "82e2c151a42a018d794653db2d0e86f1906800b5352767ede8c33613933321ef",
+    "available": 23
+  },
+  {
+    "date": "2023-07-02",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2023/07/SWX_DRAP20_C_SWPC_20230702.tar.gz",
+    "sha256": "92c818cf95d7ac4fdfbce7af4cbd8955b3350b77bfb84b00ff57f32d93e67dd5",
+    "available": 23
+  },
+  {
+    "date": "2025-01-14",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/01/SWX_DRAP20_C_SWPC_20250114.tar.gz",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "available": 0
+  },
+  {
+    "date": "2025-04-18",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/04/SWX_DRAP20_C_SWPC_20250418.tar.gz",
+    "sha256": "d7f75f5bdadd4c11213e66d0116919c8194f6aa0332b91c8cb1299a5c1d1ed88",
+    "available": 23
+  },
+  {
+    "date": "2025-04-19",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/04/SWX_DRAP20_C_SWPC_20250419.tar.gz",
+    "sha256": "c4b7863fb4fed4e58d0aedac37a21c1c9139829091482d681e1f0ac22fc5f9a0",
+    "available": 23
+  },
+  {
+    "date": "2025-04-21",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/04/SWX_DRAP20_C_SWPC_20250421.tar.gz",
+    "sha256": "7400c1a8f2e8b1d8e73948a12b886c1b51c796321846ba9f2afa361c769347f2",
+    "available": 23
+  },
+  {
+    "date": "2025-10-21",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/10/SWX_DRAP20_C_SWPC_20251021.tar.gz",
+    "sha256": "6e23e88a02e3023e7dc959e48c2a54902ad46734b38cf7e316a023bba2d9afab",
+    "available": 23
+  },
+  {
+    "date": "2025-11-08",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/11/SWX_DRAP20_C_SWPC_20251108.tar.gz",
+    "sha256": "119755622e05ea4efb8fd2d58c8d5c392eee034f78c113a9509d62f688482f54",
+    "available": 23
+  },
+  {
+    "date": "2025-11-09",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/11/SWX_DRAP20_C_SWPC_20251109.tar.gz",
+    "sha256": "98fd2703e60432ee89ddad182c1306afcf1685d22c7dbbde01f93429271ff479",
+    "available": 23
+  },
+  {
+    "date": "2025-11-11",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/11/SWX_DRAP20_C_SWPC_20251111.tar.gz",
+    "sha256": "011f464afa17c89f9eab9fe4d4a88a334f9aa137e4aee92063dfc9ce7802ae61",
+    "available": 23
+  },
+  {
+    "date": "2025-11-12",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/11/SWX_DRAP20_C_SWPC_20251112.tar.gz",
+    "sha256": "0a71bf0b55fd70d1857f8630e5e57e12603870dbc4984559c7b535a2600c406e",
+    "available": 23
+  },
+  {
+    "date": "2025-11-18",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/11/SWX_DRAP20_C_SWPC_20251118.tar.gz",
+    "sha256": "57eaee5633ef6d7e8d18ab63374ffe02c7a162b3b2ca03602040df0bb736c4a8",
+    "available": 23
+  },
+  {
+    "date": "2025-11-25",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/11/SWX_DRAP20_C_SWPC_20251125.tar.gz",
+    "sha256": "bff7b65961e45689976227421a067b2bbfa1bdbf09cdfb2110beacd4d0c449fb",
+    "available": 23
+  },
+  {
+    "date": "2025-12-05",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/12/SWX_DRAP20_C_SWPC_20251205.tar.gz",
+    "sha256": "85373465b899700f0ac6ad0533186e7abf1b60eaa0b7327e26926f7dea9a98fd",
+    "available": 23
+  },
+  {
+    "date": "2025-12-15",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2025/12/SWX_DRAP20_C_SWPC_20251215.tar.gz",
+    "sha256": "12eb2bacefae5a22a745836cb6bbf36d4db34399ac53aadfb291639da2eef96c",
+    "available": 23
+  },
+  {
+    "date": "2026-01-07",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/01/SWX_DRAP20_C_SWPC_20260107.tar.gz",
+    "sha256": "dcdb39926a8b800f3fdaad91e7b439fcd7e38d0cd3cf3667e76958eac9ce6822",
+    "available": 23
+  },
+  {
+    "date": "2026-01-18",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/01/SWX_DRAP20_C_SWPC_20260118.tar.gz",
+    "sha256": "614e48d8e3b89e33bb5005749916447056cc642e3242fc474573b98e23eae63e",
+    "available": 23
+  },
+  {
+    "date": "2026-01-23",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/01/SWX_DRAP20_C_SWPC_20260123.tar.gz",
+    "sha256": "8667d48cf4281271b776246dfcc97614438782b630f08e9fbdd2db6b5140d222",
+    "available": 23
+  },
+  {
+    "date": "2026-02-01",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/02/SWX_DRAP20_C_SWPC_20260201.tar.gz",
+    "sha256": "6924ed22e03d941de3705e5ea625a31f913163a52f11aba3759149643d806c3a",
+    "available": 23
+  },
+  {
+    "date": "2026-02-02",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/02/SWX_DRAP20_C_SWPC_20260202.tar.gz",
+    "sha256": "18186b9afc651aa366afceb095bf7501731d4778ce690b10818f6e01f78dee8b",
+    "available": 23
+  },
+  {
+    "date": "2026-02-09",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/02/SWX_DRAP20_C_SWPC_20260209.tar.gz",
+    "sha256": "6c636860b87e8bb6a5932e1c14e3e12e4774f11d59e31f7d7df5e8ea31417610",
+    "available": 23
+  },
+  {
+    "date": "2026-02-14",
+    "url": "https://archive.data.noaa.gov/satellite-spaceweather/SWPC/Models/DRAP/SWX_DRAP20/2026/02/SWX_DRAP20_C_SWPC_20260214.tar.gz",
+    "sha256": "e38fc3df99377f3e0c061952ed6fda3c3d158c965143ba5f938bfa143801198d",
+    "available": 23
+  }
+]

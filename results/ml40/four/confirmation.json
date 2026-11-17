@@ -1,0 +1,19 @@
+{
+  "model_sha256": "baf5ed15c16350b353c4007d8676fdeb753717a9989e9b068f104cd62f8eb205",
+  "rows": 83558,
+  "scores": {
+    "default": 5.963808058808226,
+    "flare": 5.958564439128,
+    "grid4_control": 5.946256750996647,
+    "grid6_marginal": 5.94308145117314,
+    "live_combined": 5.939147922351673,
+    "noise_live": 5.963171787733574,
+    "noise_scenario": 5.963171787733574,
+    "power_steps": 5.963808058808226,
+    "scenario_combined": 5.942743002082071
+  },
+  "live_minus_default_ci": [
+    -0.040378595176853015,
+    -0.010971810607054433
+  ]
+}

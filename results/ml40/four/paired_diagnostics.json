@@ -1,0 +1,78 @@
+{
+  "receiver_pairs": {
+    "all": {
+      "pairs": 6697,
+      "median_gap": 6.0,
+      "mean_gap": 7.246229655069434
+    },
+    "same_six": {
+      "pairs": 1894,
+      "median_gap": 2.0,
+      "mean_gap": 4.025871172122492
+    },
+    "both_concurrent": {
+      "pairs": 767,
+      "median_gap": 6.0,
+      "mean_gap": 7.053455019556714,
+      "correlation": -0.21330159492766185,
+      "expected_sign_correlation": "negative",
+      "corrected_mean_gap": 7.0227363430619505
+    },
+    "both_previous": {
+      "pairs": 798,
+      "median_gap": 6.0,
+      "mean_gap": 6.840852130325815,
+      "correlation": -0.10014851366105323,
+      "expected_sign_correlation": "negative",
+      "corrected_mean_gap": 6.832015999968453
+    }
+  },
+  "power_steps": {
+    "all": {
+      "pairs": 161,
+      "transmitters": 36,
+      "observed_ratio": 0.3,
+      "base_change_mae": 6.224980925434137,
+      "step_model_change_mae": 7.126441881100266
+    },
+    "strong": {
+      "pairs": 105,
+      "transmitters": 31,
+      "observed_ratio": 0.25,
+      "base_change_mae": 5.415864142953316,
+      "step_model_change_mae": 6.39251700680272
+    },
+    "multireceiver": {
+      "pairs": 64,
+      "transmitters": 17,
+      "observed_ratio": 0.1,
+      "base_change_mae": 4.885989924149488,
+      "step_model_change_mae": 6.274553571428571
+    },
+    "reserved_receiver": {
+      "pairs": 21,
+      "transmitters": 10,
+      "observed_ratio": 0.2857142857142857,
+      "base_change_mae": 8.365486753210968,
+      "step_model_change_mae": 9.357142857142856
+    }
+  },
+  "weather_pairs": {
+    "flare": {
+      "pairs": 673,
+      "event_dates": 5,
+      "observed_change_median": -1.0,
+      "default_change_mae": 5.511020468652519,
+      "flare_change_mae": 5.443714351487274,
+      "live_combined_change_mae": 5.445752078979893
+    },
+    "recovery": {
+      "pairs": 144,
+      "event_dates": 5,
+      "observed_change_median": -1.25,
+      "default_change_mae": 5.0221470268198125,
+      "flare_change_mae": 5.0149284921515545,
+      "live_combined_change_mae": 5.011380939090362
+    }
+  }
+}

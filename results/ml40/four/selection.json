@@ -1,0 +1,110 @@
+{
+  "selected": {
+    "scenario": "scenario_combined",
+    "nowcast": "live_combined"
+  },
+  "validation": {
+    "default": 6.224423940665525,
+    "grid4_control": 6.188899701983928,
+    "grid6_marginal": 6.190345831040113,
+    "noise_scenario": 6.224375577730671,
+    "noise_live": 6.224375577730671,
+    "power_steps": 6.224423940665525,
+    "flare": 6.219246370519256,
+    "scenario_combined": 6.190334321318938,
+    "live_combined": 6.186400434589604
+  },
+  "weights": {
+    "default": {},
+    "grid4_control": {
+      "geometry_centre": 1.0
+    },
+    "grid6_marginal": {
+      "geometry": 1.0
+    },
+    "noise_scenario": {
+      "typical_noise": 0.75
+    },
+    "noise_live": {
+      "typical_noise": 0.75,
+      "live_noise": 0.0
+    },
+    "power_steps": {
+      "power": 0.0
+    },
+    "flare": {
+      "absorption": 1.0
+    },
+    "scenario_combined": {
+      "geometry": 1.0,
+      "typical_noise": 0.5,
+      "power": 0.0
+    },
+    "live_combined": {
+      "geometry": 1.0,
+      "typical_noise": 0.75,
+      "live_noise": 0.0,
+      "power": 0.0,
+      "absorption": 1.0
+    }
+  },
+  "model_sha256": "baf5ed15c16350b353c4007d8676fdeb753717a9989e9b068f104cd62f8eb205",
+  "base_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "dates": {
+    "train": [
+      "2023-01-20",
+      "2023-02-10",
+      "2023-02-20",
+      "2023-03-10",
+      "2023-03-20",
+      "2023-04-10",
+      "2023-04-20",
+      "2023-05-10",
+      "2023-05-20",
+      "2023-06-10",
+      "2023-06-20",
+      "2023-07-10",
+      "2023-07-20",
+      "2023-02-17",
+      "2023-07-02",
+      "2025-01-14",
+      "2025-04-18"
+    ],
+    "validation": [
+      "2025-04-19",
+      "2025-04-21",
+      "2025-10-21",
+      "2025-11-08",
+      "2025-11-09"
+    ],
+    "test": [
+      "2025-11-11",
+      "2025-11-12",
+      "2025-11-18",
+      "2025-11-25",
+      "2025-12-05",
+      "2025-12-15",
+      "2026-01-07",
+      "2026-01-18",
+      "2026-01-23",
+      "2026-02-01",
+      "2026-02-02",
+      "2026-02-09",
+      "2026-02-14"
+    ]
+  },
+  "train_rows": 140962,
+  "validation_rows": 46649,
+  "power_steps": 7860,
+  "power_slope": 0.35714285714285715,
+  "noise_slopes": [
+    -0.0266193053964401,
+    -0.045093253342553014
+  ],
+  "absorption_coefficients": [
+    -4.1389726783195344e-22,
+    -0.3541377437799971
+  ],
+  "training_receivers": 1840,
+  "six_character_training": 91317
+}

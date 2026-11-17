@@ -1,0 +1,282 @@
+{
+  "spots-2023-01-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-01-20' AND time<'2023-01-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "8023a076439ed561ebbb24dc3d5925d663fb860932433ddcaae2da9aef1795a7"
+  },
+  "noise-2023-01-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-01-13' AND time<'2023-01-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "9ff18dd94d7a2ac0f178a9897d4d9bcc79ae39bf26978a75e4c7fb39d34dcb67"
+  },
+  "spots-2023-02-10.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-02-10' AND time<'2023-02-11'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "b3f290915deafe3462e6c215507f0eb75f6aa90c8ce4bdb72e895fe1f05d9e26"
+  },
+  "noise-2023-02-10.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-02-03' AND time<'2023-02-11' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "f103d4cfbd23e77a2914af61e3a53dc36f647e6ce02d9dc7a601771fa6ea093e"
+  },
+  "spots-2023-02-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-02-20' AND time<'2023-02-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "c8b73191331e2aed0eb48e11da92a8b735fba5a902f1f5d8cc11cd1b31f8eb98"
+  },
+  "noise-2023-02-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-02-13' AND time<'2023-02-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "d990aa402b99270feeab0a79ff363319370de75ed64ff1774c02c62692575809"
+  },
+  "spots-2023-03-10.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-03-10' AND time<'2023-03-11'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "2eac8aa84b61c0a19f1a0e50634d7a4f6b4ca3b8a0a2a252c003446139a6c005"
+  },
+  "noise-2023-03-10.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-03-03' AND time<'2023-03-11' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "199175d7f3939d4f6b3d9131af2c87132f424dffdc46e727fd70b49afb409c58"
+  },
+  "spots-2023-03-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-03-20' AND time<'2023-03-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "aa9fbe5f683d55e71e96a7c8f683304a1c1f94cab9228914406a44704f8a024b"
+  },
+  "noise-2023-03-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-03-13' AND time<'2023-03-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "b65ef0ce6d1e32aa858907fd01d9ab6ace311707d911d27006f28f241f20daec"
+  },
+  "spots-2023-04-10.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-04-10' AND time<'2023-04-11'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "f1f533619ebfa76a84dd75649d80c64b1a9c5d612640478792dcb82a18654e16"
+  },
+  "noise-2023-04-10.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-04-03' AND time<'2023-04-11' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "54845c8efaa7f69f2204b6bbf6534167113f343297129061cae37a6131598a53"
+  },
+  "spots-2023-04-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-04-20' AND time<'2023-04-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "539d28adff26304598aca4e7a60085be5d5b4eebaa613efbf89379f14aa42389"
+  },
+  "noise-2023-04-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-04-13' AND time<'2023-04-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "817f41c3758c16dec0b4ead30e98693561f5e4f5dfc029d80e2854e8b712e604"
+  },
+  "spots-2023-05-10.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-05-10' AND time<'2023-05-11'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "6d1e0440af68596dc91bd45c6847e1caf1459932f98c46a0403d14d24f36a024"
+  },
+  "noise-2023-05-10.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-05-03' AND time<'2023-05-11' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "dad7ae981c00880ae49178d684419f4abd8dd525001ab04d28d58f95b336e168"
+  },
+  "spots-2023-05-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-05-20' AND time<'2023-05-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "5244fb37bf111c7566ea50f03fc3a9f224c25a9beac521c4bd1d03aa70a11399"
+  },
+  "noise-2023-05-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-05-13' AND time<'2023-05-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "60cc3f48d8317de1116909f7a6d859a4e955bdde181a26b3e561e6918c3610d7"
+  },
+  "spots-2023-06-10.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-06-10' AND time<'2023-06-11'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "f8bf97bdc7581ab35a0f933535405a3f3b9735c3287d11d22c34102f7846af70"
+  },
+  "noise-2023-06-10.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-06-03' AND time<'2023-06-11' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "2829b1168f1d60e6b3a7d46d2eec9e26cf479b77105af33f6a4030b6d8f0ce94"
+  },
+  "spots-2023-06-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-06-20' AND time<'2023-06-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "15182c4d112555c992439526d3fd5eef4971626f213160993ccdcf5f10af5bc7"
+  },
+  "noise-2023-06-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-06-13' AND time<'2023-06-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "fe1be013a937f1df7d09343656a282337ab629046a337f69fa1b81236f76bc6b"
+  },
+  "spots-2023-07-10.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-07-10' AND time<'2023-07-11'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "ecf2843d53d68066dbf6029d4ed2f4503c7d5e9f46d610df484a07b86819482d"
+  },
+  "noise-2023-07-10.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-07-03' AND time<'2023-07-11' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "27ba031b72f82b0a5d03420cabcf5e29fc43d3ceab2fdd9d3c98f457b2284f07"
+  },
+  "spots-2023-07-20.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-07-20' AND time<'2023-07-21'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e1a81da4bee59db762fee584e768c75893a971e83af3afc4de3b1f451e0a2a90"
+  },
+  "noise-2023-07-20.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-07-13' AND time<'2023-07-21' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "76bbc09a8f3180c66252cfc377b332de87b31449e3a7a5a586e0e965c72fdb14"
+  },
+  "spots-2023-02-17.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-02-17' AND time<'2023-02-18'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "b91f6948f5ca15ba5e31a56715bebe86077b386763f40dd3a847038008f23388"
+  },
+  "noise-2023-02-17.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-02-10' AND time<'2023-02-18' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "cb5dab840261140aad81605e6aa0603b8f275013a1a06592e509417d07a561eb"
+  },
+  "spots-2023-07-02.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2023-07-02' AND time<'2023-07-03'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "edefa59d9761321aa3bba08d521487f6bcc30bbc0ceb65ff1e6dad7daa1ea3ae"
+  },
+  "noise-2023-07-02.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2023-06-25' AND time<'2023-07-03' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "5fb03534755d939adda17e9c2eff2c7b6ebfddcc3b45054d7902448dd0e73322"
+  },
+  "spots-2025-01-14.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-01-14' AND time<'2025-01-15'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "c4c558a2af3d9091a99ee9b3857650e2ab8345b4d9d02737da6120fe12fca6ee"
+  },
+  "noise-2025-01-14.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-01-07' AND time<'2025-01-15' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "68760b2af8ef62694c3d6c338daab92fc5c087df5d0dc4d448bc8f05fe9787f1"
+  },
+  "spots-2025-04-18.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-04-18' AND time<'2025-04-19'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "12a1e91fe2108459adad81b953d5acd9cf4030d3c9128c499037c64ba3fbf6a4"
+  },
+  "noise-2025-04-18.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-04-11' AND time<'2025-04-19' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "5352a659337f67ac08a6f175070ad5f1c118109a147f16a4770ce542fc37fd8a"
+  },
+  "spots-2025-04-19.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-04-19' AND time<'2025-04-20'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "31e8f59ffc82e5f3f3eca88d1b8f6782363d3e37d88dff671a175515eb591588"
+  },
+  "noise-2025-04-19.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-04-12' AND time<'2025-04-20' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "a2b2c6a252c0facaa37ba71b6c967cc77edfa3479b414a26678cbccc551c1bd5"
+  },
+  "spots-2025-04-21.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-04-21' AND time<'2025-04-22'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e26a989c5bf59d16e15c6d5b95aa412ef152e90458754d5ae6244722c0aa4c99"
+  },
+  "noise-2025-04-21.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-04-14' AND time<'2025-04-22' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "0915ebe4fac5da2cffebfd5e423b88a030da2e5af4ebbc2aedc8d973b2143283"
+  },
+  "spots-2025-10-21.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-10-21' AND time<'2025-10-22'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "df15ddc4328e35af2e0cb8de866fe02da62d835062924f2e804b471e8f809090"
+  },
+  "noise-2025-10-21.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-10-14' AND time<'2025-10-22' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "af261f1bacb8e4335ee0c3e22f3e6519b80d5a9176a415c97dc32e68d6305e43"
+  },
+  "spots-2025-11-08.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-08' AND time<'2025-11-09'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "de467af501a31f22f7cc99521645491fb988357ecd2045ccac35c930b93715f0"
+  },
+  "noise-2025-11-08.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-01' AND time<'2025-11-09' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "deff87ef3afebcbb434971faa04b90dc222248f14eccc0aa4d822ddc5d8bb15a"
+  },
+  "spots-2025-11-09.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-09' AND time<'2025-11-10'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "c86f0957f34975dce41da4098f3c585e7f5ecc5fa5db196c2773df9bd8b86c88"
+  },
+  "noise-2025-11-09.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-02' AND time<'2025-11-10' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "d440ec7ca0308028ce430e5bf197968f3f1be82d8440a252b46826dddd585ac5"
+  },
+  "spots-2025-11-11.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-11' AND time<'2025-11-12'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "214a4f72ab36432fd278f1bf178d184aa3387fd012ca43cacd14687b1f38ccfc"
+  },
+  "noise-2025-11-11.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-04' AND time<'2025-11-12' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "55316c3f4906000983ae52fc9565d84f38f673a1fa11098dcd529038049c2fef"
+  },
+  "spots-2025-11-12.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-12' AND time<'2025-11-13'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "408cd246c269ca7af1ef15e8ee9b1c7a67aa18ac185e2aa6a19bfd0309fd7b68"
+  },
+  "noise-2025-11-12.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-05' AND time<'2025-11-13' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "56daed531f673d0408a7584c82c23603b7bc7d78e0dc27d4b6fcb8ed0556f7cd"
+  },
+  "spots-2025-11-18.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-18' AND time<'2025-11-19'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "fd78e4dd0f0f5f58b4b79774269592bc7e18abacce7fb8614b01dfc87a71ab1b"
+  },
+  "noise-2025-11-18.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-11' AND time<'2025-11-19' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "c8d72190283c8ad373363eeb3cb07cc2264fb83fe4dae4badcffd08897a2eb06"
+  },
+  "spots-2025-11-25.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-11-25' AND time<'2025-11-26'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "8bbeadc1ece840be83796058acf9392361d4f068c4dfe6ec28b16e9a84b6cc10"
+  },
+  "noise-2025-11-25.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-18' AND time<'2025-11-26' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "08d80731a5e00715fe9dce776d212909c8d3aefc9c9a66e46003419774674393"
+  },
+  "spots-2025-12-05.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-12-05' AND time<'2025-12-06'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "92514ef9bb2747998f909a3e002753b963c6291a4f85009d42e15b8b5a0e93ce"
+  },
+  "noise-2025-12-05.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-11-28' AND time<'2025-12-06' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e9d9957842af777882ec794c8ff21d18f1c5a40e85c9a584d20a549d0405b641"
+  },
+  "spots-2025-12-15.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2025-12-15' AND time<'2025-12-16'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "b419f3898cd0422489dd9ddb6b45a6f13aa709e35fb94369064e6a64068120ec"
+  },
+  "noise-2025-12-15.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-12-08' AND time<'2025-12-16' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e676711c75eb609a8ea340e96c27ac16c63fbdc7ad237537ee7afc9836b6992c"
+  },
+  "spots-2026-01-07.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-01-07' AND time<'2026-01-08'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "f13eaffacd53c10dfe30c804a96037a589d806c619d129e229013688345e3887"
+  },
+  "noise-2026-01-07.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2025-12-31' AND time<'2026-01-08' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "af42483e86e312e8562d9cff91e2d2578f6175f7071c28d744eade9306bef90b"
+  },
+  "spots-2026-01-18.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-01-18' AND time<'2026-01-19'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "af4a0a3e35081c2680c4024f0e96bcdb1132cc59db06c7e7f72f89daf62c1c90"
+  },
+  "noise-2026-01-18.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2026-01-11' AND time<'2026-01-19' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "b7476b93b5fa34732420d4b3860157ba723df95a34bdcf1ef98b13915444f08f"
+  },
+  "spots-2026-01-23.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-01-23' AND time<'2026-01-24'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "4d5d740e41802ed4f78b857547e2542e29fd2db521f88009cd7cbcfcf571cc1e"
+  },
+  "noise-2026-01-23.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2026-01-16' AND time<'2026-01-24' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "aab503fafea1d3d26b3210b729892d8ee5d7df0e4f8c6cfb5c6f15cef24d2ed6"
+  },
+  "spots-2026-02-01.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-01' AND time<'2026-02-02'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "e0fee490b0972f7de89573a2fe7b57e947dc1ba62c99f4969dea2c716b671302"
+  },
+  "noise-2026-02-01.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2026-01-25' AND time<'2026-02-02' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "15da9507ad55a791d0b368b75d51b527c0901892f6e6f31cbc67007b97214dd2"
+  },
+  "spots-2026-02-02.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-02' AND time<'2026-02-03'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "2145e5028acb49342ff5d819737df74cb43bd091eb72fd15562e7bc576110094"
+  },
+  "noise-2026-02-02.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2026-01-26' AND time<'2026-02-03' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "8b0aea28c51d5fb598cc2934acee6f9742934147bfd192c57a49046cabd2e482"
+  },
+  "spots-2026-02-09.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-09' AND time<'2026-02-10'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "1c4470ce905c71023c1e72d33d594e08ee1e0603b94f0f13304ed433240be2eb"
+  },
+  "noise-2026-02-09.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2026-02-02' AND time<'2026-02-10' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "2164a71feb992f9c38b10f6bf644b4845ca4c6aa8d646fc10c6b24bed92a1538"
+  },
+  "spots-2026-02-14.jsonl": {
+    "query": "SELECT id,time,rx_sign,rx_loc,tx_sign,tx_loc,frequency,power,snr,code FROM wspr.rx\nWHERE band=7 AND code=1 AND time>='2026-02-14' AND time<'2026-02-15'\nAND cityHash64(tx_sign,rx_sign,toString(toDate(time,'UTC')))%48=0\nORDER BY time,id LIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "6e848fed980245d16b2f3f1ac0eb4d9c2b4e79807f73e5293bd1c2c23b0bc187"
+  },
+  "noise-2026-02-14.jsonl": {
+    "query": "SELECT toStartOfHour(time) AS h, site,receiver,substring(upper(rx_loc),1,4) AS grid,\nmedianExact(rms_level) AS noise,count() AS n FROM wspr.wsprdaemon_noise\nWHERE band='40' AND time>='2026-02-07' AND time<'2026-02-15' AND rms_level BETWEEN -165 AND -70\nAND (ov=0 OR ov IS NULL) GROUP BY h,site,receiver,grid ORDER BY h,site,receiver,grid\nLIMIT 250001 FORMAT JSONEachRow",
+    "sha256": "c79914cc7f51e581106d61800dd1cd4a2ded3b8154831868dfec5a79327e7a76"
+  }
+}
