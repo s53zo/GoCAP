@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "held_out_year": 2025,
+  "held_out_dates": 15,
+  "case_count": 500,
+  "raw_hourly_medians_rebuilt": 4867,
+  "raw_positive_reports": 14415,
+  "unknown_actual_case_hours_preserved": 7133,
+  "native_runs_independently_parsed": 6000,
+  "all_models_and_sources_match_frozen_hashes": true,
+  "no_case_date_in_any_point_fitting_partition": true,
+  "independent_date_case_hour_metrics_and_bootstrap_match": true,
+  "direct_observation_features_match_all_hour_predictions": true
+}

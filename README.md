@@ -157,6 +157,17 @@ held-out-day comparison, not forward-year forecasting or physical calibration.
 The March/current GoCAP difference remains within uncertainty; the default is
 unchanged. See the report for the per-year table and frozen case evidence.
 
+## Additional March 2025 comparison
+
+The [additional March 2025 comparison](MARCH2025_VOACAP_COMPARISON.md) tests
+**500 paths on 15 previously unscored dates**, using **4,867 real hourly medians**.
+No model was retrained. Case-average MAE is **5.007 dB current GoCAP**,
+**5.013 dB shared parent**, **5.063 dB March-expanded**, and **13.491 dB VOACAP**.
+The March-expanded model's small regression against current GoCAP has a
+date-bootstrap interval of **+0.011 to +0.104 dB**; the default remains unchanged.
+All three models beat the declared VOACAP settings on this detection-selected
+sample, subject to unknown hardware/noise and different climatological targets.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |
@@ -267,7 +278,7 @@ or restored from a separate checksum-preserving archive backup.
 .venv/bin/python -m unittest discover -v
 ```
 
-The local full-data snapshot passes **48 tests**. A clean clone runs the synthetic
+The local full-data snapshot passes **50 tests**. A clean clone runs the synthetic
 and inference-geometry checks and explicitly skips archive-backed checks whose
 local data is absent. Restore the relevant archives to run those checks.
 For the three GFZ-dependent checks only, a small index download is sufficient:

@@ -1,0 +1,134 @@
+{
+  "version": "march2025-unseen-500-1",
+  "seed": "gocap-march2025-unseen-500-v1",
+  "dates": [
+    "2025-03-10",
+    "2025-03-11",
+    "2025-03-13",
+    "2025-03-14",
+    "2025-03-16",
+    "2025-03-18",
+    "2025-03-19",
+    "2025-03-21",
+    "2025-03-23",
+    "2025-03-24",
+    "2025-03-26",
+    "2025-03-27",
+    "2025-03-29",
+    "2025-03-30",
+    "2025-03-31"
+  ],
+  "cases": 500,
+  "distance_quotas": {
+    "100to1000": 125,
+    "1000to3000": 125,
+    "3000to6000": 125,
+    "6000to15000": 125
+  },
+  "scope": "Additional untouched March2025 dates; model artifacts are frozen. Prior March2025 dates1,2,3,4,6,7,8,9,12,15,17,20,22,25,28 are excluded; day5 also excluded conservatively.",
+  "sampling": "Coherent pair/day hash128 for short paths OR source distance>=2700km and hash16;250001row cap fails rather than truncate. Source/mode validity uses modern code1.",
+  "selection": "Identifier hash/date round-robin within four distance strata;500 unique directed square pairs, fixed stations/day/reported power/context,>=6observed hours,20..50dBm,100..15000km. No SNR/prediction/error choice.",
+  "scoring": "Case-average hourly SNR MAE; also pooled MAE/RMSE/bias, per-date/hour/distance and date-cluster bootstrap. Missing reception unknown; no binary band-open labels.",
+  "voacap_primary": "dipole10m_n150_s1.0",
+  "voacap_scenarios": [
+    {
+      "id": "dipole10m_n145_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 145,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n145_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 145,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "dipole10m_n150_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 150,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n150_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 150,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "dipole10m_n155_s1.0",
+      "antenna": "dipole10m",
+      "noise_parameter": 155,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "dipole10m_n155_s0.6",
+      "antenna": "dipole10m",
+      "noise_parameter": 155,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n145_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 145,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n145_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 145,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n150_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 150,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n150_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 150,
+      "ssn_scale": 0.6
+    },
+    {
+      "id": "isotropic_n155_s1.0",
+      "antenna": "isotropic",
+      "noise_parameter": 155,
+      "ssn_scale": 1.0
+    },
+    {
+      "id": "isotropic_n155_s0.6",
+      "antenna": "isotropic",
+      "noise_parameter": 155,
+      "ssn_scale": 0.6
+    }
+  ],
+  "voacap_assumptions": {
+    "method": 30,
+    "coefficients": "CCIR",
+    "path": "short",
+    "min_takeoff_degrees": 3,
+    "required_reliability_percent": 50,
+    "required_snr_db_hz": 2.979400086720375,
+    "sporadic_E_factor": 0,
+    "multipath_tolerance_db": 3,
+    "delay_tolerance_ms": 0.1,
+    "time_alignment": "Native TIME card uses whole UT hours. For an observed [H,H+1) aggregate, average the H and H+1 SNR dB values to approximate H+0.5. Preserve left/right edge sensitivities. UT24 wraps to0.",
+    "solar": "WDC-SILSO final 13-month smoothed monthly total SSN Version2. Primary scale1; legacy-convention scale0.6 sensitivity, not a fitted conversion. VOACAP has no daily Kp/Ap input.",
+    "target": "monthly hourly median SNR50 in dB-Hz; convert to2500Hz by subtracting 10log10(2500); never compare REL percentages with SNR."
+  },
+  "models_sha256": {
+    "march": "069e77ed680720cb546e4c5ff8a996569375d02bb691b064577dcdcefb0d734c",
+    "shared_parent": "0eff4b696b20f02829f94b2783916553e6f3ce599ec9f48a36d709acf7db41ad",
+    "current": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219"
+  },
+  "engine_sha256": "33cb8ea1b0d2e2960e029381100cea543907665fcb53a5381ca1ffd6431e81bc",
+  "solar_sha256": "c735c79921abfc68095dba842f306bb5eebf705617747615a34d44c003e80aa5",
+  "gfz_sha256": "0faff093d514184cc3129e83df0a5f1b8073ad7ef875cf5cdb99dfd821322f1b",
+  "fitting_inputs_sha256": {
+    "march": "5ce80cac92dc37905d1902cbc7037b8e6eb44c24147725a88c77996261c12cff",
+    "original": "93b10f860ca60207f3610be801075a2c6c622b78ef56dfbc65bf1393c3dba4e3"
+  },
+  "limits": "Positive detection-selected WSPR observations, unknown antennas/noise; VOACAP monthly climatology versus particular dates. Final retrospective solar indices, not operational forecast-vintage validation. Route overlap with past suites is permitted; dates are new and paths unique within this suite."
+}
