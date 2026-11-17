@@ -1,0 +1,310 @@
+{
+  "results": {
+    "WSPR": {
+      "reference": {
+        "hour_date_mae_db": 6.7984341057003626,
+        "mae_db": 6.7677949030343,
+        "rmse_db": 8.506784533825847,
+        "bias_db": -0.43348976381365845,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "existing_boosted_baseline": {
+        "hour_date_mae_db": 6.806256011048784,
+        "mae_db": 6.779554810373263,
+        "rmse_db": 8.566587951297578,
+        "bias_db": -1.1221364230365234,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "WSPR_native_base_day": {
+        "hour_date_mae_db": 6.5210973205732685,
+        "mae_db": 6.5011576951999,
+        "rmse_db": 8.212358497637133,
+        "bias_db": -0.8888468626926491,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "WSPR_native_rich_day": {
+        "hour_date_mae_db": 6.505509219369306,
+        "mae_db": 6.483472296673126,
+        "rmse_db": 8.185250641264812,
+        "bias_db": -0.7800985473060904,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "WSPR_native_rich_hour": {
+        "hour_date_mae_db": 6.502936692326519,
+        "mae_db": 6.485167912708164,
+        "rmse_db": 8.188408207960078,
+        "bias_db": -0.8613923711425424,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "WSPR_native_rich_observation": {
+        "hour_date_mae_db": 6.321394193996023,
+        "mae_db": 6.300827399027617,
+        "rmse_db": 7.958248346778183,
+        "bias_db": -0.6630085148647282,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "WSPR_native_rich_small": {
+        "hour_date_mae_db": 6.606410634659113,
+        "mae_db": 6.585261242926909,
+        "rmse_db": 8.317522483266893,
+        "bias_db": -0.9358994697519105,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "independent_residual_half": {
+        "hour_date_mae_db": 6.675973956641473,
+        "mae_db": 6.648244781573729,
+        "rmse_db": 8.371795515075785,
+        "bias_db": -0.5619997426893113,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      },
+      "independent_residual_full": {
+        "hour_date_mae_db": 6.589152018319319,
+        "mae_db": 6.563663469841414,
+        "rmse_db": 8.281916008183346,
+        "bias_db": -0.6905097215649643,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      }
+    },
+    "FT8": {
+      "reference": {
+        "hour_date_mae_db": 6.996510113167972,
+        "mae_db": 6.976984135945064,
+        "rmse_db": 8.853237580034627,
+        "bias_db": -1.1069945996839796,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "existing_boosted_baseline": {
+        "hour_date_mae_db": 7.039357860139925,
+        "mae_db": 7.015471621149733,
+        "rmse_db": 8.916765332816617,
+        "bias_db": -1.381642038970022,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "FT8_native_base_day": {
+        "hour_date_mae_db": 6.979433294783895,
+        "mae_db": 6.959083048461419,
+        "rmse_db": 8.854887096240619,
+        "bias_db": -1.2602263299912333,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "FT8_native_rich_day": {
+        "hour_date_mae_db": 6.975625333344129,
+        "mae_db": 6.95345265615572,
+        "rmse_db": 8.863283250462645,
+        "bias_db": -1.4783744850730631,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "FT8_native_rich_hour": {
+        "hour_date_mae_db": 6.998161800077373,
+        "mae_db": 6.975103220371906,
+        "rmse_db": 8.878623328180279,
+        "bias_db": -1.3481808098620978,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "FT8_native_rich_observation": {
+        "hour_date_mae_db": 6.956693176110407,
+        "mae_db": 6.936667380896352,
+        "rmse_db": 8.834095573259162,
+        "bias_db": -1.4524529439952394,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "FT8_native_rich_small": {
+        "hour_date_mae_db": 6.965576686865869,
+        "mae_db": 6.945347637554651,
+        "rmse_db": 8.844010683980176,
+        "bias_db": -1.4352464688445308,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      }
+    },
+    "FT4": {
+      "reference": {
+        "hour_date_mae_db": 6.443549616232464,
+        "mae_db": 6.6489768044136515,
+        "rmse_db": 8.34299505042294,
+        "bias_db": -0.4710911885101284,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "existing_boosted_baseline": {
+        "hour_date_mae_db": 6.473023281364753,
+        "mae_db": 6.656481858612076,
+        "rmse_db": 8.358006103553981,
+        "bias_db": -0.8854843038522646,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT4_native_base_day": {
+        "hour_date_mae_db": 6.7781916520011505,
+        "mae_db": 6.748532166280926,
+        "rmse_db": 8.49766778910325,
+        "bias_db": -0.04795377172950139,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT4_native_rich_day": {
+        "hour_date_mae_db": 6.411497946418291,
+        "mae_db": 6.672200146945754,
+        "rmse_db": 8.371257794127038,
+        "bias_db": -0.2561963619273799,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT4_native_rich_hour": {
+        "hour_date_mae_db": 6.285718831816676,
+        "mae_db": 6.739472613099249,
+        "rmse_db": 8.463452772465265,
+        "bias_db": -0.21846273807605446,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT4_native_rich_observation": {
+        "hour_date_mae_db": 6.159051303702092,
+        "mae_db": 6.582559878319949,
+        "rmse_db": 8.275383523033252,
+        "bias_db": -0.18945781777295786,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT4_native_rich_small": {
+        "hour_date_mae_db": 6.240830674543894,
+        "mae_db": 6.727990928645069,
+        "rmse_db": 8.476400600292969,
+        "bias_db": -0.6257910196329057,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      }
+    },
+    "CW": {
+      "reference": {
+        "hour_date_mae_db": 7.236657241671878,
+        "mae_db": 7.181723732479549,
+        "rmse_db": 9.105741565977885,
+        "bias_db": -0.9853665179607902,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "existing_boosted_baseline": {
+        "hour_date_mae_db": 7.070874776096449,
+        "mae_db": 6.983593054381734,
+        "rmse_db": 8.827653005838284,
+        "bias_db": -0.8995528759106786,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "CW_native_base_day": {
+        "hour_date_mae_db": 6.713875815984832,
+        "mae_db": 6.566200040630664,
+        "rmse_db": 8.398874476121062,
+        "bias_db": -0.373080669288813,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "CW_native_rich_day": {
+        "hour_date_mae_db": 6.722310577562496,
+        "mae_db": 6.561756329822325,
+        "rmse_db": 8.402033843862307,
+        "bias_db": -0.4338308766930474,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "CW_native_rich_hour": {
+        "hour_date_mae_db": 6.74802003086354,
+        "mae_db": 6.63720534175172,
+        "rmse_db": 8.47376072352039,
+        "bias_db": -0.727262547862053,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "CW_native_rich_observation": {
+        "hour_date_mae_db": 6.720254714473107,
+        "mae_db": 6.561895493792273,
+        "rmse_db": 8.410589153450397,
+        "bias_db": -0.5634393335208692,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "CW_native_rich_small": {
+        "hour_date_mae_db": 6.826903180643563,
+        "mae_db": 6.722854273160885,
+        "rmse_db": 8.537413523968969,
+        "bias_db": -0.596064303552786,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      }
+    }
+  },
+  "selection": {
+    "WSPR": "WSPR_native_rich_observation",
+    "FT8": "FT8_native_rich_observation",
+    "FT4": "FT4_native_rich_observation",
+    "CW": "CW_native_base_day"
+  },
+  "support": {
+    "correction": {
+      "rows": 252222,
+      "days": 24
+    },
+    "WSPR": {
+      "training_rows": 1011619,
+      "training_days": 258
+    },
+    "FT8": {
+      "training_rows": 51056,
+      "training_days": 4
+    },
+    "FT4": {
+      "training_rows": 9138,
+      "training_days": 4
+    },
+    "CW": {
+      "training_rows": 57520,
+      "training_days": 3
+    }
+  }
+}

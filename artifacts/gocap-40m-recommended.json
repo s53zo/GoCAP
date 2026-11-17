@@ -1,0 +1,20 @@
+{
+  "sha256": "0f1d378fd604990c749b7ee781265a8dc93b2ef7ce6a5c7476477f7631df5ed5",
+  "bytes": 864060,
+  "recommended_default": true,
+  "component_policy": {
+    "snr": "retained reference for all modes",
+    "intervals": "retained reference",
+    "ranking": "verified new WSPR pairwise ranker"
+  },
+  "recommend_components_over_reference": {
+    "point_snr": false,
+    "hourly_ranking": true,
+    "conditional_intervals": false
+  },
+  "evaluation_reference_sha256": "f8729a599bea13db88b7cab9c92fc355bdd576ddce253a412bf72c9e0911d6cc",
+  "experimental_artifact_sha256": "0ec1f7a98b494c9a8ddb677611ff29ac1c7d72aef3d940007355f8116fb9336e",
+  "physical_calibration_verified": false,
+  "query_module": "ml40.v3_inference",
+  "scope": "40m; four-character squares; scenario SNR; WSPR observed-hour ranking; missing reception stays unknown"
+}

@@ -1,0 +1,44 @@
+{
+  "hourly_rows": 437327,
+  "rows_by_source_mode": [
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "rows": 10691
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "rows": 52332
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "rows": 46107
+    },
+    {
+      "source": "PSKR_LIVE",
+      "mode": "FT4",
+      "rows": 58
+    },
+    {
+      "source": "PSKR_LIVE",
+      "mode": "FT8",
+      "rows": 867
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "rows": 327272
+    }
+  ],
+  "solar_missing": {
+    "kp_previous": 0,
+    "ap_previous": 0,
+    "ap_trailing24": 0,
+    "sfi_previous_day": 0,
+    "Ap_previous_day": 0
+  },
+  "time_split": "train before 2025-01-01 UTC; test sampled 2025 days",
+  "solar_timing": "previous completed 3h block; trailing 8 blocks; previous UTC-day SFI/Ap; final indices, not operational vintages"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "verified",
+  "objective": "absolute hourly SNR, no ranking selection",
+  "validation_candidates_recomputed": 30,
+  "calibration_quantiles_recomputed": 4,
+  "fresh_rows": 226160,
+  "source_mode_metric_groups": 8,
+  "separate_utc_hour_scores": 96,
+  "strict_metric_groups_recomputed": 4,
+  "checks": [
+    "frozen code/model/source checksums",
+    "correction dates excluded from reference fitting",
+    "all candidate choices independently recomputed from absolute hourly errors",
+    "new-date SNR predictions, MAE/RMSE/bias, interval coverage and interval score",
+    "per-UTC-hour scores reconciled to observed data",
+    "strict station/field exclusion and SNR metrics",
+    "calibration order statistics",
+    "date-cluster bootstrap reproducibility",
+    "recommended per-mode predictions match accepted candidate or retained reference"
+  ],
+  "output_sha256": {
+    "plan.json": "1905a93b9908565b3817a8c575cfbb5643814c3561dfdde34f0cdf6fbf596640",
+    "run.json": "44d923217bbca421fa25575ba898e973dd80562ac5bdcea3eb7804cedb80da86",
+    "availability_amendment.json": "ab481777a28f6e947a38ac07b9a5a3e58d4ff74d8b08f2236d2eface9a836cef",
+    "deployment_guard.json": "e7db9a0d93205a9a721766446f9535da449feaf21a09e0d2c9ee756fa50b8fb9",
+    "fresh_predictions.parquet": "0609060247354daf1e3bae81f943238f10bf0f52751213fc72f347aa3c75bbd6",
+    "hour_by_hour_errors.csv": "4fc82ee7465d40dd19b4342dee7e14d6dc395aea67ee0316a8129deabaf8d516"
+  },
+  "recommended_artifact_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "tuned_station_adjusted_boosted",
+  "band_m": 40,
+  "params": {
+    "max_iter": 360,
+    "learning_rate": 0.07,
+    "max_leaf_nodes": 63,
+    "min_samples_leaf": 100,
+    "l2_regularization": 1,
+    "station_penalty": 200
+  },
+  "sha256": "07a58d58075a7bbbce0b7af2487bd06379b461a1fe7d354a33e2ab330f27b584",
+  "bytes": 2621408,
+  "recommended_over_reference": false,
+  "frozen_before_test_utc": "2026-11-17T09:24:58.583728+00:00",
+  "fresh_evaluation_utc": "2026-11-17T09:26:51.981147+00:00",
+  "limitations": [
+    "positive receptions only",
+    "100 W/dipole calibration unverified",
+    "fresh final evidence is WSPR only",
+    "FT8/FT4/CW comparison reuses published test cases"
+  ]
+}

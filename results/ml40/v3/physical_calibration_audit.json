@@ -1,0 +1,9 @@
+{
+  "status": "awaiting_actual_documented_measurements",
+  "input_records": 0,
+  "valid_positive_measurements": 0,
+  "invalid_records": [],
+  "physical_100W_dipole_calibration_verified": false,
+  "reason": "Field validation verifies schema and traceability, not instrument truth, antenna gain, or transfer to other stations.",
+  "valid_records": []
+}

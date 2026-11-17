@@ -1,0 +1,53 @@
+{
+  "date": "2025-04-04",
+  "all_band_rows": 93298195,
+  "rows_40m_by_native_source": {
+    "PSK": 14914032,
+    "WSP": 1398422,
+    "RBN": 68489
+  },
+  "raw_source_mode_counts_40m": {
+    "PSK:FT8": 13723978,
+    "WSP:W": 1398422,
+    "PSK:WSPR": 380051,
+    "PSK:FT4": 624336,
+    "PSK:JS8": 151644,
+    "RBN:CQ": 68335,
+    "PSK:CW": 20323,
+    "PSK:VARAC": 12106,
+    "PSK:FREEDV": 805,
+    "PSK:JT65": 217,
+    "PSK:FST4W": 244,
+    "PSK:RTTY": 289,
+    "RBN:BEACON": 154,
+    "PSK:HELL": 20,
+    "PSK:OLIVIA 8/2": 1,
+    "PSK:THOR11": 1,
+    "PSK:ROS": 2,
+    "PSK:SSB": 1,
+    "PSK:MSK144": 1,
+    "PSK:FST4": 1,
+    "PSK:PSK31": 7,
+    "PSK:CW (SSB)": 2,
+    "PSK:JT9": 2,
+    "PSK:SIM31": 1
+  },
+  "unix_minus_utc_fields_seconds_40m": {
+    "0": 16380943
+  },
+  "sampled_rows": 34895,
+  "sampled_rbn": 17179,
+  "sampled_rbn_matched_to_original_utc": 15871,
+  "rbn_snr_exact_agreement_fraction": 0.99949593598387,
+  "sample_divisors": {
+    "RBN": 4,
+    "PSK_FT4": 256,
+    "PSK_other": 1024,
+    "WSP": 1024
+  },
+  "sample_expansion": "FT4 expanded from 1/1024 to 1/256 after strict training count was below the fixed 1000-row gate; other source/mode selections unchanged",
+  "sampling": "pandas hash of time,tx,rx,frequency,native_mode,source; duplicate event copies retained",
+  "timestamp_policy": "explicit UTC fields, cross-checked against original RBN event times; raw ut1_unix retained",
+  "geolocation_policy": "coordinates mapped to 4-character squares; lookup vs reported provenance unavailable",
+  "sample_parquet_sha256": "c71ae69e71f3980dc5061b28a08a544b8b750b393e5065b11a9904b3cd646853"
+}

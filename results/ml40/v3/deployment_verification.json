@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "recommended_artifact_sha256": "0f1d378fd604990c749b7ee781265a8dc93b2ef7ce6a5c7476477f7631df5ed5",
+  "fresh_rows_exactly_matching_established_snr_and_intervals": 151396,
+  "fresh_rank_inputs_matching_verified_experimental_ranker": 51915,
+  "standalone_checks": "Four profiles and 24-hour WSPR query from empty working directory; strict JSON; no reception history loaded or directories created",
+  "model_and_data_verification_sha256": "69cd642ffce5f29654f4acfc7ed1d78b49181cb601d067f5c43dff4baac9417f",
+  "recommended_component_policy": {
+    "snr": "retained reference for all modes",
+    "intervals": "retained reference",
+    "ranking": "verified new WSPR pairwise ranker"
+  }
+}

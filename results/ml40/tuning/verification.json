@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "validation_only_selection": true,
+  "fresh_dates_disjoint_from_original_dates": true,
+  "frozen_utc_before_evaluation": true,
+  "positive_reception_rows": 150844,
+  "fresh_days": 12,
+  "ranking_cases": 899,
+  "ranking_scores_independently_recomputed": 1800,
+  "checks": [
+    "original and tuned artifact checksums",
+    "fitting file checksum",
+    "all 12 planned fresh dates present",
+    "test dates excluded from every original split",
+    "500 reference-case errors reconciled to frozen suite",
+    "fresh MAE and interval coverage independently recomputed",
+    "vectorized ranking reconciled to separate source-grouping implementation"
+  ],
+  "output_sha256": {
+    "plan.json": "6dcae7ec6b273400ad101f873ee5f1df3acabb25627a71e0bf563943a03a42a3",
+    "run.json": "205f9a15e61e77bd8464d3f806919451722c98a9fb7f4a947dc0fb7682c1c505",
+    "fresh_predictions.parquet": "34123afaa766ea614fe35bad6665ffe7bfd9dd32d3c986d7ed8e564b21a825c0",
+    "fresh_ranking_pairs.csv": "c3baa550a03a3284244230bdbacc99cb228e61de047ee02b75cc083b01f1da07",
+    "regression500_cases.csv": "8d5f72550cc4e3b25c32aa6030849e8ba4d50c6945cdbcf174ece60b3fadfeee"
+  }
+}

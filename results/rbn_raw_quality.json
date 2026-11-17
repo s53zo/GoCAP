@@ -1,0 +1,96 @@
+{
+  "rbn-20240115": {
+    "rows_40m": 158221,
+    "modes": {
+      "CW": 157987,
+      "RTTY": 234
+    },
+    "columns": [
+      "callsign",
+      "de_pfx",
+      "de_cont",
+      "freq",
+      "band",
+      "dx",
+      "dx_pfx",
+      "dx_cont",
+      "mode",
+      "db",
+      "date",
+      "speed",
+      "tx_mode"
+    ],
+    "duplicate_keys": 2282,
+    "db_quantiles": {
+      "0.0": -1.0,
+      "0.01": 4.0,
+      "0.5": 19.0,
+      "0.99": 46.0,
+      "1.0": 104.0
+    },
+    "explicit_locator_fields": false
+  },
+  "rbn-20240511": {
+    "rows_40m": 86701,
+    "modes": {
+      "CW": 82655,
+      "RTTY": 4045,
+      "PSK31": 1
+    },
+    "columns": [
+      "callsign",
+      "de_pfx",
+      "de_cont",
+      "freq",
+      "band",
+      "dx",
+      "dx_pfx",
+      "dx_cont",
+      "mode",
+      "db",
+      "date",
+      "speed",
+      "tx_mode"
+    ],
+    "duplicate_keys": 547,
+    "db_quantiles": {
+      "0.0": -1.0,
+      "0.01": 2.0,
+      "0.5": 17.0,
+      "0.99": 44.0,
+      "1.0": 92.0
+    },
+    "explicit_locator_fields": false
+  },
+  "rbn-20250115": {
+    "rows_40m": 112518,
+    "modes": {
+      "CW": 112190,
+      "RTTY": 328
+    },
+    "columns": [
+      "callsign",
+      "de_pfx",
+      "de_cont",
+      "freq",
+      "band",
+      "dx",
+      "dx_pfx",
+      "dx_cont",
+      "mode",
+      "db",
+      "date",
+      "speed",
+      "tx_mode"
+    ],
+    "duplicate_keys": 53,
+    "db_quantiles": {
+      "0.0": -2.0,
+      "0.01": 3.0,
+      "0.5": 19.0,
+      "0.99": 46.0,
+      "1.0": 93.0
+    },
+    "explicit_locator_fields": false
+  }
+}

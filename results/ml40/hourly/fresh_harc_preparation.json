@@ -1,0 +1,63 @@
+{
+  "2025-04-04": {
+    "status": "complete",
+    "source_sha256": "c71ae69e71f3980dc5061b28a08a544b8b750b393e5065b11a9904b3cd646853",
+    "prepared_sha256": "fe8a31e08cac52fecfad4f1350c8545bc82b4eb2a0d3cba6148271b44ab4df49",
+    "source_mode_rows": [
+      {
+        "source": "HARC_PSK",
+        "mode": "FT4",
+        "rows": 2028
+      },
+      {
+        "source": "HARC_PSK",
+        "mode": "FT8",
+        "rows": 12164
+      },
+      {
+        "source": "HARC_RBN",
+        "mode": "CW",
+        "rows": 11791
+      }
+    ]
+  },
+  "2025-07-04": {
+    "status": "complete",
+    "source_sha256": "05f4f4e3fc34c7a83a63eca54e25c149b82d76aaad3f0e7a2a8b341a0889a657",
+    "prepared_sha256": "dfe95597b721f099c03a15a1b9575ddd650b38b0d0344c8205cc070a1f23d4f7",
+    "source_mode_rows": [
+      {
+        "source": "HARC_PSK",
+        "mode": "FT4",
+        "rows": 902
+      },
+      {
+        "source": "HARC_PSK",
+        "mode": "FT8",
+        "rows": 13775
+      },
+      {
+        "source": "HARC_RBN",
+        "mode": "CW",
+        "rows": 12782
+      }
+    ]
+  },
+  "2025-10-06": {
+    "status": "complete",
+    "source_sha256": "a5c74ba28dc89a4dd26a9d1e5fbc2eac51ab87d5aa9f65d0e7839fba8c96445e",
+    "prepared_sha256": "b90b58cd8d8b7f96592020be5ae31154944018ab932a829fb2b7e09481d8918a",
+    "source_mode_rows": [
+      {
+        "source": "HARC_PSK",
+        "mode": "FT4",
+        "rows": 1540
+      },
+      {
+        "source": "HARC_PSK",
+        "mode": "FT8",
+        "rows": 13796
+      }
+    ]
+  }
+}

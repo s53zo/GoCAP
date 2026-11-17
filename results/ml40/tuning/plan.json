@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "seed": 40,
+  "parameter_space": {
+    "max_iter": [
+      180,
+      360,
+      600
+    ],
+    "learning_rate": [
+      0.03,
+      0.07,
+      0.1
+    ],
+    "max_leaf_nodes": [
+      15,
+      31,
+      63
+    ],
+    "min_samples_leaf": [
+      30,
+      100,
+      300
+    ],
+    "l2_regularization": [
+      1,
+      10,
+      50
+    ],
+    "station_penalty": [
+      10,
+      50,
+      200
+    ]
+  },
+  "trials": [
+    {
+      "max_iter": 180,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 23,
+      "min_samples_leaf": 60,
+      "l2_regularization": 10,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 100,
+      "l2_regularization": 1,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 100,
+      "l2_regularization": 10,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 100,
+      "l2_regularization": 1,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 30,
+      "l2_regularization": 50,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 100,
+      "l2_regularization": 10,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 30,
+      "l2_regularization": 10,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 30,
+      "l2_regularization": 50,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 10,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 100,
+      "l2_regularization": 1,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 300,
+      "l2_regularization": 10,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 100,
+      "l2_regularization": 50,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 100,
+      "l2_regularization": 50,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 10,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 300,
+      "l2_regularization": 10,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 30,
+      "l2_regularization": 10,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 100,
+      "l2_regularization": 10,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 100,
+      "l2_regularization": 50,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 30,
+      "l2_regularization": 50,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 100,
+      "l2_regularization": 50,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 300,
+      "l2_regularization": 50,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 100,
+      "l2_regularization": 10,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 300,
+      "l2_regularization": 1,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.07,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 600,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 100,
+      "l2_regularization": 1,
+      "station_penalty": 50
+    },
+    {
+      "max_iter": 360,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 63,
+      "min_samples_leaf": 30,
+      "l2_regularization": 50,
+      "station_penalty": 200
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 30,
+      "l2_regularization": 10,
+      "station_penalty": 10
+    },
+    {
+      "max_iter": 180,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 300,
+      "l2_regularization": 10,
+      "station_penalty": 10
+    }
+  ],
+  "fit_sha256": "94e296c389dd640b7b344aeec2650b05eae703cca4ba8ae5729614ff67080d4b",
+  "reference_sha256": "f8729a599bea13db88b7cab9c92fc355bdd576ddce253a412bf72c9e0911d6cc",
+  "screen_cap_per_source_mode": 40000,
+  "full_training_finalists": 3,
+  "fresh_test_dates": [
+    "2025-01-02",
+    "2025-02-02",
+    "2025-03-02",
+    "2025-04-02",
+    "2025-05-02",
+    "2025-06-02",
+    "2025-07-02",
+    "2025-08-02",
+    "2025-09-02",
+    "2025-10-02",
+    "2025-11-02",
+    "2025-12-02"
+  ],
+  "fresh_source": "WSPR only; event-hash SNR sample plus pair/day-hash ranking cohort",
+  "selection": "Highest median validation WSPR hourly correlation, subject to balanced MAE <= reference *1.02; each mode MAE <= reference *1.05; >=3 quarters rank correlation >= reference -0.02. Screen uses its own reference; full stage uses released reference.",
+  "promotion": "Fresh WSPR ranking paired date-bootstrap 95% lower bound >0 and fresh SNR MAE <= reference *1.02; otherwise keep reference.",
+  "test_policy": "Do not read fresh processed test data or predict until selected model and checksums frozen. Published 500 cases are regression only.",
+  "positive_only": true
+}

@@ -1,0 +1,18 @@
+{
+  "model": "boosted_station",
+  "selected_by": "validation station-pair hour ranking; balanced MAE tie-break",
+  "band_m": 40,
+  "bytes": 519117,
+  "sha256": "f8729a599bea13db88b7cab9c92fc355bdd576ddce253a412bf72c9e0911d6cc",
+  "fit_features_sha256": "94e296c389dd640b7b344aeec2650b05eae703cca4ba8ae5729614ff67080d4b",
+  "frozen_before_test_utc": "2026-11-17T06:57:05.298715+00:00",
+  "station_lookup_tables_in_artifact": false,
+  "reception_history_required_for_inference": false,
+  "target": "SNR2500 among reported receptions; station-zero reference is not a calibrated dipole",
+  "limitations": [
+    "positive reported-reception population only",
+    "absolute 100W/dipole calibration unverified",
+    "solar history supplied as a scenario assumption",
+    "nominal intervals do not guarantee temporal or out-of-domain coverage"
+  ]
+}

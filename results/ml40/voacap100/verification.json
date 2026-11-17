@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "frozen_cases": 100,
+  "native_runs_independently_parsed": 1200,
+  "full_hourly_predictions": 2400,
+  "actual_positive_hours": 968,
+  "missing_reception_hours_preserved_unknown": 1432,
+  "all_input_source_model_hashes_match": true,
+  "independent_metrics_match": true,
+  "observed_features_predict_identically": true,
+  "raw_reports_independently_reaggregated": 2680,
+  "all_968_raw_hourly_medians_match": true,
+  "fitting_features_latest_utc": "2024-12-22T23:00:00+00:00",
+  "native_10db_power_increment_verified_hours": 24,
+  "bootstrap_independently_recomputed": true
+}

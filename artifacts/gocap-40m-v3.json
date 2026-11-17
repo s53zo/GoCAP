@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "sha256": "0ec1f7a98b494c9a8ddb677611ff29ac1c7d72aef3d940007355f8116fb9336e",
+  "bytes": 2967177,
+  "profile_selection": {
+    "WSPR": "reference",
+    "FT8": "reference",
+    "FT4": "reference",
+    "CW": "pooled_source_heads"
+  },
+  "recommend_components_over_reference": {
+    "point_snr": false,
+    "hourly_ranking": true,
+    "conditional_intervals": false
+  },
+  "frozen_utc": "2026-11-17T11:29:45.967579+00:00",
+  "fresh_test_dates": [
+    "2025-01-03",
+    "2025-02-03",
+    "2025-03-03",
+    "2025-04-03",
+    "2025-05-03",
+    "2025-06-03",
+    "2025-07-03",
+    "2025-08-03",
+    "2025-09-03",
+    "2025-10-03",
+    "2025-11-03",
+    "2025-12-03"
+  ],
+  "physical_calibration_verified": false,
+  "scope": "Positive-reception SNR, relative observed-hour ranking and conditional intervals; fresh final evidence is WSPR only."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "verified",
+  "artifact_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "profiles_queried": [
+    "WSPR",
+    "FT8",
+    "FT4",
+    "CW"
+  ],
+  "hours_per_query": 24,
+  "query_from_empty_working_directory": true,
+  "snr_and_intervals_finite": true,
+  "no_ranking_or_strongest_hour_output": true,
+  "unknown_power_explicit_for_other_modes": true,
+  "example_cases": 6,
+  "example_predicted_hours": 144,
+  "unreported_measured_hours_remain_unknown": true,
+  "report_links_verified": true,
+  "source_metric_verification_sha256": "8c3de1c8d120c8ce7c4dfcf112be5453c5b68c3873300924bfec3c538b3effb8",
+  "query_code_sha256": "20a3d9570a8e51deac5a371f1e004e264442ff000b5c5fc8d650b7b5ee0d34d2"
+}

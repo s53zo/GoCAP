@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-17T12:13:11.528484+00:00",
+  "original_unavailable_date": "2025-10-04",
+  "reason": "Date absent from public Madrigal HARC experiment catalog",
+  "rule": "First available unused public October date after October4; excludes all earlier model fitting, validation and inspected test dates. Uses archive availability only, not reception strengths or prediction errors.",
+  "replacement": "2025-10-06",
+  "active_harc_test_dates": [
+    "2025-04-04",
+    "2025-07-04",
+    "2025-10-06"
+  ],
+  "test_predictions_inspected": false,
+  "candidate_selection_unchanged": true
+}

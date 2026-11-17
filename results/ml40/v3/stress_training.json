@@ -1,0 +1,12 @@
+{
+  "phase": "frozen_before_test",
+  "frozen_utc": "2026-11-17T11:31:24.700718+00:00",
+  "artifacts": {
+    "station_holdout": {
+      "sha256": "065d7e94ef1e0b130742a177483a2578b5f15d6b05ce3b308131fccefecbd784"
+    },
+    "geographic_holdout": {
+      "sha256": "077bf027970daad0aabf828aed50b945e9c78a4b4eff11126f7f874d638f7522"
+    }
+  }
+}

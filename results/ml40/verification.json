@@ -1,0 +1,27 @@
+{
+  "status": "verified",
+  "positive_reception_days": 318,
+  "hourly_rows": 2044084,
+  "prediction_rows": 5716338,
+  "metric_groups": 96,
+  "artifacts_checked": 9,
+  "calibration_quantiles_recomputed": 72,
+  "ranking_traces_recomputed": 58260,
+  "checks": [
+    "fitting file has no final test rows",
+    "disjoint fitting/test calendar dates",
+    "frozen-before-test timestamp",
+    "artifact checksums",
+    "source target reconciliation",
+    "station/geographic exclusion in both roles",
+    "training-only nuisance keys",
+    "independently recomputed calibration quantiles",
+    "MAE/RMSE and interval coverage",
+    "manual tied-rank correlation and best-hour shortfall",
+    "locator and solar-boundary validity",
+    "primary actual ranking curves reconciled to independently sampled source observations"
+  ],
+  "ranking_source_curves_checked": 29178,
+  "test_metrics_sha256": "8bd83814891045a9701f494b248b97d20f13a23bf9c5ec4838b23118e9a5fef6",
+  "ranking_sha256": "dc6acaa4fadc9858c5a44abc2c237a048e46bf1e24f8dc09d2f3b41d8516a257"
+}

@@ -1,0 +1,169 @@
+{
+  "scope": "Post-freeze diagnostic, no model selection; current-hour Kp, previous-day SFI/Ap and reported power retained. It does not evaluate solar-forecast accuracy.",
+  "results": {
+    "actual_completed_history": {
+      "CW": {
+        "reference": {
+          "hour_date_mae_db": 7.044931826760698,
+          "mae_db": 7.091845082228772,
+          "rmse_db": 8.942808258366847,
+          "bias_db": -0.35304212773521304,
+          "rows": 24573,
+          "days": 2,
+          "observed_hour_date_cells": 48
+        },
+        "recommended": {
+          "hour_date_mae_db": 6.966269201459544,
+          "mae_db": 7.002992402452766,
+          "rmse_db": 8.831241648106955,
+          "bias_db": -0.29209107719247046,
+          "rows": 24573,
+          "days": 2,
+          "observed_hour_date_cells": 48
+        }
+      },
+      "FT4": {
+        "reference": {
+          "hour_date_mae_db": 7.210728338151885,
+          "mae_db": 7.0569459092998414,
+          "rmse_db": 8.90431286892537,
+          "bias_db": -0.3615811174414786,
+          "rows": 4470,
+          "days": 3,
+          "observed_hour_date_cells": 66
+        },
+        "recommended": {
+          "hour_date_mae_db": 7.210728338151885,
+          "mae_db": 7.0569459092998414,
+          "rmse_db": 8.90431286892537,
+          "bias_db": -0.3615811174414786,
+          "rows": 4470,
+          "days": 3,
+          "observed_hour_date_cells": 66
+        }
+      },
+      "FT8": {
+        "reference": {
+          "hour_date_mae_db": 6.854254196512106,
+          "mae_db": 6.841730155777991,
+          "rmse_db": 8.693543289888217,
+          "bias_db": 0.14604823090752378,
+          "rows": 39735,
+          "days": 3,
+          "observed_hour_date_cells": 72
+        },
+        "recommended": {
+          "hour_date_mae_db": 6.810996516581939,
+          "mae_db": 6.791806131494052,
+          "rmse_db": 8.658362371038951,
+          "bias_db": -0.19476540616200122,
+          "rows": 39735,
+          "days": 3,
+          "observed_hour_date_cells": 72
+        }
+      },
+      "WSPR": {
+        "reference": {
+          "hour_date_mae_db": 6.66585875113056,
+          "mae_db": 6.642973868840756,
+          "rmse_db": 8.35158715108894,
+          "bias_db": 0.01587908808705774,
+          "rows": 157382,
+          "days": 12,
+          "observed_hour_date_cells": 288
+        },
+        "recommended": {
+          "hour_date_mae_db": 6.322787325098397,
+          "mae_db": 6.297745779808002,
+          "rmse_db": 7.9887503080564395,
+          "bias_db": -0.44052030737265896,
+          "rows": 157382,
+          "days": 12,
+          "observed_hour_date_cells": 288
+        }
+      }
+    },
+    "steady_history_assumption": {
+      "CW": {
+        "reference": {
+          "hour_date_mae_db": 7.045469004940827,
+          "mae_db": 7.096274535453097,
+          "rmse_db": 8.948107081091889,
+          "bias_db": -0.38920215366142696,
+          "rows": 24573,
+          "days": 2,
+          "observed_hour_date_cells": 48
+        },
+        "recommended": {
+          "hour_date_mae_db": 6.970670670477266,
+          "mae_db": 7.009689555804282,
+          "rmse_db": 8.846526012630047,
+          "bias_db": -0.3964784308768393,
+          "rows": 24573,
+          "days": 2,
+          "observed_hour_date_cells": 48
+        }
+      },
+      "FT4": {
+        "reference": {
+          "hour_date_mae_db": 7.2346541885865925,
+          "mae_db": 7.0552217044081775,
+          "rmse_db": 8.907978406233864,
+          "bias_db": -0.30436803431881865,
+          "rows": 4470,
+          "days": 3,
+          "observed_hour_date_cells": 66
+        },
+        "recommended": {
+          "hour_date_mae_db": 7.2346541885865925,
+          "mae_db": 7.0552217044081775,
+          "rmse_db": 8.907978406233864,
+          "bias_db": -0.30436803431881865,
+          "rows": 4470,
+          "days": 3,
+          "observed_hour_date_cells": 66
+        }
+      },
+      "FT8": {
+        "reference": {
+          "hour_date_mae_db": 6.865902828526512,
+          "mae_db": 6.851431816569207,
+          "rmse_db": 8.69895345394251,
+          "bias_db": 0.2625764326791999,
+          "rows": 39735,
+          "days": 3,
+          "observed_hour_date_cells": 72
+        },
+        "recommended": {
+          "hour_date_mae_db": 6.877310841212392,
+          "mae_db": 6.856800019966656,
+          "rmse_db": 8.71358296098076,
+          "bias_db": 0.3043571903910479,
+          "rows": 39735,
+          "days": 3,
+          "observed_hour_date_cells": 72
+        }
+      },
+      "WSPR": {
+        "reference": {
+          "hour_date_mae_db": 6.668843126420003,
+          "mae_db": 6.645710780061598,
+          "rmse_db": 8.35182183657508,
+          "bias_db": 0.06050186059103732,
+          "rows": 157382,
+          "days": 12,
+          "observed_hour_date_cells": 288
+        },
+        "recommended": {
+          "hour_date_mae_db": 6.324990743919376,
+          "mae_db": 6.300088799817667,
+          "rmse_db": 7.981006035351578,
+          "bias_db": -0.29898923655677373,
+          "rows": 157382,
+          "days": 12,
+          "observed_hour_date_cells": 288
+        }
+      }
+    }
+  }
+}

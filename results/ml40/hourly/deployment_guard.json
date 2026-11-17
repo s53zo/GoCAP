@@ -1,0 +1,6 @@
+{
+  "declared_utc": "2026-11-17T12:15:25.934462+00:00",
+  "condition": "In addition to the original point-SNR gates, WSPR deployment requires MAE <=1.05*strict reference in each designated station and field exclusion stress test.",
+  "scope": "Conservative deployment acceptance only; no change to candidate selection, fitted models or final test dates.",
+  "fresh_scores_seen": false
+}

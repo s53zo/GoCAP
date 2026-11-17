@@ -1,0 +1,27 @@
+{
+  "reference_noise_bandwidth_hz": 2500,
+  "meaning": "Reference reception thresholds, not training labels or guaranteed QSO thresholds. Margins inherit SNR calibration uncertainty.",
+  "digital": {
+    "WSPR": {"threshold_db": -31, "criterion": "nominal approximately 50% decoding threshold"},
+    "FT8": {"threshold_db": -21, "criterion": "nominal approximately 50% decoding threshold"},
+    "FT4": {"threshold_db": -17.5, "criterion": "nominal approximately 50% decoding threshold"}
+  },
+  "operator_profiles": {
+    "CW_DX": {"threshold_db": -10, "criterion": "illustrative 24 dB-Hz service requirement, rounded after bandwidth conversion"},
+    "CW_COMFORTABLE": {"threshold_db": -3, "criterion": "illustrative 31 dB-Hz service requirement, rounded after bandwidth conversion"},
+    "PHONE_SSB_DX": {"threshold_db": 4, "criterion": "illustrative 38 dB-Hz service requirement, rounded after bandwidth conversion"},
+    "PHONE_SSB_COMFORTABLE": {"threshold_db": 11, "criterion": "illustrative 45 dB-Hz service requirement, rounded after bandwidth conversion"}
+  },
+  "conversion": "SNR2500 = carrier-to-noise-density in dB-Hz - 10*log10(2500); 33.9794 dB correction",
+  "sources": [
+    "https://wsjt.sourceforge.io/wsjtx-main_en.html#PROTOCOLS",
+    "https://www.voacap.com/2023/understanding/rel.html",
+    "https://www.voacap.com/2023/voacap-windows-input.html",
+    "https://www2.arrl.org/files/file/Technology/propagation/Voacap.pdf"
+  ],
+  "limitations": [
+    "Fading, Doppler spread, interference, decoder settings and operator skill affect reception.",
+    "100 W SSB PEP is not 100 W average speech power; mode power conventions need explicit treatment.",
+    "Training currently estimates source-population SNR among received reports; absolute 100 W/dipole calibration is unverified."
+  ]
+}

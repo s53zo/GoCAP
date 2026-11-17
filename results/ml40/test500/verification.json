@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "cases": 500,
+  "hourly_comparisons": 2398,
+  "raw_hourly_aggregates": 2399,
+  "model_sha256": "f8729a599bea13db88b7cab9c92fc355bdd576ddce253a412bf72c9e0911d6cc",
+  "checks": [
+    "frozen outcome-blind membership",
+    "unique directed square paths within each mode",
+    "test-only calendar dates",
+    "independently recomputed errors and interval coverage",
+    "independently recomputed tied-rank correlations and hour-selection loss",
+    "portable artifact predictions rerun and reconciled to saved observations"
+  ],
+  "output_sha256": {
+    "plan.json": "ff0f2095c94e5fc952002cd307927d9585f177dfc2b0150d93e7e2b7e578589b",
+    "cases.csv": "c22e3ab0884a4da01b8a4978aeff0124bdf8845fe978f8f6d3cb657706684c0d",
+    "observations.csv": "deac168553aecff99555f03461a9eeef7ef68b51e6f62d415d06974e32a0744a",
+    "hourly_comparisons.csv": "5302de2e4693b88044eff2cde829df1c80dc1141cb090b05dfa19fa1453df4e5",
+    "summary.json": "d3c41b52bda6422bbdf1dc758aeb5ced30c7ed01d31d4a48d8175d609b4d2093",
+    "inputs.parquet": "fabcd9bc862010b04bb7eee0a1744598195ad1a0937169239ee8350dfa14f063"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "version": "hourly-snr-1",
+  "seed": 40,
+  "band_m": 40,
+  "positive_only": true,
+  "primary_metric": "Mean absolute SNR error averaged equally over observed UTC hour/date cells; model selection separately per observation mode. No ranks or best-hour scores.",
+  "secondary_metrics": [
+    "observation MAE",
+    "RMSE",
+    "bias",
+    "24 separate UTC-hour errors",
+    "80% interval coverage/width/score"
+  ],
+  "correction_training_dates": [
+    "2023-01-05",
+    "2023-02-05",
+    "2023-03-05",
+    "2023-04-05",
+    "2023-05-05",
+    "2023-06-05",
+    "2023-07-05",
+    "2023-08-05",
+    "2023-09-05",
+    "2023-10-05",
+    "2023-11-05",
+    "2023-12-05",
+    "2024-01-05",
+    "2024-02-05",
+    "2024-03-05",
+    "2024-04-05",
+    "2024-05-05",
+    "2024-06-05",
+    "2024-07-05",
+    "2024-08-05",
+    "2024-09-05",
+    "2024-10-05",
+    "2024-11-05",
+    "2024-12-05"
+  ],
+  "new_wspr_test_dates": [
+    "2025-01-04",
+    "2025-02-04",
+    "2025-03-04",
+    "2025-04-04",
+    "2025-05-04",
+    "2025-06-04",
+    "2025-07-04",
+    "2025-08-04",
+    "2025-09-04",
+    "2025-10-04",
+    "2025-11-04",
+    "2025-12-04"
+  ],
+  "new_harc_test_dates": [
+    "2025-04-04",
+    "2025-07-04",
+    "2025-10-04"
+  ],
+  "wspr_event_hash_divisor": 128,
+  "query_cap": 50001,
+  "harc_file_cap_gb": 8,
+  "harc_max_files": 3,
+  "candidate_settings": {
+    "iterations": 240,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 100,
+    "l2_regularization": 10
+  },
+  "native_candidates": [
+    "native_base_day",
+    "native_rich_day",
+    "native_rich_hour",
+    "native_rich_observation",
+    "native_rich_small"
+  ],
+  "native_policy": "Source-specific native SNR targets; reported WSPR power stays a predictor, never replaced by an assumed 1dB/dB correction. Unknown power stays unknown for other modes.",
+  "correction_candidates": [
+    "independent_residual_half",
+    "independent_residual_full"
+  ],
+  "correction_policy": "Reference is frozen. Residuals are learned only on 24 new 2023/2024 dates absent from its fitting data; small regularized trees; correction clipped to +/-3dB, tested at fixed strengths .5 and 1.",
+  "selection": "Lowest validation hour/date-cell MAE, with observation MAE <= reference*1.02 and RMSE <= reference*1.03; select independently per mode. Existing 2024 validation used only for selection. Separate calibration dates adjust intervals.",
+  "promotion": "Fresh-date paired bootstrap upper bound of hour/date-cell MAE difference <0 for WSPR; micro MAE <=reference, RMSE<=reference*1.02; each other fresh mode point MAE<=reference*1.05. Otherwise retain reference point model.",
+  "uncertainty": "Separate per-mode finite-sample 80% absolute residual calibration; compare measured coverage/width/interval score on new data. This is reported-reception uncertainty, not closed/open-path evidence.",
+  "strict_tests": "Refit selected mode models with designated stations or fields excluded in both roles; frozen strict reference artifacts supply comparators.",
+  "calibration": "Archive-only; physical 100W/dipole calibration unverified by user choice.",
+  "reference_sha256": "f8729a599bea13db88b7cab9c92fc355bdd576ddce253a412bf72c9e0911d6cc",
+  "fit_sha256": "94e296c389dd640b7b344aeec2650b05eae703cca4ba8ae5729614ff67080d4b",
+  "diagnosis_sha256": "5af58606294ce24be626cdbcbcab615f5b229a32dd463b36bef5ace4d58e68a2"
+}

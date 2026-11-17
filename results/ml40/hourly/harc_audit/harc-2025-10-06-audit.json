@@ -1,0 +1,49 @@
+{
+  "date": "2025-10-06",
+  "all_band_rows": 113971875,
+  "rows_40m_by_native_source": {
+    "PSK": 16906128,
+    "WSP": 1731096
+  },
+  "raw_source_mode_counts_40m": {
+    "PSK:FT8": 15702972,
+    "WSP:W": 1731096,
+    "PSK:WSPR": 489178,
+    "PSK:JS8": 182920,
+    "PSK:FT4": 475382,
+    "PSK:CW": 29356,
+    "PSK:VARAC": 23095,
+    "PSK:FREEDV": 2030,
+    "PSK:FST4W": 584,
+    "PSK:JT65": 303,
+    "PSK:CONTESTI4/": 8,
+    "PSK:JT9": 7,
+    "PSK:ROS": 4,
+    "PSK:RTTY": 71,
+    "PSK:SSTV": 162,
+    "PSK:JT4": 1,
+    "PSK:SSB": 4,
+    "PSK:OPERA": 7,
+    "PSK:PSK31": 36,
+    "PSK:RTTY 45": 6,
+    "PSK:FSQ": 2
+  },
+  "unix_minus_utc_fields_seconds_40m": {
+    "0": 18637224
+  },
+  "sampled_rows": 19452,
+  "sampled_rbn": 0,
+  "sampled_rbn_matched_to_original_utc": 0,
+  "rbn_snr_exact_agreement_fraction": NaN,
+  "sample_divisors": {
+    "RBN": 4,
+    "PSK_FT4": 256,
+    "PSK_other": 1024,
+    "WSP": 1024
+  },
+  "sample_expansion": "FT4 expanded from 1/1024 to 1/256 after strict training count was below the fixed 1000-row gate; other source/mode selections unchanged",
+  "sampling": "pandas hash of time,tx,rx,frequency,native_mode,source; duplicate event copies retained",
+  "timestamp_policy": "explicit UTC fields, cross-checked against original RBN event times; raw ut1_unix retained",
+  "geolocation_policy": "coordinates mapped to 4-character squares; lookup vs reported provenance unavailable",
+  "sample_parquet_sha256": "a5c74ba28dc89a4dd26a9d1e5fbc2eac51ab87d5aa9f65d0e7839fba8c96445e"
+}

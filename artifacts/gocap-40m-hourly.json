@@ -1,0 +1,19 @@
+{
+  "sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "bytes": 3271039,
+  "objective": "Hour-by-hour SNR estimates, not ranking",
+  "profile_selection": {
+    "WSPR": "WSPR_native_rich_observation",
+    "FT8": "FT8_native_rich_observation",
+    "FT4": "reference",
+    "CW": "CW_native_base_day"
+  },
+  "promoted_by_mode": {
+    "WSPR": true,
+    "FT8": true,
+    "FT4": false,
+    "CW": true
+  },
+  "physical_calibration_verified": false,
+  "query_module": "ml40.hourly_query"
+}

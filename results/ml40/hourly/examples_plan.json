@@ -1,0 +1,59 @@
+{
+  "selection": "Outcome-blind identifier hash; at least six recorded hours at fixed reported power; cover available quarters then distinct square paths; no strength/error filter",
+  "cases": [
+    {
+      "id": "0042a562ca7c114422ca91518a7cb1cd439bd15742f4dd96461517122d6bbb1a",
+      "date": "2025-04-04",
+      "tx_sign": "WW0WWV",
+      "rx_sign": "K1RA-PI",
+      "tx_grid": "DN70",
+      "rx_grid": "FM18",
+      "power_dbm": 30.0
+    },
+    {
+      "id": "022f8f004e1c34f5b0627421f3232a7ef9a204a5705738d3a8d6c862234b155b",
+      "date": "2025-09-04",
+      "tx_sign": "WW0WWV",
+      "rx_sign": "W0CWA/K",
+      "tx_grid": "DN70",
+      "rx_grid": "DN70",
+      "power_dbm": 30.0
+    },
+    {
+      "id": "0927336f3a7d02e4996ee929f8ddc0803f4c678dd437d0ff26fe44ea3b09956d",
+      "date": "2025-12-04",
+      "tx_sign": "WW0WWV",
+      "rx_sign": "AE6RQ",
+      "tx_grid": "DN70",
+      "rx_grid": "CM97",
+      "power_dbm": 30.0
+    },
+    {
+      "id": "09e1d2b3996089f76864da1e4f23b160d952f444b218f312d4c446c02e8d073e",
+      "date": "2025-03-04",
+      "tx_sign": "WD1O",
+      "rx_sign": "KD2OM-2",
+      "tx_grid": "FN53",
+      "rx_grid": "FN12",
+      "power_dbm": 17.0
+    },
+    {
+      "id": "052974ec19bea838395113fcff2efa4d531b151bf75c9398acb1e54e6d2f8620",
+      "date": "2025-09-04",
+      "tx_sign": "N9VP",
+      "rx_sign": "W2NAF-2",
+      "tx_grid": "FM06",
+      "rx_grid": "FN21",
+      "power_dbm": 23.0
+    },
+    {
+      "id": "0b7359c326777cfdbf976fe9a347c91b2fe37599b38eb157c5b428286c06e5e4",
+      "date": "2025-02-04",
+      "tx_sign": "W3USR",
+      "rx_sign": "WA2N",
+      "tx_grid": "FN21",
+      "rx_grid": "EM85",
+      "power_dbm": 30.0
+    }
+  ]
+}

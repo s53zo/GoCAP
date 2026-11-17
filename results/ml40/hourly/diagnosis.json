@@ -1,0 +1,42 @@
+{
+  "scope": "original validation dates only; no new test scores inspected",
+  "reference_sha256": "f8729a599bea13db88b7cab9c92fc355bdd576ddce253a412bf72c9e0911d6cc",
+  "by_mode": {
+    "CW": {
+      "rows": 18334,
+      "days": 1,
+      "mae_db": 7.181723732479549,
+      "rmse_db": 9.105741565977885,
+      "bias_db": -0.9853665179607902,
+      "median_error_db": -0.4503754934128539,
+      "p90_absolute_error_db": 14.96375157365064
+    },
+    "FT4": {
+      "rows": 3543,
+      "days": 2,
+      "mae_db": 6.6489768044136515,
+      "rmse_db": 8.34299505042294,
+      "bias_db": -0.4710911885101284,
+      "median_error_db": -0.24540588154425436,
+      "p90_absolute_error_db": 13.539482375271364
+    },
+    "FT8": {
+      "rows": 30467,
+      "days": 2,
+      "mae_db": 6.976984135945064,
+      "rmse_db": 8.853237580034627,
+      "bias_db": -1.1069945996839796,
+      "median_error_db": -0.5758243265803089,
+      "p90_absolute_error_db": 14.582359791516604
+    },
+    "WSPR": {
+      "rows": 132451,
+      "days": 12,
+      "mae_db": 6.7677949030343,
+      "rmse_db": 8.506784533825847,
+      "bias_db": -0.43348976381365845,
+      "median_error_db": 0.0830239476743877,
+      "p90_absolute_error_db": 13.752455495365707
+    }
+  }
+}

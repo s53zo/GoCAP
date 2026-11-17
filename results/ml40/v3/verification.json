@@ -1,0 +1,30 @@
+{
+  "status": "verified",
+  "positive_only": true,
+  "raw_queries_checked": 120,
+  "rank_training_hours": 172129,
+  "rank_training_groups": 18207,
+  "calibration_quantiles_recomputed": 4,
+  "paired_ranking_cases_recomputed": 3563,
+  "fresh_snr_rows": 151396,
+  "fresh_dates": 12,
+  "checks": [
+    "frozen source, code and model checksums",
+    "untouched test dates and disjoint fitting splits",
+    "positive source observations reconciled to every rank-training label",
+    "no target or station identifiers in rank features",
+    "strict station/field exclusions in both roles",
+    "independent conformal-calibration order statistics",
+    "point predictions, interval bounds, MAE, coverage and interval scores",
+    "source-hour medians, manual tied-rank correlation and best-hour loss",
+    "paired date-bootstrap reproducibility",
+    "physical calibration remains unverified"
+  ],
+  "output_sha256": {
+    "plan.json": "1f7324a6d182c48da2af75a607503a337007671f028b5198edc90e0a2ab62104",
+    "run.json": "e02b11106060423ad0fc74a08ec83b675246af87431223e960d742f4769c349f",
+    "fresh_predictions.parquet": "c39095c0ab8e6aa761df4059ea8b0033520e0d4df920436c422910d6c4b0fcfe",
+    "paired_hour_rankings.csv": "7090a975a100d8dbb28e832815ce80f67d2d0373a27f919aff50dfcf111c11ef",
+    "interval_segments.csv": "51abfa77e37affa81f21d9de2c51267b7599fad70124513de63e66993826db55"
+  }
+}

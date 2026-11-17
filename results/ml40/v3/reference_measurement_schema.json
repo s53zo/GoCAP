@@ -1,0 +1,33 @@
+{
+  "format": "JSON list of actual received measurements",
+  "required_fields": [
+    "id",
+    "utc",
+    "tx_sign",
+    "rx_sign",
+    "tx_grid",
+    "rx_grid",
+    "mode",
+    "measured_feedpoint_power_watts",
+    "received_signal_dbm",
+    "noise_dbm_2500hz",
+    "tx_antenna",
+    "rx_antenna",
+    "power_measurement_reference",
+    "receiver_calibration_reference",
+    "noise_measurement_method",
+    "observation_reference",
+    "received=true"
+  ],
+  "antenna_fields": [
+    "type",
+    "height_m",
+    "documentation_reference"
+  ],
+  "units": {
+    "received_signal_dbm": "calibrated receiver input dBm",
+    "noise_dbm_2500hz": "noise power integrated over 2500Hz in dBm",
+    "measured_feedpoint_power_watts": "watts at antenna feedpoint"
+  },
+  "analysis_policy": "No automatic 100W/dipole correction. Fit and evaluate any proposed correction on separate station/date groups; retain positive-only selection limits."
+}

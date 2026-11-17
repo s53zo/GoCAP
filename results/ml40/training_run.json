@@ -1,0 +1,480 @@
+{
+  "phase": "evaluated",
+  "fit_features_sha256": "94e296c389dd640b7b344aeec2650b05eae703cca4ba8ae5729614ff67080d4b",
+  "scenarios": {
+    "standard": {
+      "train_rows": 1129333,
+      "train_days": 258,
+      "validation_rows": 184795,
+      "calibration_rows": 181267,
+      "files": {
+        "boosted_baseline": {
+          "path": "models/standard-boosted_baseline.joblib",
+          "sha256": "e10ad4991b81a6111dc33b7a7853b02b5d4f4e238cd543a4b86fc19bba8b1a4c",
+          "bytes": 519268
+        },
+        "boosted_station": {
+          "path": "models/standard-boosted_station.joblib",
+          "sha256": "ae97edc89b8416f31ea3051bd068ed7f8f1cf0cb0fd12d2ce9fb1180a3f74147",
+          "bytes": 819932
+        },
+        "neural_station": {
+          "path": "models/standard-neural_station.joblib",
+          "sha256": "d4be6d856f5ac214947dc58ffa2da9fc93aef5c01c1d80f070eada4b75ce8e9e",
+          "bytes": 418180
+        }
+      },
+      "validation": [
+        {
+          "model": "boosted_baseline",
+          "view": "population_core",
+          "balanced_mae_db": 6.901168668569795,
+          "ranking_cases": 836,
+          "ranking_median_spearman": 0.35492550897609176
+        },
+        {
+          "model": "boosted_baseline",
+          "view": "station_aware",
+          "balanced_mae_db": 6.901168668569795,
+          "ranking_cases": 836,
+          "ranking_median_spearman": 0.35492550897609176
+        },
+        {
+          "model": "boosted_station",
+          "view": "population_core",
+          "balanced_mae_db": 6.900510298960938,
+          "ranking_cases": 836,
+          "ranking_median_spearman": 0.3683603649834709
+        },
+        {
+          "model": "boosted_station",
+          "view": "station_aware",
+          "balanced_mae_db": 6.398714556416712,
+          "ranking_cases": 836,
+          "ranking_median_spearman": 0.3683603649834709
+        },
+        {
+          "model": "neural_station",
+          "view": "population_core",
+          "balanced_mae_db": 7.254330176679332,
+          "ranking_cases": 836,
+          "ranking_median_spearman": 0.34743125916729195
+        },
+        {
+          "model": "neural_station",
+          "view": "station_aware",
+          "balanced_mae_db": 6.731944559994559,
+          "ranking_cases": 836,
+          "ranking_median_spearman": 0.34743125916729195
+        }
+      ],
+      "chosen_by_validation": "boosted_station",
+      "details": {
+        "epochs": [
+          {
+            "epoch": 1,
+            "validation_balanced_mae_db": 7.35764119458326
+          },
+          {
+            "epoch": 2,
+            "validation_balanced_mae_db": 6.889251108261074
+          },
+          {
+            "epoch": 3,
+            "validation_balanced_mae_db": 6.807229800401367
+          },
+          {
+            "epoch": 4,
+            "validation_balanced_mae_db": 6.797392980761101
+          },
+          {
+            "epoch": 5,
+            "validation_balanced_mae_db": 6.763465593118036
+          },
+          {
+            "epoch": 6,
+            "validation_balanced_mae_db": 6.778122430177717
+          },
+          {
+            "epoch": 7,
+            "validation_balanced_mae_db": 6.765130219029707
+          },
+          {
+            "epoch": 8,
+            "validation_balanced_mae_db": 6.731944559994559
+          },
+          {
+            "epoch": 9,
+            "validation_balanced_mae_db": 6.733052643317672
+          },
+          {
+            "epoch": 10,
+            "validation_balanced_mae_db": 6.743152955674183
+          },
+          {
+            "epoch": 11,
+            "validation_balanced_mae_db": 6.790169373089601
+          },
+          {
+            "epoch": 12,
+            "validation_balanced_mae_db": 6.775419101004523
+          },
+          {
+            "epoch": 13,
+            "validation_balanced_mae_db": 6.832836274647459
+          },
+          {
+            "epoch": 14,
+            "validation_balanced_mae_db": 6.868589050484334
+          },
+          {
+            "epoch": 15,
+            "validation_balanced_mae_db": 6.862645683563731
+          },
+          {
+            "epoch": 16,
+            "validation_balanced_mae_db": 6.910723458622161
+          }
+        ],
+        "station_effects": {
+          "tx_keys": 5125,
+          "rx_keys": 4556,
+          "penalty": 50,
+          "tx_rms_db": 2.080993396556155,
+          "rx_rms_db": 2.167817371438132
+        },
+        "weight_range": [
+          0.012358171111119228,
+          317.94284909909913
+        ],
+        "validation_selection": "best epoch by balanced MAE; patience 8; final test not consulted"
+      },
+      "selection_criterion": "validation station-pair hour ranking; balanced MAE tie-break"
+    },
+    "station_holdout": {
+      "train_rows": 739762,
+      "train_days": 258,
+      "validation_rows": 117489,
+      "calibration_rows": 116929,
+      "files": {
+        "boosted_baseline": {
+          "path": "models/station_holdout-boosted_baseline.joblib",
+          "sha256": "a1c86a4c9d5bfb3ba02459a5c3468f09727511e2dd7675ef7c459435aaaa618e",
+          "bytes": 519147
+        },
+        "boosted_station": {
+          "path": "models/station_holdout-boosted_station.joblib",
+          "sha256": "9519550dfb614c956226c4d4d232ce7060df23a4f89a1a588fe809c79654eaa0",
+          "bytes": 740474
+        },
+        "neural_station": {
+          "path": "models/station_holdout-neural_station.joblib",
+          "sha256": "f4bd22c5d3b30c62de8843017cf3d1e13ded3d1c62c499240168b7f9383f9528",
+          "bytes": 338946
+        }
+      },
+      "validation": [
+        {
+          "model": "boosted_baseline",
+          "view": "population_core",
+          "balanced_mae_db": 6.82506251035205,
+          "ranking_cases": 512,
+          "ranking_median_spearman": 0.35218144143907476
+        },
+        {
+          "model": "boosted_baseline",
+          "view": "station_aware",
+          "balanced_mae_db": 6.82506251035205,
+          "ranking_cases": 512,
+          "ranking_median_spearman": 0.35218144143907476
+        },
+        {
+          "model": "boosted_station",
+          "view": "population_core",
+          "balanced_mae_db": 6.87810055554458,
+          "ranking_cases": 512,
+          "ranking_median_spearman": 0.3826239645250381
+        },
+        {
+          "model": "boosted_station",
+          "view": "station_aware",
+          "balanced_mae_db": 6.363434701313108,
+          "ranking_cases": 512,
+          "ranking_median_spearman": 0.3826239645250381
+        },
+        {
+          "model": "neural_station",
+          "view": "population_core",
+          "balanced_mae_db": 7.084532182941631,
+          "ranking_cases": 512,
+          "ranking_median_spearman": 0.3982690291978924
+        },
+        {
+          "model": "neural_station",
+          "view": "station_aware",
+          "balanced_mae_db": 6.57934061615399,
+          "ranking_cases": 512,
+          "ranking_median_spearman": 0.3982690291978924
+        }
+      ],
+      "chosen_by_validation": "neural_station",
+      "details": {
+        "epochs": [
+          {
+            "epoch": 1,
+            "validation_balanced_mae_db": 7.618142648389001
+          },
+          {
+            "epoch": 2,
+            "validation_balanced_mae_db": 6.9471209141162795
+          },
+          {
+            "epoch": 3,
+            "validation_balanced_mae_db": 6.85695891750245
+          },
+          {
+            "epoch": 4,
+            "validation_balanced_mae_db": 6.797484348220109
+          },
+          {
+            "epoch": 5,
+            "validation_balanced_mae_db": 6.745227790334344
+          },
+          {
+            "epoch": 6,
+            "validation_balanced_mae_db": 6.7313727755340365
+          },
+          {
+            "epoch": 7,
+            "validation_balanced_mae_db": 6.652665301095087
+          },
+          {
+            "epoch": 8,
+            "validation_balanced_mae_db": 6.651637347399766
+          },
+          {
+            "epoch": 9,
+            "validation_balanced_mae_db": 6.598945492744285
+          },
+          {
+            "epoch": 10,
+            "validation_balanced_mae_db": 6.597896403132211
+          },
+          {
+            "epoch": 11,
+            "validation_balanced_mae_db": 6.642111409362785
+          },
+          {
+            "epoch": 12,
+            "validation_balanced_mae_db": 6.623574086542066
+          },
+          {
+            "epoch": 13,
+            "validation_balanced_mae_db": 6.57934061615399
+          },
+          {
+            "epoch": 14,
+            "validation_balanced_mae_db": 6.602390481399116
+          },
+          {
+            "epoch": 15,
+            "validation_balanced_mae_db": 6.620133128313322
+          },
+          {
+            "epoch": 16,
+            "validation_balanced_mae_db": 6.620133074756813
+          },
+          {
+            "epoch": 17,
+            "validation_balanced_mae_db": 6.607514529481279
+          },
+          {
+            "epoch": 18,
+            "validation_balanced_mae_db": 6.620352433060515
+          },
+          {
+            "epoch": 19,
+            "validation_balanced_mae_db": 6.6449356179994234
+          },
+          {
+            "epoch": 20,
+            "validation_balanced_mae_db": 6.631131116216147
+          },
+          {
+            "epoch": 21,
+            "validation_balanced_mae_db": 6.649016867032289
+          }
+        ],
+        "station_effects": {
+          "tx_keys": 3787,
+          "rx_keys": 3345,
+          "penalty": 50,
+          "tx_rms_db": 2.0492161724836735,
+          "rx_rms_db": 2.1256979748202642
+        },
+        "weight_range": [
+          0.012556376408378126,
+          322.61753161796776
+        ],
+        "validation_selection": "best epoch by balanced MAE; patience 8; final test not consulted"
+      },
+      "selection_criterion": "validation station-pair hour ranking; balanced MAE tie-break"
+    },
+    "geographic_holdout": {
+      "train_rows": 1086779,
+      "train_days": 258,
+      "validation_rows": 177390,
+      "calibration_rows": 173633,
+      "files": {
+        "boosted_baseline": {
+          "path": "models/geographic_holdout-boosted_baseline.joblib",
+          "sha256": "ec07de31f5a4846c4d1fac95859c085bfd7a581f90f1216f377300c51287caee",
+          "bytes": 519246
+        },
+        "boosted_station": {
+          "path": "models/geographic_holdout-boosted_station.joblib",
+          "sha256": "5eaf521323ca5e8f8ee61180f27beb422b7b3aa01730c9c60cc92240f99a98c4",
+          "bytes": 808062
+        },
+        "neural_station": {
+          "path": "models/geographic_holdout-neural_station.joblib",
+          "sha256": "27c4868c254e660bf81cd567a9639f4af3caf7f215183b7d582d6e8a1d247108",
+          "bytes": 406358
+        }
+      },
+      "validation": [
+        {
+          "model": "boosted_baseline",
+          "view": "population_core",
+          "balanced_mae_db": 6.918405543937232,
+          "ranking_cases": 817,
+          "ranking_median_spearman": 0.34703196347031967
+        },
+        {
+          "model": "boosted_baseline",
+          "view": "station_aware",
+          "balanced_mae_db": 6.918405543937232,
+          "ranking_cases": 817,
+          "ranking_median_spearman": 0.34703196347031967
+        },
+        {
+          "model": "boosted_station",
+          "view": "population_core",
+          "balanced_mae_db": 6.9285340631999,
+          "ranking_cases": 817,
+          "ranking_median_spearman": 0.40180192693178374
+        },
+        {
+          "model": "boosted_station",
+          "view": "station_aware",
+          "balanced_mae_db": 6.428429041706715,
+          "ranking_cases": 817,
+          "ranking_median_spearman": 0.40180192693178374
+        },
+        {
+          "model": "neural_station",
+          "view": "population_core",
+          "balanced_mae_db": 7.139640020208024,
+          "ranking_cases": 817,
+          "ranking_median_spearman": 0.4012460761872849
+        },
+        {
+          "model": "neural_station",
+          "view": "station_aware",
+          "balanced_mae_db": 6.632561274093329,
+          "ranking_cases": 817,
+          "ranking_median_spearman": 0.4012460761872849
+        }
+      ],
+      "chosen_by_validation": "boosted_station",
+      "details": {
+        "epochs": [
+          {
+            "epoch": 1,
+            "validation_balanced_mae_db": 7.09930562179487
+          },
+          {
+            "epoch": 2,
+            "validation_balanced_mae_db": 6.893993824573853
+          },
+          {
+            "epoch": 3,
+            "validation_balanced_mae_db": 6.784225519933297
+          },
+          {
+            "epoch": 4,
+            "validation_balanced_mae_db": 6.732414955077035
+          },
+          {
+            "epoch": 5,
+            "validation_balanced_mae_db": 6.713364144732898
+          },
+          {
+            "epoch": 6,
+            "validation_balanced_mae_db": 6.731128575081554
+          },
+          {
+            "epoch": 7,
+            "validation_balanced_mae_db": 6.717371555801497
+          },
+          {
+            "epoch": 8,
+            "validation_balanced_mae_db": 6.6709394377560445
+          },
+          {
+            "epoch": 9,
+            "validation_balanced_mae_db": 6.632561274093329
+          },
+          {
+            "epoch": 10,
+            "validation_balanced_mae_db": 6.679476228513329
+          },
+          {
+            "epoch": 11,
+            "validation_balanced_mae_db": 6.684894329116822
+          },
+          {
+            "epoch": 12,
+            "validation_balanced_mae_db": 6.747015955316459
+          },
+          {
+            "epoch": 13,
+            "validation_balanced_mae_db": 6.8293884447568445
+          },
+          {
+            "epoch": 14,
+            "validation_balanced_mae_db": 6.797349101065074
+          },
+          {
+            "epoch": 15,
+            "validation_balanced_mae_db": 6.7904766965658405
+          },
+          {
+            "epoch": 16,
+            "validation_balanced_mae_db": 6.792814744136314
+          },
+          {
+            "epoch": 17,
+            "validation_balanced_mae_db": 6.835462072657584
+          }
+        ],
+        "station_effects": {
+          "tx_keys": 4919,
+          "rx_keys": 4381,
+          "penalty": 50,
+          "tx_rms_db": 2.0844535154530273,
+          "rx_rms_db": 2.1660925810549565
+        },
+        "weight_range": [
+          0.012092848973209329,
+          337.006636070454
+        ],
+        "validation_selection": "best epoch by balanced MAE; patience 8; final test not consulted"
+      },
+      "selection_criterion": "validation station-pair hour ranking; balanced MAE tie-break"
+    }
+  },
+  "positive_only": true,
+  "frozen_utc": "2026-11-17T06:57:05.298715+00:00",
+  "evaluated_utc": "2026-11-17T07:01:42.879555+00:00"
+}

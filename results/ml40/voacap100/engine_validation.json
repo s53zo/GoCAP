@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "native_hours_matching_dxtron_public_api": 24,
+  "engine_binary_sha256": "33cb8ea1b0d2e2960e029381100cea543907665fcb53a5381ca1ffd6431e81bc",
+  "engine_source_commit": "c12a98b348c39f36f2659b8b3aa97b86284c8a1d",
+  "pilot": "JN76 to FN31, April2025, SSN100,1W,type23 quarter-wave-height dipoles,noise150; not used for case selection",
+  "api_source": "https://voacap.dxtron.com/api/openapi.json"
+}

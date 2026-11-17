@@ -1,0 +1,14 @@
+{
+  "2025-04-04": {
+    "status": "complete",
+    "sha256": "c71ae69e71f3980dc5061b28a08a544b8b750b393e5065b11a9904b3cd646853"
+  },
+  "2025-07-04": {
+    "status": "complete",
+    "sha256": "05f4f4e3fc34c7a83a63eca54e25c149b82d76aaad3f0e7a2a8b341a0889a657"
+  },
+  "2025-10-06": {
+    "status": "complete",
+    "sha256": "a5c74ba28dc89a4dd26a9d1e5fbc2eac51ab87d5aa9f65d0e7839fba8c96445e"
+  }
+}

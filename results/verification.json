@@ -1,0 +1,102 @@
+{
+  "status": "verified",
+  "evaluation_groups": [
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "fold": "later_both_endpoints_unseen",
+      "rows": 3269,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "fold": "later_period",
+      "rows": 4916,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "fold": "later_unseen_endpoint",
+      "rows": 4757,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "fold": "later_both_endpoints_unseen",
+      "rows": 11951,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "fold": "later_period",
+      "rows": 22213,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "fold": "later_unseen_endpoint",
+      "rows": 20712,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "fold": "later_both_endpoints_unseen",
+      "rows": 4240,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "fold": "later_period",
+      "rows": 18998,
+      "status": "reconciled"
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "fold": "later_unseen_endpoint",
+      "rows": 15330,
+      "status": "reconciled"
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "fold": "later_both_endpoints_unseen",
+      "rows": 18178,
+      "status": "reconciled"
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "fold": "later_period",
+      "rows": 98648,
+      "status": "reconciled"
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "fold": "later_unseen_endpoint",
+      "rows": 66338,
+      "status": "reconciled"
+    }
+  ],
+  "prediction_rows": 289550,
+  "hourly_database_rows": 437327,
+  "checks": [
+    "artifact hashes",
+    "source/target joins",
+    "temporal split",
+    "unseen callsign splits",
+    "independently recomputed MAE/RMSE",
+    "interval coverage",
+    "SQLite/Parquet reconciliation",
+    "locator validity",
+    "completed solar-period boundaries"
+  ]
+}

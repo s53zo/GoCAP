@@ -1,0 +1,23 @@
+# Local archives, feature samples, model-training caches and native builds
+/data/
+# Python environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+# Local registration details and credentials
+.cedar-identity.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Runtime output / OS metadata
+*.log
+.DS_Store
+# Large regenerable intermediates; keep final CSVs, figures, plans and checksums
+/results/ml40/test_hour_ranking.csv
+/results/ml40/**/fresh_predictions.parquet
+/results/ml40/voacap100/voacap_all_scenarios.csv
+/results/ml40/voacap1000/voacap_all_scenarios.csv

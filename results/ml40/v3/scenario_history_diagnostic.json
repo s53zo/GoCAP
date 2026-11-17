@@ -1,0 +1,21 @@
+{
+  "scope": "Post-freeze diagnostic only; current hourly Kp, previous-day SFI/Ap and reported power are retained; preceding Kp/SFI history either actual or assumed steady. No model selected using this diagnostic.",
+  "results": {
+    "actual_completed_history": {
+      "ranking_cases": 3564,
+      "reference_rank_correlation": 0.3653408359058266,
+      "new_rank_correlation": 0.46825621410181706,
+      "reference_best_hour_loss_db": 5.058922558922559,
+      "new_best_hour_loss_db": 4.807800224466891,
+      "reference_snr_mae_db": 6.681340051643856
+    },
+    "steady_history_assumption": {
+      "ranking_cases": 3564,
+      "reference_rank_correlation": 0.3592583538429831,
+      "new_rank_correlation": 0.4544668565063473,
+      "reference_best_hour_loss_db": 5.017536475869809,
+      "new_best_hour_loss_db": 4.890291806958474,
+      "reference_snr_mae_db": 6.685529364254708
+    }
+  }
+}

@@ -1,0 +1,3633 @@
+{
+  "status": "complete",
+  "missing_files": [],
+  "rows": 2044084,
+  "actual_dates": 318,
+  "by_source_mode_split": [
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "split": "calibration",
+      "rows": 524
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "split": "test",
+      "rows": 1744
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "split": "train",
+      "rows": 9138
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT4",
+      "split": "validation",
+      "rows": 3543
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "split": "calibration",
+      "rows": 20734
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "split": "test",
+      "rows": 37100
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "split": "train",
+      "rows": 51056
+    },
+    {
+      "source": "HARC_PSK",
+      "mode": "FT8",
+      "split": "validation",
+      "rows": 30467
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "split": "calibration",
+      "rows": 31556
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "split": "test",
+      "rows": 22007
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "split": "train",
+      "rows": 57520
+    },
+    {
+      "source": "HARC_RBN",
+      "mode": "CW",
+      "split": "validation",
+      "rows": 18334
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "split": "calibration",
+      "rows": 128453
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "split": "test",
+      "rows": 487838
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "split": "train",
+      "rows": 1011619
+    },
+    {
+      "source": "WSPRNET",
+      "mode": "WSPR",
+      "split": "validation",
+      "rows": 132451
+    }
+  ],
+  "solar_missing": {
+    "kp_previous": 0,
+    "ap_previous": 0,
+    "ap_trailing24": 0,
+    "sfi_previous_day": 0,
+    "Ap_previous_day": 0
+  },
+  "input_checks": {
+    "wspr-2010-01-01.jsonl": {
+      "raw_rows": 265,
+      "eligible_rows": 265,
+      "code_counts": {
+        "0": 265
+      },
+      "observation_context": {
+        "legacy_code0": 265
+      }
+    },
+    "wspr-2010-01-08.jsonl": {
+      "raw_rows": 300,
+      "eligible_rows": 300,
+      "code_counts": {
+        "0": 300
+      },
+      "observation_context": {
+        "legacy_code0": 300
+      }
+    },
+    "wspr-2010-01-15.jsonl": {
+      "raw_rows": 395,
+      "eligible_rows": 395,
+      "code_counts": {
+        "0": 395
+      },
+      "observation_context": {
+        "legacy_code0": 395
+      }
+    },
+    "wspr-2010-01-22.jsonl": {
+      "raw_rows": 191,
+      "eligible_rows": 191,
+      "code_counts": {
+        "0": 191
+      },
+      "observation_context": {
+        "legacy_code0": 191
+      }
+    },
+    "wspr-2010-02-01.jsonl": {
+      "raw_rows": 402,
+      "eligible_rows": 402,
+      "code_counts": {
+        "0": 402
+      },
+      "observation_context": {
+        "legacy_code0": 402
+      }
+    },
+    "wspr-2010-02-08.jsonl": {
+      "raw_rows": 205,
+      "eligible_rows": 205,
+      "code_counts": {
+        "0": 205
+      },
+      "observation_context": {
+        "legacy_code0": 205
+      }
+    },
+    "wspr-2010-02-15.jsonl": {
+      "raw_rows": 173,
+      "eligible_rows": 173,
+      "code_counts": {
+        "0": 173
+      },
+      "observation_context": {
+        "legacy_code0": 173
+      }
+    },
+    "wspr-2010-02-22.jsonl": {
+      "raw_rows": 132,
+      "eligible_rows": 132,
+      "code_counts": {
+        "0": 132
+      },
+      "observation_context": {
+        "legacy_code0": 132
+      }
+    },
+    "wspr-2010-03-01.jsonl": {
+      "raw_rows": 208,
+      "eligible_rows": 208,
+      "code_counts": {
+        "0": 208
+      },
+      "observation_context": {
+        "legacy_code0": 208
+      }
+    },
+    "wspr-2010-03-08.jsonl": {
+      "raw_rows": 175,
+      "eligible_rows": 175,
+      "code_counts": {
+        "0": 175
+      },
+      "observation_context": {
+        "legacy_code0": 175
+      }
+    },
+    "wspr-2010-03-15.jsonl": {
+      "raw_rows": 90,
+      "eligible_rows": 90,
+      "code_counts": {
+        "0": 90
+      },
+      "observation_context": {
+        "legacy_code0": 90
+      }
+    },
+    "wspr-2010-03-22.jsonl": {
+      "raw_rows": 77,
+      "eligible_rows": 77,
+      "code_counts": {
+        "0": 77
+      },
+      "observation_context": {
+        "legacy_code0": 77
+      }
+    },
+    "wspr-2010-04-01.jsonl": {
+      "raw_rows": 130,
+      "eligible_rows": 130,
+      "code_counts": {
+        "0": 130
+      },
+      "observation_context": {
+        "legacy_code0": 130
+      }
+    },
+    "wspr-2010-04-08.jsonl": {
+      "raw_rows": 58,
+      "eligible_rows": 58,
+      "code_counts": {
+        "0": 58
+      },
+      "observation_context": {
+        "legacy_code0": 58
+      }
+    },
+    "wspr-2010-04-15.jsonl": {
+      "raw_rows": 30,
+      "eligible_rows": 30,
+      "code_counts": {
+        "0": 30
+      },
+      "observation_context": {
+        "legacy_code0": 30
+      }
+    },
+    "wspr-2010-04-22.jsonl": {
+      "raw_rows": 27,
+      "eligible_rows": 27,
+      "code_counts": {
+        "0": 27
+      },
+      "observation_context": {
+        "legacy_code0": 27
+      }
+    },
+    "wspr-2010-05-01.jsonl": {
+      "raw_rows": 41,
+      "eligible_rows": 41,
+      "code_counts": {
+        "0": 41
+      },
+      "observation_context": {
+        "legacy_code0": 41
+      }
+    },
+    "wspr-2010-05-08.jsonl": {
+      "raw_rows": 17,
+      "eligible_rows": 17,
+      "code_counts": {
+        "0": 17
+      },
+      "observation_context": {
+        "legacy_code0": 17
+      }
+    },
+    "wspr-2010-05-15.jsonl": {
+      "raw_rows": 28,
+      "eligible_rows": 28,
+      "code_counts": {
+        "0": 28
+      },
+      "observation_context": {
+        "legacy_code0": 28
+      }
+    },
+    "wspr-2010-05-22.jsonl": {
+      "raw_rows": 10,
+      "eligible_rows": 10,
+      "code_counts": {
+        "0": 10
+      },
+      "observation_context": {
+        "legacy_code0": 10
+      }
+    },
+    "wspr-2010-06-01.jsonl": {
+      "raw_rows": 7,
+      "eligible_rows": 7,
+      "code_counts": {
+        "0": 7
+      },
+      "observation_context": {
+        "legacy_code0": 7
+      }
+    },
+    "wspr-2010-06-08.jsonl": {
+      "raw_rows": 18,
+      "eligible_rows": 18,
+      "code_counts": {
+        "0": 18
+      },
+      "observation_context": {
+        "legacy_code0": 18
+      }
+    },
+    "wspr-2010-06-15.jsonl": {
+      "raw_rows": 7,
+      "eligible_rows": 7,
+      "code_counts": {
+        "0": 7
+      },
+      "observation_context": {
+        "legacy_code0": 7
+      }
+    },
+    "wspr-2010-06-22.jsonl": {
+      "raw_rows": 1,
+      "eligible_rows": 1,
+      "code_counts": {
+        "0": 1
+      },
+      "observation_context": {
+        "legacy_code0": 1
+      }
+    },
+    "wspr-2010-07-01.jsonl": {
+      "raw_rows": 6,
+      "eligible_rows": 6,
+      "code_counts": {
+        "0": 6
+      },
+      "observation_context": {
+        "legacy_code0": 6
+      }
+    },
+    "wspr-2010-07-08.jsonl": {
+      "raw_rows": 20,
+      "eligible_rows": 20,
+      "code_counts": {
+        "0": 20
+      },
+      "observation_context": {
+        "legacy_code0": 20
+      }
+    },
+    "wspr-2010-07-15.jsonl": {
+      "raw_rows": 46,
+      "eligible_rows": 46,
+      "code_counts": {
+        "0": 46
+      },
+      "observation_context": {
+        "legacy_code0": 46
+      }
+    },
+    "wspr-2010-07-22.jsonl": {
+      "raw_rows": 6,
+      "eligible_rows": 6,
+      "code_counts": {
+        "0": 6
+      },
+      "observation_context": {
+        "legacy_code0": 6
+      }
+    },
+    "wspr-2010-08-01.jsonl": {
+      "raw_rows": 7,
+      "eligible_rows": 7,
+      "code_counts": {
+        "0": 7
+      },
+      "observation_context": {
+        "legacy_code0": 7
+      }
+    },
+    "wspr-2010-08-08.jsonl": {
+      "raw_rows": 13,
+      "eligible_rows": 13,
+      "code_counts": {
+        "0": 13
+      },
+      "observation_context": {
+        "legacy_code0": 13
+      }
+    },
+    "wspr-2010-08-15.jsonl": {
+      "raw_rows": 178,
+      "eligible_rows": 178,
+      "code_counts": {
+        "0": 178
+      },
+      "observation_context": {
+        "legacy_code0": 178
+      }
+    },
+    "wspr-2010-08-22.jsonl": {
+      "raw_rows": 31,
+      "eligible_rows": 31,
+      "code_counts": {
+        "0": 31
+      },
+      "observation_context": {
+        "legacy_code0": 31
+      }
+    },
+    "wspr-2010-09-01.jsonl": {
+      "raw_rows": 7,
+      "eligible_rows": 7,
+      "code_counts": {
+        "0": 7
+      },
+      "observation_context": {
+        "legacy_code0": 7
+      }
+    },
+    "wspr-2010-09-08.jsonl": {
+      "raw_rows": 21,
+      "eligible_rows": 21,
+      "code_counts": {
+        "0": 21
+      },
+      "observation_context": {
+        "legacy_code0": 21
+      }
+    },
+    "wspr-2010-09-15.jsonl": {
+      "raw_rows": 391,
+      "eligible_rows": 391,
+      "code_counts": {
+        "0": 391
+      },
+      "observation_context": {
+        "legacy_code0": 391
+      }
+    },
+    "wspr-2010-09-22.jsonl": {
+      "raw_rows": 36,
+      "eligible_rows": 36,
+      "code_counts": {
+        "0": 36
+      },
+      "observation_context": {
+        "legacy_code0": 36
+      }
+    },
+    "wspr-2010-10-01.jsonl": {
+      "raw_rows": 67,
+      "eligible_rows": 67,
+      "code_counts": {
+        "0": 67
+      },
+      "observation_context": {
+        "legacy_code0": 67
+      }
+    },
+    "wspr-2010-10-08.jsonl": {
+      "raw_rows": 116,
+      "eligible_rows": 116,
+      "code_counts": {
+        "0": 116
+      },
+      "observation_context": {
+        "legacy_code0": 116
+      }
+    },
+    "wspr-2010-10-15.jsonl": {
+      "raw_rows": 195,
+      "eligible_rows": 195,
+      "code_counts": {
+        "0": 195
+      },
+      "observation_context": {
+        "legacy_code0": 195
+      }
+    },
+    "wspr-2010-10-22.jsonl": {
+      "raw_rows": 196,
+      "eligible_rows": 196,
+      "code_counts": {
+        "0": 196
+      },
+      "observation_context": {
+        "legacy_code0": 196
+      }
+    },
+    "wspr-2010-11-01.jsonl": {
+      "raw_rows": 197,
+      "eligible_rows": 197,
+      "code_counts": {
+        "0": 197
+      },
+      "observation_context": {
+        "legacy_code0": 197
+      }
+    },
+    "wspr-2010-11-08.jsonl": {
+      "raw_rows": 420,
+      "eligible_rows": 420,
+      "code_counts": {
+        "0": 420
+      },
+      "observation_context": {
+        "legacy_code0": 420
+      }
+    },
+    "wspr-2010-11-15.jsonl": {
+      "raw_rows": 281,
+      "eligible_rows": 281,
+      "code_counts": {
+        "0": 281
+      },
+      "observation_context": {
+        "legacy_code0": 281
+      }
+    },
+    "wspr-2010-11-22.jsonl": {
+      "raw_rows": 557,
+      "eligible_rows": 557,
+      "code_counts": {
+        "0": 557
+      },
+      "observation_context": {
+        "legacy_code0": 557
+      }
+    },
+    "wspr-2010-12-01.jsonl": {
+      "raw_rows": 360,
+      "eligible_rows": 360,
+      "code_counts": {
+        "0": 360
+      },
+      "observation_context": {
+        "legacy_code0": 360
+      }
+    },
+    "wspr-2010-12-08.jsonl": {
+      "raw_rows": 1039,
+      "eligible_rows": 1039,
+      "code_counts": {
+        "0": 1039
+      },
+      "observation_context": {
+        "legacy_code0": 1039
+      }
+    },
+    "wspr-2010-12-15.jsonl": {
+      "raw_rows": 437,
+      "eligible_rows": 437,
+      "code_counts": {
+        "0": 437
+      },
+      "observation_context": {
+        "legacy_code0": 437
+      }
+    },
+    "wspr-2010-12-22.jsonl": {
+      "raw_rows": 429,
+      "eligible_rows": 429,
+      "code_counts": {
+        "0": 429
+      },
+      "observation_context": {
+        "legacy_code0": 429
+      }
+    },
+    "wspr-2013-01-01.jsonl": {
+      "raw_rows": 332,
+      "eligible_rows": 332,
+      "code_counts": {
+        "0": 332
+      },
+      "observation_context": {
+        "legacy_code0": 332
+      }
+    },
+    "wspr-2013-01-08.jsonl": {
+      "raw_rows": 77,
+      "eligible_rows": 77,
+      "code_counts": {
+        "0": 77
+      },
+      "observation_context": {
+        "legacy_code0": 77
+      }
+    },
+    "wspr-2013-01-15.jsonl": {
+      "raw_rows": 0,
+      "eligible_rows": 0
+    },
+    "wspr-2013-01-22.jsonl": {
+      "raw_rows": 0,
+      "eligible_rows": 0
+    },
+    "wspr-2013-02-01.jsonl": {
+      "raw_rows": 0,
+      "eligible_rows": 0
+    },
+    "wspr-2013-02-08.jsonl": {
+      "raw_rows": 0,
+      "eligible_rows": 0
+    },
+    "wspr-2013-02-15.jsonl": {
+      "raw_rows": 0,
+      "eligible_rows": 0
+    },
+    "wspr-2013-02-22.jsonl": {
+      "raw_rows": 0,
+      "eligible_rows": 0
+    },
+    "wspr-2013-03-01.jsonl": {
+      "raw_rows": 205,
+      "eligible_rows": 205,
+      "code_counts": {
+        "0": 205
+      },
+      "observation_context": {
+        "legacy_code0": 205
+      }
+    },
+    "wspr-2013-03-08.jsonl": {
+      "raw_rows": 236,
+      "eligible_rows": 236,
+      "code_counts": {
+        "0": 236
+      },
+      "observation_context": {
+        "legacy_code0": 236
+      }
+    },
+    "wspr-2013-03-15.jsonl": {
+      "raw_rows": 190,
+      "eligible_rows": 190,
+      "code_counts": {
+        "0": 190
+      },
+      "observation_context": {
+        "legacy_code0": 190
+      }
+    },
+    "wspr-2013-03-22.jsonl": {
+      "raw_rows": 139,
+      "eligible_rows": 139,
+      "code_counts": {
+        "0": 139
+      },
+      "observation_context": {
+        "legacy_code0": 139
+      }
+    },
+    "wspr-2013-04-01.jsonl": {
+      "raw_rows": 279,
+      "eligible_rows": 279,
+      "code_counts": {
+        "0": 279
+      },
+      "observation_context": {
+        "legacy_code0": 279
+      }
+    },
+    "wspr-2013-04-08.jsonl": {
+      "raw_rows": 89,
+      "eligible_rows": 89,
+      "code_counts": {
+        "0": 89
+      },
+      "observation_context": {
+        "legacy_code0": 89
+      }
+    },
+    "wspr-2013-04-15.jsonl": {
+      "raw_rows": 84,
+      "eligible_rows": 84,
+      "code_counts": {
+        "0": 84
+      },
+      "observation_context": {
+        "legacy_code0": 84
+      }
+    },
+    "wspr-2013-04-22.jsonl": {
+      "raw_rows": 117,
+      "eligible_rows": 117,
+      "code_counts": {
+        "0": 117
+      },
+      "observation_context": {
+        "legacy_code0": 117
+      }
+    },
+    "wspr-2013-05-01.jsonl": {
+      "raw_rows": 68,
+      "eligible_rows": 68,
+      "code_counts": {
+        "0": 68
+      },
+      "observation_context": {
+        "legacy_code0": 68
+      }
+    },
+    "wspr-2013-05-08.jsonl": {
+      "raw_rows": 179,
+      "eligible_rows": 179,
+      "code_counts": {
+        "0": 179
+      },
+      "observation_context": {
+        "legacy_code0": 179
+      }
+    },
+    "wspr-2013-05-15.jsonl": {
+      "raw_rows": 79,
+      "eligible_rows": 79,
+      "code_counts": {
+        "0": 79
+      },
+      "observation_context": {
+        "legacy_code0": 79
+      }
+    },
+    "wspr-2013-05-22.jsonl": {
+      "raw_rows": 65,
+      "eligible_rows": 65,
+      "code_counts": {
+        "0": 65
+      },
+      "observation_context": {
+        "legacy_code0": 65
+      }
+    },
+    "wspr-2013-06-01.jsonl": {
+      "raw_rows": 70,
+      "eligible_rows": 70,
+      "code_counts": {
+        "0": 70
+      },
+      "observation_context": {
+        "legacy_code0": 70
+      }
+    },
+    "wspr-2013-06-08.jsonl": {
+      "raw_rows": 140,
+      "eligible_rows": 140,
+      "code_counts": {
+        "0": 140
+      },
+      "observation_context": {
+        "legacy_code0": 140
+      }
+    },
+    "wspr-2013-06-15.jsonl": {
+      "raw_rows": 109,
+      "eligible_rows": 109,
+      "code_counts": {
+        "0": 109
+      },
+      "observation_context": {
+        "legacy_code0": 109
+      }
+    },
+    "wspr-2013-06-22.jsonl": {
+      "raw_rows": 90,
+      "eligible_rows": 90,
+      "code_counts": {
+        "0": 90
+      },
+      "observation_context": {
+        "legacy_code0": 90
+      }
+    },
+    "wspr-2013-07-01.jsonl": {
+      "raw_rows": 97,
+      "eligible_rows": 97,
+      "code_counts": {
+        "0": 97
+      },
+      "observation_context": {
+        "legacy_code0": 97
+      }
+    },
+    "wspr-2013-07-08.jsonl": {
+      "raw_rows": 50,
+      "eligible_rows": 50,
+      "code_counts": {
+        "0": 50
+      },
+      "observation_context": {
+        "legacy_code0": 50
+      }
+    },
+    "wspr-2013-07-15.jsonl": {
+      "raw_rows": 50,
+      "eligible_rows": 50,
+      "code_counts": {
+        "0": 50
+      },
+      "observation_context": {
+        "legacy_code0": 50
+      }
+    },
+    "wspr-2013-07-22.jsonl": {
+      "raw_rows": 89,
+      "eligible_rows": 89,
+      "code_counts": {
+        "0": 89
+      },
+      "observation_context": {
+        "legacy_code0": 89
+      }
+    },
+    "wspr-2013-08-01.jsonl": {
+      "raw_rows": 91,
+      "eligible_rows": 91,
+      "code_counts": {
+        "0": 91
+      },
+      "observation_context": {
+        "legacy_code0": 91
+      }
+    },
+    "wspr-2013-08-08.jsonl": {
+      "raw_rows": 67,
+      "eligible_rows": 67,
+      "code_counts": {
+        "0": 67
+      },
+      "observation_context": {
+        "legacy_code0": 67
+      }
+    },
+    "wspr-2013-08-15.jsonl": {
+      "raw_rows": 127,
+      "eligible_rows": 127,
+      "code_counts": {
+        "0": 127
+      },
+      "observation_context": {
+        "legacy_code0": 127
+      }
+    },
+    "wspr-2013-08-22.jsonl": {
+      "raw_rows": 92,
+      "eligible_rows": 92,
+      "code_counts": {
+        "0": 92
+      },
+      "observation_context": {
+        "legacy_code0": 92
+      }
+    },
+    "wspr-2013-09-01.jsonl": {
+      "raw_rows": 106,
+      "eligible_rows": 106,
+      "code_counts": {
+        "0": 106
+      },
+      "observation_context": {
+        "legacy_code0": 106
+      }
+    },
+    "wspr-2013-09-08.jsonl": {
+      "raw_rows": 129,
+      "eligible_rows": 129,
+      "code_counts": {
+        "0": 129
+      },
+      "observation_context": {
+        "legacy_code0": 129
+      }
+    },
+    "wspr-2013-09-15.jsonl": {
+      "raw_rows": 150,
+      "eligible_rows": 150,
+      "code_counts": {
+        "0": 150
+      },
+      "observation_context": {
+        "legacy_code0": 150
+      }
+    },
+    "wspr-2013-09-22.jsonl": {
+      "raw_rows": 137,
+      "eligible_rows": 137,
+      "code_counts": {
+        "0": 137
+      },
+      "observation_context": {
+        "legacy_code0": 137
+      }
+    },
+    "wspr-2013-10-01.jsonl": {
+      "raw_rows": 146,
+      "eligible_rows": 146,
+      "code_counts": {
+        "0": 146
+      },
+      "observation_context": {
+        "legacy_code0": 146
+      }
+    },
+    "wspr-2013-10-08.jsonl": {
+      "raw_rows": 125,
+      "eligible_rows": 125,
+      "code_counts": {
+        "0": 125
+      },
+      "observation_context": {
+        "legacy_code0": 125
+      }
+    },
+    "wspr-2013-10-15.jsonl": {
+      "raw_rows": 135,
+      "eligible_rows": 135,
+      "code_counts": {
+        "0": 135
+      },
+      "observation_context": {
+        "legacy_code0": 135
+      }
+    },
+    "wspr-2013-10-22.jsonl": {
+      "raw_rows": 204,
+      "eligible_rows": 204,
+      "code_counts": {
+        "0": 204
+      },
+      "observation_context": {
+        "legacy_code0": 204
+      }
+    },
+    "wspr-2013-11-01.jsonl": {
+      "raw_rows": 117,
+      "eligible_rows": 117,
+      "code_counts": {
+        "0": 117
+      },
+      "observation_context": {
+        "legacy_code0": 117
+      }
+    },
+    "wspr-2013-11-08.jsonl": {
+      "raw_rows": 169,
+      "eligible_rows": 169,
+      "code_counts": {
+        "0": 169
+      },
+      "observation_context": {
+        "legacy_code0": 169
+      }
+    },
+    "wspr-2013-11-15.jsonl": {
+      "raw_rows": 189,
+      "eligible_rows": 189,
+      "code_counts": {
+        "0": 189
+      },
+      "observation_context": {
+        "legacy_code0": 189
+      }
+    },
+    "wspr-2013-11-22.jsonl": {
+      "raw_rows": 158,
+      "eligible_rows": 158,
+      "code_counts": {
+        "0": 158
+      },
+      "observation_context": {
+        "legacy_code0": 158
+      }
+    },
+    "wspr-2013-12-01.jsonl": {
+      "raw_rows": 279,
+      "eligible_rows": 279,
+      "code_counts": {
+        "0": 279
+      },
+      "observation_context": {
+        "legacy_code0": 279
+      }
+    },
+    "wspr-2013-12-08.jsonl": {
+      "raw_rows": 309,
+      "eligible_rows": 309,
+      "code_counts": {
+        "0": 309
+      },
+      "observation_context": {
+        "legacy_code0": 309
+      }
+    },
+    "wspr-2013-12-15.jsonl": {
+      "raw_rows": 225,
+      "eligible_rows": 225,
+      "code_counts": {
+        "0": 225
+      },
+      "observation_context": {
+        "legacy_code0": 225
+      }
+    },
+    "wspr-2013-12-22.jsonl": {
+      "raw_rows": 216,
+      "eligible_rows": 216,
+      "code_counts": {
+        "0": 216
+      },
+      "observation_context": {
+        "legacy_code0": 216
+      }
+    },
+    "wspr-2016-01-01.jsonl": {
+      "raw_rows": 649,
+      "eligible_rows": 649,
+      "code_counts": {
+        "0": 649
+      },
+      "observation_context": {
+        "legacy_code0": 649
+      }
+    },
+    "wspr-2016-01-08.jsonl": {
+      "raw_rows": 637,
+      "eligible_rows": 637,
+      "code_counts": {
+        "0": 637
+      },
+      "observation_context": {
+        "legacy_code0": 637
+      }
+    },
+    "wspr-2016-01-15.jsonl": {
+      "raw_rows": 631,
+      "eligible_rows": 631,
+      "code_counts": {
+        "0": 631
+      },
+      "observation_context": {
+        "legacy_code0": 631
+      }
+    },
+    "wspr-2016-01-22.jsonl": {
+      "raw_rows": 658,
+      "eligible_rows": 658,
+      "code_counts": {
+        "0": 658
+      },
+      "observation_context": {
+        "legacy_code0": 658
+      }
+    },
+    "wspr-2016-02-01.jsonl": {
+      "raw_rows": 716,
+      "eligible_rows": 716,
+      "code_counts": {
+        "0": 716
+      },
+      "observation_context": {
+        "legacy_code0": 716
+      }
+    },
+    "wspr-2016-02-08.jsonl": {
+      "raw_rows": 982,
+      "eligible_rows": 982,
+      "code_counts": {
+        "0": 982
+      },
+      "observation_context": {
+        "legacy_code0": 982
+      }
+    },
+    "wspr-2016-02-15.jsonl": {
+      "raw_rows": 902,
+      "eligible_rows": 902,
+      "code_counts": {
+        "0": 902
+      },
+      "observation_context": {
+        "legacy_code0": 902
+      }
+    },
+    "wspr-2016-02-22.jsonl": {
+      "raw_rows": 990,
+      "eligible_rows": 990,
+      "code_counts": {
+        "0": 990
+      },
+      "observation_context": {
+        "legacy_code0": 990
+      }
+    },
+    "wspr-2016-03-01.jsonl": {
+      "raw_rows": 1133,
+      "eligible_rows": 1133,
+      "code_counts": {
+        "0": 1133
+      },
+      "observation_context": {
+        "legacy_code0": 1133
+      }
+    },
+    "wspr-2016-03-08.jsonl": {
+      "raw_rows": 821,
+      "eligible_rows": 821,
+      "code_counts": {
+        "0": 821
+      },
+      "observation_context": {
+        "legacy_code0": 821
+      }
+    },
+    "wspr-2016-03-15.jsonl": {
+      "raw_rows": 703,
+      "eligible_rows": 703,
+      "code_counts": {
+        "0": 703
+      },
+      "observation_context": {
+        "legacy_code0": 703
+      }
+    },
+    "wspr-2016-03-22.jsonl": {
+      "raw_rows": 995,
+      "eligible_rows": 995,
+      "code_counts": {
+        "0": 995
+      },
+      "observation_context": {
+        "legacy_code0": 995
+      }
+    },
+    "wspr-2016-04-01.jsonl": {
+      "raw_rows": 1043,
+      "eligible_rows": 1043,
+      "code_counts": {
+        "0": 1043
+      },
+      "observation_context": {
+        "legacy_code0": 1043
+      }
+    },
+    "wspr-2016-04-08.jsonl": {
+      "raw_rows": 832,
+      "eligible_rows": 832,
+      "code_counts": {
+        "0": 832
+      },
+      "observation_context": {
+        "legacy_code0": 832
+      }
+    },
+    "wspr-2016-04-15.jsonl": {
+      "raw_rows": 945,
+      "eligible_rows": 945,
+      "code_counts": {
+        "0": 945
+      },
+      "observation_context": {
+        "legacy_code0": 945
+      }
+    },
+    "wspr-2016-04-22.jsonl": {
+      "raw_rows": 1157,
+      "eligible_rows": 1157,
+      "code_counts": {
+        "0": 1157
+      },
+      "observation_context": {
+        "legacy_code0": 1157
+      }
+    },
+    "wspr-2016-05-01.jsonl": {
+      "raw_rows": 951,
+      "eligible_rows": 951,
+      "code_counts": {
+        "0": 951
+      },
+      "observation_context": {
+        "legacy_code0": 951
+      }
+    },
+    "wspr-2016-05-08.jsonl": {
+      "raw_rows": 554,
+      "eligible_rows": 554,
+      "code_counts": {
+        "0": 554
+      },
+      "observation_context": {
+        "legacy_code0": 554
+      }
+    },
+    "wspr-2016-05-15.jsonl": {
+      "raw_rows": 1021,
+      "eligible_rows": 1021,
+      "code_counts": {
+        "0": 1021
+      },
+      "observation_context": {
+        "legacy_code0": 1021
+      }
+    },
+    "wspr-2016-05-22.jsonl": {
+      "raw_rows": 988,
+      "eligible_rows": 988,
+      "code_counts": {
+        "0": 988
+      },
+      "observation_context": {
+        "legacy_code0": 988
+      }
+    },
+    "wspr-2016-06-01.jsonl": {
+      "raw_rows": 924,
+      "eligible_rows": 924,
+      "code_counts": {
+        "0": 924
+      },
+      "observation_context": {
+        "legacy_code0": 924
+      }
+    },
+    "wspr-2016-06-08.jsonl": {
+      "raw_rows": 835,
+      "eligible_rows": 835,
+      "code_counts": {
+        "0": 835
+      },
+      "observation_context": {
+        "legacy_code0": 835
+      }
+    },
+    "wspr-2016-06-15.jsonl": {
+      "raw_rows": 884,
+      "eligible_rows": 884,
+      "code_counts": {
+        "0": 884
+      },
+      "observation_context": {
+        "legacy_code0": 884
+      }
+    },
+    "wspr-2016-06-22.jsonl": {
+      "raw_rows": 979,
+      "eligible_rows": 979,
+      "code_counts": {
+        "0": 979
+      },
+      "observation_context": {
+        "legacy_code0": 979
+      }
+    },
+    "wspr-2016-07-01.jsonl": {
+      "raw_rows": 796,
+      "eligible_rows": 796,
+      "code_counts": {
+        "0": 796
+      },
+      "observation_context": {
+        "legacy_code0": 796
+      }
+    },
+    "wspr-2016-07-08.jsonl": {
+      "raw_rows": 743,
+      "eligible_rows": 743,
+      "code_counts": {
+        "0": 743
+      },
+      "observation_context": {
+        "legacy_code0": 743
+      }
+    },
+    "wspr-2016-07-15.jsonl": {
+      "raw_rows": 925,
+      "eligible_rows": 925,
+      "code_counts": {
+        "0": 925
+      },
+      "observation_context": {
+        "legacy_code0": 925
+      }
+    },
+    "wspr-2016-07-22.jsonl": {
+      "raw_rows": 904,
+      "eligible_rows": 904,
+      "code_counts": {
+        "0": 904
+      },
+      "observation_context": {
+        "legacy_code0": 904
+      }
+    },
+    "wspr-2016-08-01.jsonl": {
+      "raw_rows": 1022,
+      "eligible_rows": 1022,
+      "code_counts": {
+        "0": 1022
+      },
+      "observation_context": {
+        "legacy_code0": 1022
+      }
+    },
+    "wspr-2016-08-08.jsonl": {
+      "raw_rows": 1059,
+      "eligible_rows": 1059,
+      "code_counts": {
+        "0": 1059
+      },
+      "observation_context": {
+        "legacy_code0": 1059
+      }
+    },
+    "wspr-2016-08-15.jsonl": {
+      "raw_rows": 910,
+      "eligible_rows": 910,
+      "code_counts": {
+        "0": 910
+      },
+      "observation_context": {
+        "legacy_code0": 910
+      }
+    },
+    "wspr-2016-08-22.jsonl": {
+      "raw_rows": 1297,
+      "eligible_rows": 1297,
+      "code_counts": {
+        "0": 1297
+      },
+      "observation_context": {
+        "legacy_code0": 1297
+      }
+    },
+    "wspr-2016-09-01.jsonl": {
+      "raw_rows": 718,
+      "eligible_rows": 718,
+      "code_counts": {
+        "0": 718
+      },
+      "observation_context": {
+        "legacy_code0": 718
+      }
+    },
+    "wspr-2016-09-08.jsonl": {
+      "raw_rows": 947,
+      "eligible_rows": 947,
+      "code_counts": {
+        "0": 947
+      },
+      "observation_context": {
+        "legacy_code0": 947
+      }
+    },
+    "wspr-2016-09-15.jsonl": {
+      "raw_rows": 1006,
+      "eligible_rows": 1006,
+      "code_counts": {
+        "0": 1006
+      },
+      "observation_context": {
+        "legacy_code0": 1006
+      }
+    },
+    "wspr-2016-09-22.jsonl": {
+      "raw_rows": 1192,
+      "eligible_rows": 1192,
+      "code_counts": {
+        "0": 1192
+      },
+      "observation_context": {
+        "legacy_code0": 1192
+      }
+    },
+    "wspr-2016-10-01.jsonl": {
+      "raw_rows": 842,
+      "eligible_rows": 842,
+      "code_counts": {
+        "0": 842
+      },
+      "observation_context": {
+        "legacy_code0": 842
+      }
+    },
+    "wspr-2016-10-08.jsonl": {
+      "raw_rows": 1221,
+      "eligible_rows": 1221,
+      "code_counts": {
+        "0": 1221
+      },
+      "observation_context": {
+        "legacy_code0": 1221
+      }
+    },
+    "wspr-2016-10-15.jsonl": {
+      "raw_rows": 941,
+      "eligible_rows": 941,
+      "code_counts": {
+        "0": 941
+      },
+      "observation_context": {
+        "legacy_code0": 941
+      }
+    },
+    "wspr-2016-10-22.jsonl": {
+      "raw_rows": 1557,
+      "eligible_rows": 1557,
+      "code_counts": {
+        "0": 1557
+      },
+      "observation_context": {
+        "legacy_code0": 1557
+      }
+    },
+    "wspr-2016-11-01.jsonl": {
+      "raw_rows": 1329,
+      "eligible_rows": 1329,
+      "code_counts": {
+        "0": 1329
+      },
+      "observation_context": {
+        "legacy_code0": 1329
+      }
+    },
+    "wspr-2016-11-08.jsonl": {
+      "raw_rows": 1205,
+      "eligible_rows": 1205,
+      "code_counts": {
+        "0": 1205
+      },
+      "observation_context": {
+        "legacy_code0": 1205
+      }
+    },
+    "wspr-2016-11-15.jsonl": {
+      "raw_rows": 1364,
+      "eligible_rows": 1364,
+      "code_counts": {
+        "0": 1364
+      },
+      "observation_context": {
+        "legacy_code0": 1364
+      }
+    },
+    "wspr-2016-11-22.jsonl": {
+      "raw_rows": 1807,
+      "eligible_rows": 1807,
+      "code_counts": {
+        "0": 1807
+      },
+      "observation_context": {
+        "legacy_code0": 1807
+      }
+    },
+    "wspr-2016-12-01.jsonl": {
+      "raw_rows": 1577,
+      "eligible_rows": 1577,
+      "code_counts": {
+        "0": 1577
+      },
+      "observation_context": {
+        "legacy_code0": 1577
+      }
+    },
+    "wspr-2016-12-08.jsonl": {
+      "raw_rows": 1520,
+      "eligible_rows": 1520,
+      "code_counts": {
+        "0": 1520
+      },
+      "observation_context": {
+        "legacy_code0": 1520
+      }
+    },
+    "wspr-2016-12-15.jsonl": {
+      "raw_rows": 1430,
+      "eligible_rows": 1430,
+      "code_counts": {
+        "0": 1430
+      },
+      "observation_context": {
+        "legacy_code0": 1430
+      }
+    },
+    "wspr-2016-12-22.jsonl": {
+      "raw_rows": 1873,
+      "eligible_rows": 1873,
+      "code_counts": {
+        "0": 1873
+      },
+      "observation_context": {
+        "legacy_code0": 1873
+      }
+    },
+    "wspr-2019-01-01.jsonl": {
+      "raw_rows": 4874,
+      "eligible_rows": 4874,
+      "code_counts": {
+        "0": 4874
+      },
+      "observation_context": {
+        "legacy_code0": 4874
+      }
+    },
+    "wspr-2019-01-08.jsonl": {
+      "raw_rows": 5345,
+      "eligible_rows": 5345,
+      "code_counts": {
+        "0": 5345
+      },
+      "observation_context": {
+        "legacy_code0": 5345
+      }
+    },
+    "wspr-2019-01-15.jsonl": {
+      "raw_rows": 5514,
+      "eligible_rows": 5514,
+      "code_counts": {
+        "0": 5514
+      },
+      "observation_context": {
+        "legacy_code0": 5514
+      }
+    },
+    "wspr-2019-01-22.jsonl": {
+      "raw_rows": 4941,
+      "eligible_rows": 4941,
+      "code_counts": {
+        "0": 4941
+      },
+      "observation_context": {
+        "legacy_code0": 4941
+      }
+    },
+    "wspr-2019-02-01.jsonl": {
+      "raw_rows": 5231,
+      "eligible_rows": 5231,
+      "code_counts": {
+        "0": 5231
+      },
+      "observation_context": {
+        "legacy_code0": 5231
+      }
+    },
+    "wspr-2019-02-08.jsonl": {
+      "raw_rows": 4554,
+      "eligible_rows": 4554,
+      "code_counts": {
+        "0": 4554
+      },
+      "observation_context": {
+        "legacy_code0": 4554
+      }
+    },
+    "wspr-2019-02-15.jsonl": {
+      "raw_rows": 5005,
+      "eligible_rows": 5005,
+      "code_counts": {
+        "0": 5005
+      },
+      "observation_context": {
+        "legacy_code0": 5005
+      }
+    },
+    "wspr-2019-02-22.jsonl": {
+      "raw_rows": 5088,
+      "eligible_rows": 5088,
+      "code_counts": {
+        "0": 5088
+      },
+      "observation_context": {
+        "legacy_code0": 5088
+      }
+    },
+    "wspr-2019-03-01.jsonl": {
+      "raw_rows": 4375,
+      "eligible_rows": 4375,
+      "code_counts": {
+        "0": 4375
+      },
+      "observation_context": {
+        "legacy_code0": 4375
+      }
+    },
+    "wspr-2019-03-08.jsonl": {
+      "raw_rows": 4710,
+      "eligible_rows": 4710,
+      "code_counts": {
+        "0": 4710
+      },
+      "observation_context": {
+        "legacy_code0": 4710
+      }
+    },
+    "wspr-2019-03-15.jsonl": {
+      "raw_rows": 4308,
+      "eligible_rows": 4308,
+      "code_counts": {
+        "0": 4308
+      },
+      "observation_context": {
+        "legacy_code0": 4308
+      }
+    },
+    "wspr-2019-03-22.jsonl": {
+      "raw_rows": 4490,
+      "eligible_rows": 4490,
+      "code_counts": {
+        "0": 4490
+      },
+      "observation_context": {
+        "legacy_code0": 4490
+      }
+    },
+    "wspr-2019-04-01.jsonl": {
+      "raw_rows": 4816,
+      "eligible_rows": 4816,
+      "code_counts": {
+        "0": 4816
+      },
+      "observation_context": {
+        "legacy_code0": 4816
+      }
+    },
+    "wspr-2019-04-08.jsonl": {
+      "raw_rows": 4539,
+      "eligible_rows": 4539,
+      "code_counts": {
+        "0": 4539
+      },
+      "observation_context": {
+        "legacy_code0": 4539
+      }
+    },
+    "wspr-2019-04-15.jsonl": {
+      "raw_rows": 5687,
+      "eligible_rows": 5687,
+      "code_counts": {
+        "0": 5687
+      },
+      "observation_context": {
+        "legacy_code0": 5687
+      }
+    },
+    "wspr-2019-04-22.jsonl": {
+      "raw_rows": 5591,
+      "eligible_rows": 5591,
+      "code_counts": {
+        "0": 5591
+      },
+      "observation_context": {
+        "legacy_code0": 5591
+      }
+    },
+    "wspr-2019-05-01.jsonl": {
+      "raw_rows": 4682,
+      "eligible_rows": 4682,
+      "code_counts": {
+        "0": 4682
+      },
+      "observation_context": {
+        "legacy_code0": 4682
+      }
+    },
+    "wspr-2019-05-08.jsonl": {
+      "raw_rows": 5698,
+      "eligible_rows": 5698,
+      "code_counts": {
+        "0": 5698
+      },
+      "observation_context": {
+        "legacy_code0": 5698
+      }
+    },
+    "wspr-2019-05-15.jsonl": {
+      "raw_rows": 5498,
+      "eligible_rows": 5498,
+      "code_counts": {
+        "0": 5498
+      },
+      "observation_context": {
+        "legacy_code0": 5498
+      }
+    },
+    "wspr-2019-05-22.jsonl": {
+      "raw_rows": 4754,
+      "eligible_rows": 4754,
+      "code_counts": {
+        "0": 4754
+      },
+      "observation_context": {
+        "legacy_code0": 4754
+      }
+    },
+    "wspr-2019-06-01.jsonl": {
+      "raw_rows": 4673,
+      "eligible_rows": 4673,
+      "code_counts": {
+        "0": 4673
+      },
+      "observation_context": {
+        "legacy_code0": 4673
+      }
+    },
+    "wspr-2019-06-08.jsonl": {
+      "raw_rows": 4457,
+      "eligible_rows": 4457,
+      "code_counts": {
+        "0": 4457
+      },
+      "observation_context": {
+        "legacy_code0": 4457
+      }
+    },
+    "wspr-2019-06-15.jsonl": {
+      "raw_rows": 4056,
+      "eligible_rows": 4056,
+      "code_counts": {
+        "0": 4056
+      },
+      "observation_context": {
+        "legacy_code0": 4056
+      }
+    },
+    "wspr-2019-06-22.jsonl": {
+      "raw_rows": 4233,
+      "eligible_rows": 4233,
+      "code_counts": {
+        "0": 4233
+      },
+      "observation_context": {
+        "legacy_code0": 4233
+      }
+    },
+    "wspr-2019-07-01.jsonl": {
+      "raw_rows": 4303,
+      "eligible_rows": 4303,
+      "code_counts": {
+        "0": 4303
+      },
+      "observation_context": {
+        "legacy_code0": 4303
+      }
+    },
+    "wspr-2019-07-08.jsonl": {
+      "raw_rows": 4701,
+      "eligible_rows": 4701,
+      "code_counts": {
+        "0": 4701
+      },
+      "observation_context": {
+        "legacy_code0": 4701
+      }
+    },
+    "wspr-2019-07-15.jsonl": {
+      "raw_rows": 4715,
+      "eligible_rows": 4715,
+      "code_counts": {
+        "0": 4715
+      },
+      "observation_context": {
+        "legacy_code0": 4715
+      }
+    },
+    "wspr-2019-07-22.jsonl": {
+      "raw_rows": 4571,
+      "eligible_rows": 4571,
+      "code_counts": {
+        "0": 4571
+      },
+      "observation_context": {
+        "legacy_code0": 4571
+      }
+    },
+    "wspr-2019-08-01.jsonl": {
+      "raw_rows": 4581,
+      "eligible_rows": 4581,
+      "code_counts": {
+        "0": 4581
+      },
+      "observation_context": {
+        "legacy_code0": 4581
+      }
+    },
+    "wspr-2019-08-08.jsonl": {
+      "raw_rows": 3749,
+      "eligible_rows": 3749,
+      "code_counts": {
+        "0": 3749
+      },
+      "observation_context": {
+        "legacy_code0": 3749
+      }
+    },
+    "wspr-2019-08-15.jsonl": {
+      "raw_rows": 4068,
+      "eligible_rows": 4068,
+      "code_counts": {
+        "0": 4068
+      },
+      "observation_context": {
+        "legacy_code0": 4068
+      }
+    },
+    "wspr-2019-08-22.jsonl": {
+      "raw_rows": 4140,
+      "eligible_rows": 4140,
+      "code_counts": {
+        "0": 4140
+      },
+      "observation_context": {
+        "legacy_code0": 4140
+      }
+    },
+    "wspr-2019-09-01.jsonl": {
+      "raw_rows": 2948,
+      "eligible_rows": 2948,
+      "code_counts": {
+        "0": 2948
+      },
+      "observation_context": {
+        "legacy_code0": 2948
+      }
+    },
+    "wspr-2019-09-08.jsonl": {
+      "raw_rows": 4528,
+      "eligible_rows": 4528,
+      "code_counts": {
+        "0": 4528
+      },
+      "observation_context": {
+        "legacy_code0": 4528
+      }
+    },
+    "wspr-2019-09-15.jsonl": {
+      "raw_rows": 4988,
+      "eligible_rows": 4988,
+      "code_counts": {
+        "0": 4988
+      },
+      "observation_context": {
+        "legacy_code0": 4988
+      }
+    },
+    "wspr-2019-09-22.jsonl": {
+      "raw_rows": 4376,
+      "eligible_rows": 4376,
+      "code_counts": {
+        "0": 4376
+      },
+      "observation_context": {
+        "legacy_code0": 4376
+      }
+    },
+    "wspr-2019-10-01.jsonl": {
+      "raw_rows": 4047,
+      "eligible_rows": 4047,
+      "code_counts": {
+        "0": 4047
+      },
+      "observation_context": {
+        "legacy_code0": 4047
+      }
+    },
+    "wspr-2019-10-08.jsonl": {
+      "raw_rows": 5246,
+      "eligible_rows": 5246,
+      "code_counts": {
+        "0": 5246
+      },
+      "observation_context": {
+        "legacy_code0": 5246
+      }
+    },
+    "wspr-2019-10-15.jsonl": {
+      "raw_rows": 5751,
+      "eligible_rows": 5751,
+      "code_counts": {
+        "0": 5751
+      },
+      "observation_context": {
+        "legacy_code0": 5751
+      }
+    },
+    "wspr-2019-10-22.jsonl": {
+      "raw_rows": 5698,
+      "eligible_rows": 5698,
+      "code_counts": {
+        "0": 5698
+      },
+      "observation_context": {
+        "legacy_code0": 5698
+      }
+    },
+    "wspr-2019-11-01.jsonl": {
+      "raw_rows": 4690,
+      "eligible_rows": 4690,
+      "code_counts": {
+        "0": 4690
+      },
+      "observation_context": {
+        "legacy_code0": 4690
+      }
+    },
+    "wspr-2019-11-08.jsonl": {
+      "raw_rows": 5357,
+      "eligible_rows": 5357,
+      "code_counts": {
+        "0": 5357
+      },
+      "observation_context": {
+        "legacy_code0": 5357
+      }
+    },
+    "wspr-2019-11-15.jsonl": {
+      "raw_rows": 5185,
+      "eligible_rows": 5185,
+      "code_counts": {
+        "0": 5185
+      },
+      "observation_context": {
+        "legacy_code0": 5185
+      }
+    },
+    "wspr-2019-11-22.jsonl": {
+      "raw_rows": 6628,
+      "eligible_rows": 6628,
+      "code_counts": {
+        "0": 6628
+      },
+      "observation_context": {
+        "legacy_code0": 6628
+      }
+    },
+    "wspr-2019-12-01.jsonl": {
+      "raw_rows": 5645,
+      "eligible_rows": 5645,
+      "code_counts": {
+        "0": 5645
+      },
+      "observation_context": {
+        "legacy_code0": 5645
+      }
+    },
+    "wspr-2019-12-08.jsonl": {
+      "raw_rows": 1392,
+      "eligible_rows": 1392,
+      "code_counts": {
+        "0": 1392
+      },
+      "observation_context": {
+        "legacy_code0": 1392
+      }
+    },
+    "wspr-2019-12-15.jsonl": {
+      "raw_rows": 6467,
+      "eligible_rows": 6467,
+      "code_counts": {
+        "0": 6467
+      },
+      "observation_context": {
+        "legacy_code0": 6467
+      }
+    },
+    "wspr-2019-12-22.jsonl": {
+      "raw_rows": 6723,
+      "eligible_rows": 6723,
+      "code_counts": {
+        "0": 6723
+      },
+      "observation_context": {
+        "legacy_code0": 6723
+      }
+    },
+    "wspr-2022-01-01.jsonl": {
+      "raw_rows": 10663,
+      "eligible_rows": 10663,
+      "code_counts": {
+        "1": 10663
+      },
+      "observation_context": {
+        "pre2023_code1": 10663
+      }
+    },
+    "wspr-2022-01-08.jsonl": {
+      "raw_rows": 10563,
+      "eligible_rows": 10561,
+      "code_counts": {
+        "1": 10561,
+        "4": 2
+      },
+      "observation_context": {
+        "pre2023_code1": 10561
+      }
+    },
+    "wspr-2022-01-15.jsonl": {
+      "raw_rows": 8115,
+      "eligible_rows": 8113,
+      "code_counts": {
+        "1": 8113,
+        "2": 1,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 8113
+      }
+    },
+    "wspr-2022-01-22.jsonl": {
+      "raw_rows": 9719,
+      "eligible_rows": 9717,
+      "code_counts": {
+        "1": 9717,
+        "4": 2
+      },
+      "observation_context": {
+        "pre2023_code1": 9717
+      }
+    },
+    "wspr-2022-02-01.jsonl": {
+      "raw_rows": 9998,
+      "eligible_rows": 9996,
+      "code_counts": {
+        "1": 9996,
+        "4": 2
+      },
+      "observation_context": {
+        "pre2023_code1": 9996
+      }
+    },
+    "wspr-2022-02-08.jsonl": {
+      "raw_rows": 11066,
+      "eligible_rows": 11066,
+      "code_counts": {
+        "1": 11066
+      },
+      "observation_context": {
+        "pre2023_code1": 11066
+      }
+    },
+    "wspr-2022-02-15.jsonl": {
+      "raw_rows": 10858,
+      "eligible_rows": 10858,
+      "code_counts": {
+        "1": 10858
+      },
+      "observation_context": {
+        "pre2023_code1": 10858
+      }
+    },
+    "wspr-2022-02-22.jsonl": {
+      "raw_rows": 9400,
+      "eligible_rows": 9400,
+      "code_counts": {
+        "1": 9400
+      },
+      "observation_context": {
+        "pre2023_code1": 9400
+      }
+    },
+    "wspr-2022-03-01.jsonl": {
+      "raw_rows": 12368,
+      "eligible_rows": 12368,
+      "code_counts": {
+        "1": 12368
+      },
+      "observation_context": {
+        "pre2023_code1": 12368
+      }
+    },
+    "wspr-2022-03-08.jsonl": {
+      "raw_rows": 11651,
+      "eligible_rows": 11650,
+      "code_counts": {
+        "1": 11650,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 11650
+      }
+    },
+    "wspr-2022-03-15.jsonl": {
+      "raw_rows": 10715,
+      "eligible_rows": 10715,
+      "code_counts": {
+        "1": 10715
+      },
+      "observation_context": {
+        "pre2023_code1": 10715
+      }
+    },
+    "wspr-2022-03-22.jsonl": {
+      "raw_rows": 11478,
+      "eligible_rows": 11478,
+      "code_counts": {
+        "1": 11478
+      },
+      "observation_context": {
+        "pre2023_code1": 11478
+      }
+    },
+    "wspr-2022-04-01.jsonl": {
+      "raw_rows": 9166,
+      "eligible_rows": 9166,
+      "code_counts": {
+        "1": 9166
+      },
+      "observation_context": {
+        "pre2023_code1": 9166
+      }
+    },
+    "wspr-2022-04-08.jsonl": {
+      "raw_rows": 10734,
+      "eligible_rows": 10734,
+      "code_counts": {
+        "1": 10734
+      },
+      "observation_context": {
+        "pre2023_code1": 10734
+      }
+    },
+    "wspr-2022-04-15.jsonl": {
+      "raw_rows": 9682,
+      "eligible_rows": 9681,
+      "code_counts": {
+        "1": 9681,
+        "2": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 9681
+      }
+    },
+    "wspr-2022-04-22.jsonl": {
+      "raw_rows": 10645,
+      "eligible_rows": 10645,
+      "code_counts": {
+        "1": 10645
+      },
+      "observation_context": {
+        "pre2023_code1": 10645
+      }
+    },
+    "wspr-2022-05-01.jsonl": {
+      "raw_rows": 10859,
+      "eligible_rows": 10858,
+      "code_counts": {
+        "1": 10858,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 10858
+      }
+    },
+    "wspr-2022-05-08.jsonl": {
+      "raw_rows": 11981,
+      "eligible_rows": 11981,
+      "code_counts": {
+        "1": 11981
+      },
+      "observation_context": {
+        "pre2023_code1": 11981
+      }
+    },
+    "wspr-2022-05-15.jsonl": {
+      "raw_rows": 10414,
+      "eligible_rows": 10414,
+      "code_counts": {
+        "1": 10414
+      },
+      "observation_context": {
+        "pre2023_code1": 10414
+      }
+    },
+    "wspr-2022-05-22.jsonl": {
+      "raw_rows": 8716,
+      "eligible_rows": 8716,
+      "code_counts": {
+        "1": 8716
+      },
+      "observation_context": {
+        "pre2023_code1": 8716
+      }
+    },
+    "wspr-2022-06-01.jsonl": {
+      "raw_rows": 8477,
+      "eligible_rows": 8477,
+      "code_counts": {
+        "1": 8477
+      },
+      "observation_context": {
+        "pre2023_code1": 8477
+      }
+    },
+    "wspr-2022-06-08.jsonl": {
+      "raw_rows": 8469,
+      "eligible_rows": 8469,
+      "code_counts": {
+        "1": 8469
+      },
+      "observation_context": {
+        "pre2023_code1": 8469
+      }
+    },
+    "wspr-2022-06-15.jsonl": {
+      "raw_rows": 9299,
+      "eligible_rows": 9298,
+      "code_counts": {
+        "1": 9298,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 9298
+      }
+    },
+    "wspr-2022-06-22.jsonl": {
+      "raw_rows": 7450,
+      "eligible_rows": 7450,
+      "code_counts": {
+        "1": 7450
+      },
+      "observation_context": {
+        "pre2023_code1": 7450
+      }
+    },
+    "wspr-2022-07-01.jsonl": {
+      "raw_rows": 7116,
+      "eligible_rows": 7116,
+      "code_counts": {
+        "1": 7116
+      },
+      "observation_context": {
+        "pre2023_code1": 7116
+      }
+    },
+    "wspr-2022-07-08.jsonl": {
+      "raw_rows": 7373,
+      "eligible_rows": 7372,
+      "code_counts": {
+        "1": 7372,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 7372
+      }
+    },
+    "wspr-2022-07-15.jsonl": {
+      "raw_rows": 9072,
+      "eligible_rows": 9072,
+      "code_counts": {
+        "1": 9072
+      },
+      "observation_context": {
+        "pre2023_code1": 9072
+      }
+    },
+    "wspr-2022-07-22.jsonl": {
+      "raw_rows": 7853,
+      "eligible_rows": 7853,
+      "code_counts": {
+        "1": 7853
+      },
+      "observation_context": {
+        "pre2023_code1": 7853
+      }
+    },
+    "wspr-2022-08-01.jsonl": {
+      "raw_rows": 8485,
+      "eligible_rows": 8484,
+      "code_counts": {
+        "1": 8484,
+        "8": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 8484
+      }
+    },
+    "wspr-2022-08-08.jsonl": {
+      "raw_rows": 7317,
+      "eligible_rows": 7317,
+      "code_counts": {
+        "1": 7317
+      },
+      "observation_context": {
+        "pre2023_code1": 7317
+      }
+    },
+    "wspr-2022-08-15.jsonl": {
+      "raw_rows": 9945,
+      "eligible_rows": 9945,
+      "code_counts": {
+        "1": 9945
+      },
+      "observation_context": {
+        "pre2023_code1": 9945
+      }
+    },
+    "wspr-2022-08-22.jsonl": {
+      "raw_rows": 8231,
+      "eligible_rows": 8230,
+      "code_counts": {
+        "1": 8230,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 8230
+      }
+    },
+    "wspr-2022-09-01.jsonl": {
+      "raw_rows": 9561,
+      "eligible_rows": 9544,
+      "code_counts": {
+        "1": 9544,
+        "4": 17
+      },
+      "observation_context": {
+        "pre2023_code1": 9544
+      }
+    },
+    "wspr-2022-09-08.jsonl": {
+      "raw_rows": 8033,
+      "eligible_rows": 8033,
+      "code_counts": {
+        "1": 8033
+      },
+      "observation_context": {
+        "pre2023_code1": 8033
+      }
+    },
+    "wspr-2022-09-15.jsonl": {
+      "raw_rows": 11465,
+      "eligible_rows": 11464,
+      "code_counts": {
+        "1": 11464,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 11464
+      }
+    },
+    "wspr-2022-09-22.jsonl": {
+      "raw_rows": 12169,
+      "eligible_rows": 12169,
+      "code_counts": {
+        "1": 12169
+      },
+      "observation_context": {
+        "pre2023_code1": 12169
+      }
+    },
+    "wspr-2022-10-01.jsonl": {
+      "raw_rows": 11705,
+      "eligible_rows": 11703,
+      "code_counts": {
+        "1": 11703,
+        "2": 2
+      },
+      "observation_context": {
+        "pre2023_code1": 11703
+      }
+    },
+    "wspr-2022-10-08.jsonl": {
+      "raw_rows": 12038,
+      "eligible_rows": 12038,
+      "code_counts": {
+        "1": 12038
+      },
+      "observation_context": {
+        "pre2023_code1": 12038
+      }
+    },
+    "wspr-2022-10-15.jsonl": {
+      "raw_rows": 11047,
+      "eligible_rows": 11046,
+      "code_counts": {
+        "1": 11046,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 11046
+      }
+    },
+    "wspr-2022-10-22.jsonl": {
+      "raw_rows": 12435,
+      "eligible_rows": 12435,
+      "code_counts": {
+        "1": 12435
+      },
+      "observation_context": {
+        "pre2023_code1": 12435
+      }
+    },
+    "wspr-2022-11-01.jsonl": {
+      "raw_rows": 10651,
+      "eligible_rows": 10651,
+      "code_counts": {
+        "1": 10651
+      },
+      "observation_context": {
+        "pre2023_code1": 10651
+      }
+    },
+    "wspr-2022-11-08.jsonl": {
+      "raw_rows": 9509,
+      "eligible_rows": 9508,
+      "code_counts": {
+        "1": 9508,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 9508
+      }
+    },
+    "wspr-2022-11-15.jsonl": {
+      "raw_rows": 10813,
+      "eligible_rows": 10810,
+      "code_counts": {
+        "1": 10810,
+        "4": 3
+      },
+      "observation_context": {
+        "pre2023_code1": 10810
+      }
+    },
+    "wspr-2022-11-22.jsonl": {
+      "raw_rows": 10731,
+      "eligible_rows": 10730,
+      "code_counts": {
+        "1": 10730,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 10730
+      }
+    },
+    "wspr-2022-12-01.jsonl": {
+      "raw_rows": 8778,
+      "eligible_rows": 8777,
+      "code_counts": {
+        "1": 8777,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 8777
+      }
+    },
+    "wspr-2022-12-08.jsonl": {
+      "raw_rows": 9528,
+      "eligible_rows": 9528,
+      "code_counts": {
+        "1": 9528
+      },
+      "observation_context": {
+        "pre2023_code1": 9528
+      }
+    },
+    "wspr-2022-12-15.jsonl": {
+      "raw_rows": 9280,
+      "eligible_rows": 9279,
+      "code_counts": {
+        "1": 9279,
+        "4": 1
+      },
+      "observation_context": {
+        "pre2023_code1": 9279
+      }
+    },
+    "wspr-2022-12-22.jsonl": {
+      "raw_rows": 9491,
+      "eligible_rows": 9491,
+      "code_counts": {
+        "1": 9491
+      },
+      "observation_context": {
+        "pre2023_code1": 9491
+      }
+    },
+    "wspr-2024-01-01.jsonl": {
+      "raw_rows": 12220,
+      "eligible_rows": 12155,
+      "code_counts": {
+        "1": 12155,
+        "3": 62,
+        "-1": 2,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12155
+      }
+    },
+    "wspr-2024-01-08.jsonl": {
+      "raw_rows": 11186,
+      "eligible_rows": 11117,
+      "code_counts": {
+        "1": 11117,
+        "3": 64,
+        "-1": 5
+      },
+      "observation_context": {
+        "ordinary_code1": 11117
+      }
+    },
+    "wspr-2024-01-15.jsonl": {
+      "raw_rows": 12926,
+      "eligible_rows": 12781,
+      "code_counts": {
+        "1": 12781,
+        "3": 142,
+        "-1": 2,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12781
+      }
+    },
+    "wspr-2024-01-22.jsonl": {
+      "raw_rows": 11360,
+      "eligible_rows": 11226,
+      "code_counts": {
+        "1": 11226,
+        "3": 132,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 11226
+      }
+    },
+    "wspr-2024-02-01.jsonl": {
+      "raw_rows": 10962,
+      "eligible_rows": 10842,
+      "code_counts": {
+        "1": 10842,
+        "3": 115,
+        "-1": 4,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 10842
+      }
+    },
+    "wspr-2024-02-08.jsonl": {
+      "raw_rows": 11820,
+      "eligible_rows": 11709,
+      "code_counts": {
+        "1": 11709,
+        "3": 103,
+        "-1": 8
+      },
+      "observation_context": {
+        "ordinary_code1": 11709
+      }
+    },
+    "wspr-2024-02-15.jsonl": {
+      "raw_rows": 12035,
+      "eligible_rows": 11921,
+      "code_counts": {
+        "1": 11921,
+        "3": 107,
+        "-1": 6,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 11921
+      }
+    },
+    "wspr-2024-02-22.jsonl": {
+      "raw_rows": 12721,
+      "eligible_rows": 12569,
+      "code_counts": {
+        "1": 12569,
+        "3": 143,
+        "-1": 8,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12569
+      }
+    },
+    "wspr-2024-03-01.jsonl": {
+      "raw_rows": 12204,
+      "eligible_rows": 12093,
+      "code_counts": {
+        "1": 12093,
+        "3": 109,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 12093
+      }
+    },
+    "wspr-2024-03-08.jsonl": {
+      "raw_rows": 13193,
+      "eligible_rows": 13119,
+      "code_counts": {
+        "1": 13119,
+        "3": 71,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 13119
+      }
+    },
+    "wspr-2024-03-15.jsonl": {
+      "raw_rows": 11042,
+      "eligible_rows": 10951,
+      "code_counts": {
+        "1": 10951,
+        "3": 82,
+        "-1": 9
+      },
+      "observation_context": {
+        "ordinary_code1": 10951
+      }
+    },
+    "wspr-2024-03-22.jsonl": {
+      "raw_rows": 11126,
+      "eligible_rows": 11030,
+      "code_counts": {
+        "1": 11030,
+        "3": 89,
+        "-1": 6,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 11030
+      }
+    },
+    "wspr-2024-04-01.jsonl": {
+      "raw_rows": 12595,
+      "eligible_rows": 12456,
+      "code_counts": {
+        "1": 12456,
+        "3": 118,
+        "-1": 20,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12456
+      }
+    },
+    "wspr-2024-04-08.jsonl": {
+      "raw_rows": 18075,
+      "eligible_rows": 17964,
+      "code_counts": {
+        "1": 17964,
+        "3": 98,
+        "-1": 13
+      },
+      "observation_context": {
+        "ordinary_code1": 17964
+      }
+    },
+    "wspr-2024-04-15.jsonl": {
+      "raw_rows": 13665,
+      "eligible_rows": 13577,
+      "code_counts": {
+        "1": 13577,
+        "3": 74,
+        "-1": 13,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 13577
+      }
+    },
+    "wspr-2024-04-22.jsonl": {
+      "raw_rows": 11055,
+      "eligible_rows": 10910,
+      "code_counts": {
+        "1": 10910,
+        "3": 132,
+        "-1": 13
+      },
+      "observation_context": {
+        "ordinary_code1": 10910
+      }
+    },
+    "wspr-2024-05-01.jsonl": {
+      "raw_rows": 10368,
+      "eligible_rows": 9880,
+      "code_counts": {
+        "1": 9880,
+        "3": 481,
+        "-1": 7
+      },
+      "observation_context": {
+        "ordinary_code1": 9880
+      }
+    },
+    "wspr-2024-05-08.jsonl": {
+      "raw_rows": 9834,
+      "eligible_rows": 9427,
+      "code_counts": {
+        "1": 9427,
+        "3": 401,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 9427
+      }
+    },
+    "wspr-2024-05-15.jsonl": {
+      "raw_rows": 9978,
+      "eligible_rows": 9631,
+      "code_counts": {
+        "1": 9631,
+        "3": 342,
+        "-1": 4,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 9631
+      }
+    },
+    "wspr-2024-05-22.jsonl": {
+      "raw_rows": 11582,
+      "eligible_rows": 11165,
+      "code_counts": {
+        "1": 11165,
+        "3": 403,
+        "-1": 14
+      },
+      "observation_context": {
+        "ordinary_code1": 11165
+      }
+    },
+    "wspr-2024-06-01.jsonl": {
+      "raw_rows": 10448,
+      "eligible_rows": 10096,
+      "code_counts": {
+        "1": 10096,
+        "3": 344,
+        "-1": 8
+      },
+      "observation_context": {
+        "ordinary_code1": 10096
+      }
+    },
+    "wspr-2024-06-08.jsonl": {
+      "raw_rows": 9421,
+      "eligible_rows": 9043,
+      "code_counts": {
+        "1": 9043,
+        "3": 373,
+        "-1": 5
+      },
+      "observation_context": {
+        "ordinary_code1": 9043
+      }
+    },
+    "wspr-2024-06-15.jsonl": {
+      "raw_rows": 10183,
+      "eligible_rows": 9781,
+      "code_counts": {
+        "1": 9781,
+        "3": 393,
+        "-1": 9
+      },
+      "observation_context": {
+        "ordinary_code1": 9781
+      }
+    },
+    "wspr-2024-06-22.jsonl": {
+      "raw_rows": 8162,
+      "eligible_rows": 7917,
+      "code_counts": {
+        "1": 7917,
+        "3": 239,
+        "-1": 5,
+        "2": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 7917
+      }
+    },
+    "wspr-2024-07-01.jsonl": {
+      "raw_rows": 8315,
+      "eligible_rows": 8033,
+      "code_counts": {
+        "1": 8033,
+        "3": 278,
+        "-1": 4
+      },
+      "observation_context": {
+        "ordinary_code1": 8033
+      }
+    },
+    "wspr-2024-07-08.jsonl": {
+      "raw_rows": 10076,
+      "eligible_rows": 9707,
+      "code_counts": {
+        "1": 9707,
+        "3": 359,
+        "-1": 10
+      },
+      "observation_context": {
+        "ordinary_code1": 9707
+      }
+    },
+    "wspr-2024-07-15.jsonl": {
+      "raw_rows": 9767,
+      "eligible_rows": 9386,
+      "code_counts": {
+        "1": 9386,
+        "3": 373,
+        "-1": 8
+      },
+      "observation_context": {
+        "ordinary_code1": 9386
+      }
+    },
+    "wspr-2024-07-22.jsonl": {
+      "raw_rows": 9827,
+      "eligible_rows": 9480,
+      "code_counts": {
+        "1": 9480,
+        "3": 342,
+        "-1": 5
+      },
+      "observation_context": {
+        "ordinary_code1": 9480
+      }
+    },
+    "wspr-2024-08-01.jsonl": {
+      "raw_rows": 7615,
+      "eligible_rows": 7323,
+      "code_counts": {
+        "1": 7323,
+        "3": 290,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 7323
+      }
+    },
+    "wspr-2024-08-08.jsonl": {
+      "raw_rows": 11036,
+      "eligible_rows": 10649,
+      "code_counts": {
+        "1": 10649,
+        "3": 376,
+        "-1": 11
+      },
+      "observation_context": {
+        "ordinary_code1": 10649
+      }
+    },
+    "wspr-2024-08-15.jsonl": {
+      "raw_rows": 10393,
+      "eligible_rows": 9999,
+      "code_counts": {
+        "1": 9999,
+        "3": 386,
+        "-1": 8
+      },
+      "observation_context": {
+        "ordinary_code1": 9999
+      }
+    },
+    "wspr-2024-08-22.jsonl": {
+      "raw_rows": 10303,
+      "eligible_rows": 9945,
+      "code_counts": {
+        "1": 9945,
+        "3": 350,
+        "-1": 8
+      },
+      "observation_context": {
+        "ordinary_code1": 9945
+      }
+    },
+    "wspr-2024-09-01.jsonl": {
+      "raw_rows": 8815,
+      "eligible_rows": 8542,
+      "code_counts": {
+        "1": 8542,
+        "3": 266,
+        "-1": 7
+      },
+      "observation_context": {
+        "ordinary_code1": 8542
+      }
+    },
+    "wspr-2024-09-08.jsonl": {
+      "raw_rows": 12015,
+      "eligible_rows": 11668,
+      "code_counts": {
+        "1": 11668,
+        "3": 337,
+        "-1": 10
+      },
+      "observation_context": {
+        "ordinary_code1": 11668
+      }
+    },
+    "wspr-2024-09-15.jsonl": {
+      "raw_rows": 9537,
+      "eligible_rows": 9224,
+      "code_counts": {
+        "1": 9224,
+        "3": 305,
+        "-1": 8
+      },
+      "observation_context": {
+        "ordinary_code1": 9224
+      }
+    },
+    "wspr-2024-09-22.jsonl": {
+      "raw_rows": 12276,
+      "eligible_rows": 11907,
+      "code_counts": {
+        "1": 11907,
+        "3": 359,
+        "-1": 10
+      },
+      "observation_context": {
+        "ordinary_code1": 11907
+      }
+    },
+    "wspr-2024-10-01.jsonl": {
+      "raw_rows": 13149,
+      "eligible_rows": 12683,
+      "code_counts": {
+        "1": 12683,
+        "3": 460,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 12683
+      }
+    },
+    "wspr-2024-10-08.jsonl": {
+      "raw_rows": 7417,
+      "eligible_rows": 7064,
+      "code_counts": {
+        "1": 7064,
+        "3": 352,
+        "-1": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 7064
+      }
+    },
+    "wspr-2024-10-15.jsonl": {
+      "raw_rows": 12183,
+      "eligible_rows": 11725,
+      "code_counts": {
+        "1": 11725,
+        "3": 444,
+        "-1": 14
+      },
+      "observation_context": {
+        "ordinary_code1": 11725
+      }
+    },
+    "wspr-2024-10-22.jsonl": {
+      "raw_rows": 14104,
+      "eligible_rows": 13600,
+      "code_counts": {
+        "1": 13600,
+        "3": 492,
+        "-1": 11,
+        "2": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 13600
+      }
+    },
+    "wspr-2024-11-01.jsonl": {
+      "raw_rows": 12792,
+      "eligible_rows": 12258,
+      "code_counts": {
+        "1": 12258,
+        "3": 527,
+        "-1": 7
+      },
+      "observation_context": {
+        "ordinary_code1": 12258
+      }
+    },
+    "wspr-2024-11-08.jsonl": {
+      "raw_rows": 12594,
+      "eligible_rows": 12194,
+      "code_counts": {
+        "1": 12194,
+        "3": 389,
+        "-1": 9,
+        "4": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 12194
+      }
+    },
+    "wspr-2024-11-15.jsonl": {
+      "raw_rows": 11397,
+      "eligible_rows": 10890,
+      "code_counts": {
+        "1": 10890,
+        "3": 504,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 10890
+      }
+    },
+    "wspr-2024-11-22.jsonl": {
+      "raw_rows": 10752,
+      "eligible_rows": 10341,
+      "code_counts": {
+        "1": 10341,
+        "3": 408,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 10341
+      }
+    },
+    "wspr-2024-12-01.jsonl": {
+      "raw_rows": 12034,
+      "eligible_rows": 11667,
+      "code_counts": {
+        "1": 11667,
+        "3": 364,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 11667
+      }
+    },
+    "wspr-2024-12-08.jsonl": {
+      "raw_rows": 11747,
+      "eligible_rows": 11269,
+      "code_counts": {
+        "1": 11269,
+        "3": 473,
+        "-1": 5
+      },
+      "observation_context": {
+        "ordinary_code1": 11269
+      }
+    },
+    "wspr-2024-12-15.jsonl": {
+      "raw_rows": 11079,
+      "eligible_rows": 10726,
+      "code_counts": {
+        "1": 10726,
+        "3": 349,
+        "-1": 4
+      },
+      "observation_context": {
+        "ordinary_code1": 10726
+      }
+    },
+    "wspr-2024-12-22.jsonl": {
+      "raw_rows": 10988,
+      "eligible_rows": 10563,
+      "code_counts": {
+        "1": 10563,
+        "3": 421,
+        "-1": 4
+      },
+      "observation_context": {
+        "ordinary_code1": 10563
+      }
+    },
+    "wspr-2025-01-01.jsonl": {
+      "raw_rows": 11459,
+      "eligible_rows": 10949,
+      "code_counts": {
+        "1": 10949,
+        "3": 509,
+        "-1": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 10949
+      }
+    },
+    "wspr-2025-01-08.jsonl": {
+      "raw_rows": 12465,
+      "eligible_rows": 12088,
+      "code_counts": {
+        "1": 12088,
+        "3": 371,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 12088
+      }
+    },
+    "wspr-2025-01-22.jsonl": {
+      "raw_rows": 13861,
+      "eligible_rows": 13426,
+      "code_counts": {
+        "1": 13426,
+        "3": 434,
+        "-1": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 13426
+      }
+    },
+    "wspr-2025-02-01.jsonl": {
+      "raw_rows": 16078,
+      "eligible_rows": 15762,
+      "code_counts": {
+        "1": 15762,
+        "3": 313,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 15762
+      }
+    },
+    "wspr-2025-02-08.jsonl": {
+      "raw_rows": 14659,
+      "eligible_rows": 14354,
+      "code_counts": {
+        "1": 14354,
+        "3": 293,
+        "-1": 12
+      },
+      "observation_context": {
+        "ordinary_code1": 14354
+      }
+    },
+    "wspr-2025-02-22.jsonl": {
+      "raw_rows": 16593,
+      "eligible_rows": 16247,
+      "code_counts": {
+        "1": 16247,
+        "3": 339,
+        "-1": 7
+      },
+      "observation_context": {
+        "ordinary_code1": 16247
+      }
+    },
+    "wspr-2025-03-01.jsonl": {
+      "raw_rows": 15789,
+      "eligible_rows": 15545,
+      "code_counts": {
+        "1": 15545,
+        "3": 243,
+        "-1": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 15545
+      }
+    },
+    "wspr-2025-03-08.jsonl": {
+      "raw_rows": 17778,
+      "eligible_rows": 17469,
+      "code_counts": {
+        "1": 17469,
+        "3": 307,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 17469
+      }
+    },
+    "wspr-2025-03-22.jsonl": {
+      "raw_rows": 12908,
+      "eligible_rows": 12673,
+      "code_counts": {
+        "1": 12673,
+        "3": 232,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 12673
+      }
+    },
+    "wspr-2025-04-01.jsonl": {
+      "raw_rows": 15594,
+      "eligible_rows": 15334,
+      "code_counts": {
+        "1": 15334,
+        "3": 257,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 15334
+      }
+    },
+    "wspr-2025-04-08.jsonl": {
+      "raw_rows": 11833,
+      "eligible_rows": 11629,
+      "code_counts": {
+        "1": 11629,
+        "3": 202,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 11629
+      }
+    },
+    "wspr-2025-04-22.jsonl": {
+      "raw_rows": 12687,
+      "eligible_rows": 12433,
+      "code_counts": {
+        "1": 12433,
+        "3": 253,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12433
+      }
+    },
+    "wspr-2025-05-01.jsonl": {
+      "raw_rows": 12395,
+      "eligible_rows": 12096,
+      "code_counts": {
+        "1": 12096,
+        "3": 298,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12096
+      }
+    },
+    "wspr-2025-05-08.jsonl": {
+      "raw_rows": 13953,
+      "eligible_rows": 13467,
+      "code_counts": {
+        "1": 13467,
+        "3": 483,
+        "-1": 3
+      },
+      "observation_context": {
+        "ordinary_code1": 13467
+      }
+    },
+    "wspr-2025-05-22.jsonl": {
+      "raw_rows": 15485,
+      "eligible_rows": 15036,
+      "code_counts": {
+        "1": 15036,
+        "3": 438,
+        "-1": 7,
+        "4": 4
+      },
+      "observation_context": {
+        "ordinary_code1": 15036
+      }
+    },
+    "wspr-2025-06-01.jsonl": {
+      "raw_rows": 10112,
+      "eligible_rows": 9870,
+      "code_counts": {
+        "1": 9870,
+        "3": 241,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 9870
+      }
+    },
+    "wspr-2025-06-08.jsonl": {
+      "raw_rows": 14337,
+      "eligible_rows": 13967,
+      "code_counts": {
+        "1": 13967,
+        "3": 364,
+        "-1": 4,
+        "4": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 13967
+      }
+    },
+    "wspr-2025-06-22.jsonl": {
+      "raw_rows": 13076,
+      "eligible_rows": 12749,
+      "code_counts": {
+        "1": 12749,
+        "3": 315,
+        "-1": 12
+      },
+      "observation_context": {
+        "ordinary_code1": 12749
+      }
+    },
+    "wspr-2025-07-01.jsonl": {
+      "raw_rows": 12697,
+      "eligible_rows": 12441,
+      "code_counts": {
+        "1": 12441,
+        "3": 252,
+        "-1": 4
+      },
+      "observation_context": {
+        "ordinary_code1": 12441
+      }
+    },
+    "wspr-2025-07-08.jsonl": {
+      "raw_rows": 11043,
+      "eligible_rows": 10806,
+      "code_counts": {
+        "1": 10806,
+        "3": 236,
+        "-1": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 10806
+      }
+    },
+    "wspr-2025-07-22.jsonl": {
+      "raw_rows": 12357,
+      "eligible_rows": 12060,
+      "code_counts": {
+        "1": 12060,
+        "3": 286,
+        "-1": 6,
+        "4": 5
+      },
+      "observation_context": {
+        "ordinary_code1": 12060
+      }
+    },
+    "wspr-2025-08-01.jsonl": {
+      "raw_rows": 12741,
+      "eligible_rows": 12416,
+      "code_counts": {
+        "1": 12416,
+        "3": 310,
+        "-1": 14,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12416
+      }
+    },
+    "wspr-2025-08-08.jsonl": {
+      "raw_rows": 15005,
+      "eligible_rows": 14671,
+      "code_counts": {
+        "1": 14671,
+        "3": 324,
+        "-1": 7,
+        "4": 2,
+        "2": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 14671
+      }
+    },
+    "wspr-2025-08-22.jsonl": {
+      "raw_rows": 14823,
+      "eligible_rows": 14472,
+      "code_counts": {
+        "1": 14472,
+        "3": 349,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 14472
+      }
+    },
+    "wspr-2025-09-01.jsonl": {
+      "raw_rows": 17520,
+      "eligible_rows": 17114,
+      "code_counts": {
+        "1": 17114,
+        "3": 396,
+        "-1": 10
+      },
+      "observation_context": {
+        "ordinary_code1": 17114
+      }
+    },
+    "wspr-2025-09-08.jsonl": {
+      "raw_rows": 15494,
+      "eligible_rows": 15160,
+      "code_counts": {
+        "1": 15160,
+        "3": 332,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 15160
+      }
+    },
+    "wspr-2025-09-22.jsonl": {
+      "raw_rows": 18061,
+      "eligible_rows": 17731,
+      "code_counts": {
+        "1": 17731,
+        "3": 328,
+        "-1": 2
+      },
+      "observation_context": {
+        "ordinary_code1": 17731
+      }
+    },
+    "wspr-2025-10-01.jsonl": {
+      "raw_rows": 12277,
+      "eligible_rows": 12061,
+      "code_counts": {
+        "1": 12061,
+        "3": 208,
+        "-1": 6,
+        "2": 1,
+        "4": 1
+      },
+      "observation_context": {
+        "ordinary_code1": 12061
+      }
+    },
+    "wspr-2025-10-08.jsonl": {
+      "raw_rows": 15019,
+      "eligible_rows": 14643,
+      "code_counts": {
+        "1": 14643,
+        "3": 370,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 14643
+      }
+    },
+    "wspr-2025-10-22.jsonl": {
+      "raw_rows": 17116,
+      "eligible_rows": 16707,
+      "code_counts": {
+        "1": 16707,
+        "3": 399,
+        "-1": 10
+      },
+      "observation_context": {
+        "ordinary_code1": 16707
+      }
+    },
+    "wspr-2025-11-01.jsonl": {
+      "raw_rows": 14776,
+      "eligible_rows": 14338,
+      "code_counts": {
+        "1": 14338,
+        "3": 432,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 14338
+      }
+    },
+    "wspr-2025-11-08.jsonl": {
+      "raw_rows": 11020,
+      "eligible_rows": 10791,
+      "code_counts": {
+        "1": 10791,
+        "3": 223,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 10791
+      }
+    },
+    "wspr-2025-11-22.jsonl": {
+      "raw_rows": 14590,
+      "eligible_rows": 14248,
+      "code_counts": {
+        "1": 14248,
+        "3": 333,
+        "-1": 9
+      },
+      "observation_context": {
+        "ordinary_code1": 14248
+      }
+    },
+    "wspr-2025-12-01.jsonl": {
+      "raw_rows": 14116,
+      "eligible_rows": 13807,
+      "code_counts": {
+        "1": 13807,
+        "3": 303,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 13807
+      }
+    },
+    "wspr-2025-12-08.jsonl": {
+      "raw_rows": 14205,
+      "eligible_rows": 13908,
+      "code_counts": {
+        "1": 13908,
+        "3": 293,
+        "-1": 4
+      },
+      "observation_context": {
+        "ordinary_code1": 13908
+      }
+    },
+    "wspr-2025-12-22.jsonl": {
+      "raw_rows": 15197,
+      "eligible_rows": 14893,
+      "code_counts": {
+        "1": 14893,
+        "3": 298,
+        "-1": 6
+      },
+      "observation_context": {
+        "ordinary_code1": 14893
+      }
+    },
+    "harc-2024-01-15.parquet": {
+      "raw_rows": 80827,
+      "sources": {
+        "HARC_PSK": 39780,
+        "HARC_RBN": 39451,
+        "HARC_WSPR": 1596
+      },
+      "invalid_tx_locations": 5827,
+      "invalid_rx_locations": 1823
+    },
+    "harc-2024-04-15.parquet": {
+      "raw_rows": 49663,
+      "sources": {
+        "HARC_RBN": 31618,
+        "HARC_PSK": 16276,
+        "HARC_WSPR": 1769
+      },
+      "invalid_tx_locations": 8601,
+      "invalid_rx_locations": 1853
+    },
+    "harc-2024-07-15.parquet": {
+      "raw_rows": 27678,
+      "sources": {
+        "HARC_RBN": 17933,
+        "HARC_PSK": 8575,
+        "HARC_WSPR": 1170
+      },
+      "invalid_tx_locations": 2839,
+      "invalid_rx_locations": 899
+    },
+    "harc-2024-10-15.parquet": {
+      "raw_rows": 3196,
+      "sources": {
+        "HARC_PSK": 3196
+      },
+      "invalid_tx_locations": 0,
+      "invalid_rx_locations": 0
+    },
+    "harc-2024-04-08.parquet": {
+      "raw_rows": 57685,
+      "sources": {
+        "HARC_RBN": 32485,
+        "HARC_PSK": 22993,
+        "HARC_WSPR": 2207
+      },
+      "invalid_tx_locations": 9921,
+      "invalid_rx_locations": 1914
+    },
+    "harc-2024-10-08.parquet": {
+      "raw_rows": 15884,
+      "sources": {
+        "HARC_PSK": 15884
+      },
+      "invalid_tx_locations": 1189,
+      "invalid_rx_locations": 36
+    },
+    "harc-2024-07-22.parquet": {
+      "raw_rows": 29604,
+      "sources": {
+        "HARC_RBN": 19577,
+        "HARC_PSK": 8835,
+        "HARC_WSPR": 1192
+      },
+      "invalid_tx_locations": 2627,
+      "invalid_rx_locations": 423
+    },
+    "harc-2024-10-22.parquet": {
+      "raw_rows": 42320,
+      "sources": {
+        "HARC_RBN": 24902,
+        "HARC_PSK": 15653,
+        "HARC_WSPR": 1765
+      },
+      "invalid_tx_locations": 3537,
+      "invalid_rx_locations": 651
+    },
+    "harc-2025-04-22.parquet": {
+      "raw_rows": 33923,
+      "sources": {
+        "HARC_RBN": 17189,
+        "HARC_PSK": 15137,
+        "HARC_WSPR": 1597
+      },
+      "invalid_tx_locations": 3051,
+      "invalid_rx_locations": 824
+    },
+    "harc-2025-07-22.parquet": {
+      "raw_rows": 25024,
+      "sources": {
+        "HARC_RBN": 14274,
+        "HARC_PSK": 9428,
+        "HARC_WSPR": 1322
+      },
+      "invalid_tx_locations": 2158,
+      "invalid_rx_locations": 698
+    },
+    "harc-2025-10-22.parquet": {
+      "raw_rows": 22128,
+      "sources": {
+        "HARC_PSK": 20316,
+        "HARC_WSPR": 1812
+      },
+      "invalid_tx_locations": 1391,
+      "invalid_rx_locations": 31
+    }
+  },
+  "features_sha256": "19caeb8382869c56fb2326650d8c30610a6f6e7971a58ec9ddcdb768c2c0f35d",
+  "fit_features_sha256": "94e296c389dd640b7b344aeec2650b05eae703cca4ba8ae5729614ff67080d4b"
+}

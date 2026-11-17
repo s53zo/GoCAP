@@ -1,0 +1,8 @@
+{
+  "frozen_utc": "2026-11-17T12:11:40.714142+00:00",
+  "selected_wspr_model": "WSPR_native_rich_observation",
+  "artifacts": {
+    "station_holdout": "fc18bd8c7c128a89dd87f44ec1348415e259342f7f212effad6b6700f4aec119",
+    "geographic_holdout": "a32017b304f48963214921f6ad91956f0286eb3793915bb7cc0a67f851e25ff2"
+  }
+}
