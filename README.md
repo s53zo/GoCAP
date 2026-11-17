@@ -10,6 +10,40 @@ The current product predicts a typical SNR among reported receptions. It does no
 provide a calibrated contact-success probability, and it does not select a
 “strongest hour” as its objective.
 
+## Which model should I run?
+
+Use the default hourly model for **WSPR, FT8, FT4 or CW**. It also reports
+theoretical PHONE margins. For a **40 m WSPR-only experiment**, try the corrected
+March model. Both accept four-character Maidenhead squares and produce one
+estimate for each requested UTC hour.
+
+| Model | Mean absolute hourly SNR error on the same 83,917 measured hours |
+|---|---:|
+| Default GoCAP | 5.958 dB |
+| Tuned March | 5.905 dB |
+| Corrected March, arbitrary-date scenario | 5.880 dB |
+
+The test used the 13th of each month from March through August 2026. On these
+six dates the path correction improved error by about 0.025 dB over its March
+parent. Adding a recent NOAA absorption map changed the six-date mean by less
+than 0.001 dB. The earlier flare-enriched test gives a separate view of when the
+maps helped. [Experiment design, per-date results and map-assisted query](FOUR_IDEA_RESULTS.md)
+
+After setup below, this example predicts 24 hours of WSPR SNR for a 5 W
+transmitter, using illustrative solar inputs. The output includes the parent
+model's estimate alongside the corrected estimate.
+
+```sh
+.venv/bin/python -m ml40.four_query JN76 FN31 2026-05-13T00:00Z \
+  --sfi 150 --kp 3 --ap 10 --power 5 --hours 24 --model march_scenario
+```
+
+The `Survey` branch keeps the data preparation, model artifacts and benchmark
+history together. For the comparison against a physical propagation model, see
+the [500-path March VOACAP benchmark](MARCH2025_VOACAP_COMPARISON.md). For
+the tests of hourly signal changes and receiver observations, see the
+[five-idea study](FIVE_IDEA_RESULTS.md).
+
 ## Run a prediction
 
 No reception database, raw archive download, VOACAP installation or GPU is needed
