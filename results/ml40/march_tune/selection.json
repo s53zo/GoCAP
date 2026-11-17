@@ -1,0 +1,187 @@
+{
+  "selected": "400",
+  "scores": {
+    "original": {
+      "CW": {
+        "hour_date_mae_db": 7.256763792654951,
+        "mae_db": 7.269546047043763,
+        "rmse_db": 9.160555461384785,
+        "bias_db": -1.6739064340508831,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "FT4": {
+        "hour_date_mae_db": 6.350013211580309,
+        "mae_db": 6.695900854651109,
+        "rmse_db": 8.402624162696128,
+        "bias_db": -0.9430208413312776,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT8": {
+        "hour_date_mae_db": 7.035746272448463,
+        "mae_db": 7.022901467730236,
+        "rmse_db": 8.89526794887909,
+        "bias_db": -1.0262299793330731,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "WSPR": {
+        "hour_date_mae_db": 6.3831411054851275,
+        "mae_db": 6.350691285199911,
+        "rmse_db": 8.031695576194661,
+        "bias_db": -0.5120669423803242,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      }
+    },
+    "120": {
+      "CW": {
+        "hour_date_mae_db": 7.124224851832019,
+        "mae_db": 7.075111338185003,
+        "rmse_db": 8.91137470555806,
+        "bias_db": -1.0580380343442677,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "FT4": {
+        "hour_date_mae_db": 6.366928041080712,
+        "mae_db": 6.7257188827435845,
+        "rmse_db": 8.448111131691123,
+        "bias_db": -1.0453350309633094,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT8": {
+        "hour_date_mae_db": 7.03388481859396,
+        "mae_db": 7.024228530841938,
+        "rmse_db": 8.91239929394031,
+        "bias_db": -1.227495608386899,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "WSPR": {
+        "hour_date_mae_db": 6.296733737619527,
+        "mae_db": 6.264657034898338,
+        "rmse_db": 7.9347264280122936,
+        "bias_db": -0.5142722629025946,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      }
+    },
+    "240": {
+      "CW": {
+        "hour_date_mae_db": 7.06020116478232,
+        "mae_db": 6.999006366251981,
+        "rmse_db": 8.832018567233428,
+        "bias_db": -1.0245279061592267,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "FT4": {
+        "hour_date_mae_db": 6.346523627396892,
+        "mae_db": 6.6800516792145626,
+        "rmse_db": 8.396537274808475,
+        "bias_db": -0.953314901300765,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT8": {
+        "hour_date_mae_db": 7.036469688635176,
+        "mae_db": 7.030267832811745,
+        "rmse_db": 8.940878387760549,
+        "bias_db": -1.5405731049221363,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "WSPR": {
+        "hour_date_mae_db": 6.1465797504569215,
+        "mae_db": 6.11824699666071,
+        "rmse_db": 7.771811051685977,
+        "bias_db": -0.5116291465876565,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      }
+    },
+    "400": {
+      "CW": {
+        "hour_date_mae_db": 7.01309662446907,
+        "mae_db": 6.9404369792209595,
+        "rmse_db": 8.77914532253908,
+        "bias_db": -1.101791372375856,
+        "rows": 18334,
+        "days": 1,
+        "observed_hour_date_cells": 24
+      },
+      "FT4": {
+        "hour_date_mae_db": 6.270910462024846,
+        "mae_db": 6.6370563460287455,
+        "rmse_db": 8.353785760113434,
+        "bias_db": -0.9929805102923144,
+        "rows": 3543,
+        "days": 2,
+        "observed_hour_date_cells": 46
+      },
+      "FT8": {
+        "hour_date_mae_db": 7.046235757336029,
+        "mae_db": 7.040074787300724,
+        "rmse_db": 8.964375539912927,
+        "bias_db": -1.7901687679696283,
+        "rows": 30467,
+        "days": 2,
+        "observed_hour_date_cells": 48
+      },
+      "WSPR": {
+        "hour_date_mae_db": 6.068466757244847,
+        "mae_db": 6.042434276768657,
+        "rmse_db": 7.687834932272478,
+        "bias_db": -0.49530985134012384,
+        "rows": 132451,
+        "days": 12,
+        "observed_hour_date_cells": 288
+      }
+    }
+  },
+  "sha256": "c75bc363a9832620d39f9392389686c2cd887a0e260d5f1350920448c54ea1ca",
+  "training_sha256": "5ce80cac92dc37905d1902cbc7037b8e6eb44c24147725a88c77996261c12cff",
+  "original_sha256": "069e77ed680720cb546e4c5ff8a996569375d02bb691b064577dcdcefb0d734c",
+  "validation_sha256": "3cf90e689a63b9fbf9ab2ab12e019e495055134dc312bb9cffc442ef75015422",
+  "calibration_sha256": "01071a7ea16f1d2c30a2715ccdc247d1da2c40c3ef9351b70b59e7f02c22271d",
+  "training_rows": 2950381,
+  "validation_dates": [
+    "2024-01-08",
+    "2024-02-08",
+    "2024-03-08",
+    "2024-04-08",
+    "2024-05-08",
+    "2024-06-08",
+    "2024-07-08",
+    "2024-08-08",
+    "2024-09-08",
+    "2024-10-08",
+    "2024-11-08",
+    "2024-12-08"
+  ],
+  "fresh_march_2026_days": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22,
+    26,
+    30
+  ]
+}

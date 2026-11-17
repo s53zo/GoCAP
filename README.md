@@ -168,6 +168,11 @@ date-bootstrap interval of **+0.011 to +0.104 dB**; the default remains unchange
 All three models beat the declared VOACAP settings on this detection-selected
 sample, subject to unknown hardware/noise and different climatological targets.
 
+The [March tuning experiment](MARCH_TUNING_RESULTS.md) reduced error on that
+500-path suite to 4.876 dB. On eight fresh March 2026 dates the tuned model's
+hour/date MAE was 6.385 dB, compared with 6.380 dB for the original March model
+and 6.372 dB for the current default. The tuned artifact is experimental.
+
 ## Data sources and attribution
 
 | Source | Used for | Access and implementation |

@@ -1,0 +1,83 @@
+{
+  "fresh": {
+    "tuned": {
+      "hour_date_mae_db": 6.384919457725151,
+      "mae_db": 6.392603243286035,
+      "rmse_db": 8.113671745114338,
+      "bias_db": -0.12375235553107965,
+      "rows": 135019,
+      "days": 8,
+      "observed_hour_date_cells": 192,
+      "coverage80": 0.7690843510913279,
+      "interval_half_width_db": 9.567090592259326
+    },
+    "march": {
+      "hour_date_mae_db": 6.380452216297999,
+      "mae_db": 6.389627325572283,
+      "rmse_db": 8.073449229245504,
+      "bias_db": -0.01643089175456134,
+      "rows": 135019,
+      "days": 8,
+      "observed_hour_date_cells": 192,
+      "coverage80": 0.7935179493256505,
+      "interval_half_width_db": 10.044381476341734
+    },
+    "default": {
+      "hour_date_mae_db": 6.371933582395599,
+      "mae_db": 6.378252147190103,
+      "rmse_db": 8.064634834845606,
+      "bias_db": -0.21634745223480298,
+      "rows": 135019,
+      "days": 8,
+      "observed_hour_date_cells": 192,
+      "coverage80": 0.7901776786970722,
+      "interval_half_width_db": 9.933478198667736
+    }
+  },
+  "paired_differences": {
+    "march": {
+      "difference_db": 0.00446724142715239,
+      "date_bootstrap95_db": [
+        -0.01633927082994231,
+        0.024248770311276285
+      ],
+      "date_clusters": 8
+    },
+    "default": {
+      "difference_db": 0.01298587532955237,
+      "date_bootstrap95_db": [
+        -0.00556607688529119,
+        0.031835031883289414
+      ],
+      "date_clusters": 8
+    }
+  },
+  "known500_case_mae": {
+    "tuned": 4.875563025235773,
+    "march": 5.062528902230581,
+    "current": 5.006533747900473,
+    "voacap": 13.490615913465172
+  },
+  "known_other_modes_hour_date_mae": {
+    "tuned": {
+      "CW": 6.8815511597829415,
+      "FT4": 7.1039755744231075,
+      "FT8": 6.8442864097307785
+    },
+    "march": {
+      "CW": 6.92166360427017,
+      "FT4": 7.072126745396925,
+      "FT8": 6.838229570714039
+    },
+    "default": {
+      "CW": 6.966269201459544,
+      "FT4": 7.210728338151885,
+      "FT8": 6.810996516581939
+    }
+  },
+  "positive_reports": 138166,
+  "distinct_directed_grid_pairs": 25615,
+  "tuned_sha256": "c75bc363a9832620d39f9392389686c2cd887a0e260d5f1350920448c54ea1ca",
+  "default_sha256": "fa4034615e4a36aa6b1f53fcefe0842928a53c3b828000a1823478d289913219",
+  "march_sha256": "069e77ed680720cb546e4c5ff8a996569375d02bb691b064577dcdcefb0d734c"
+}
